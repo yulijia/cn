@@ -72,6 +72,7 @@ pixel bar chart是在原有bar chart的基础上，将每个数据用一个像�
 像素条形图的优势是可在一张图中展示大量的多属性数据，例如下图。
 
 这是一个在电子商务中应用的例子，图中的每个像素代表一位顾客，每个条形代表一类产品。a图中的颜色代表顾客的购物总额，b图中的颜色代表访问次数，c图中的颜色代表浏览数量。（从图中可以很直观地看出顾客的购买倾向）
+
 <a href="http://i.imgur.com/OqnHf.png"><img title="Multi-pixel bar charts" src="http://i.imgur.com/OqnHf.png" width="300" height="149" /></a>
 
 （图像来源于论文：Pixel bar charts: a visualization technique for very large multi-attributes data sets）

@@ -23,19 +23,19 @@ tags:
 
 麋鹿
 
-<a href="http://yulijia.net/cn/wp-content/uploads/2012/01/麋鹿.png"><img class="alignnone size-large wp-image-186" title="麋鹿" src="http://yulijia.net/cn/wp-content/uploads/2012/01/麋鹿-889x1024.png" alt="麋鹿" width="580" height="668" /></a>
+<a href="http://i.imgur.com/15BT1.jpg"><img title="麋鹿" src="http://i.imgur.com/15BT1.jpg" alt="麋鹿" width="580" height="668" /></a>
 
 鹿群
 
-<a href="http://yulijia.net/cn/wp-content/uploads/2012/01/成群麋鹿.png"><img class="alignnone size-large wp-image-187" title="成群麋鹿" src="http://yulijia.net/cn/wp-content/uploads/2012/01/成群麋鹿-1024x624.png" alt="群鹿" width="580" height="353" /></a>
+<a href="http://i.imgur.com/XjuxP.jpg"><img title="成群麋鹿" src="http://i.imgur.com/XjuxP.jpg" alt="群鹿" width="580" height="353" /></a>
 
 湖边景色
 
-<a href="http://yulijia.net/cn/wp-content/uploads/2012/01/湖边景色.png"><img class="alignnone size-large wp-image-188" title="湖边景色" src="http://yulijia.net/cn/wp-content/uploads/2012/01/湖边景色-1024x641.png" alt="湖边景色" width="580" height="363" /></a>
+<a href="http://i.imgur.com/a1tUy.jpg"><img title="湖边景色" src="http://i.imgur.com/a1tUy.jpg" alt="湖边景色" width="580" height="363" /></a>
 
 花
 
-<a href="http://yulijia.net/cn/wp-content/uploads/2012/01/花1.png"><img class="alignnone size-full wp-image-190" title="花" src="http://yulijia.net/cn/wp-content/uploads/2012/01/花1.png" alt="花" width="596" height="446" /></a>
+<a href="http://i.imgur.com/VYAaZ.png"><img title="花" src="http://i.imgur.com/VYAaZ.png" alt="花" width="596" height="446" /></a>
 
 
 
@@ -48,4 +48,4 @@ tags:
 
 最后合影一张
 
-<a href="http://yulijia.net/cn/wp-content/uploads/2012/01/合影.png"><img class="alignnone size-full wp-image-191" title="合影" src="http://yulijia.net/cn/wp-content/uploads/2012/01/合影.png" alt="合影" width="400" height="300" /></a>
+<a href="http://i.imgur.com/6bVwl.png"><img title="合影" src="http://i.imgur.com/6bVwl.png" alt="合影" width="400" height="300" /></a>
