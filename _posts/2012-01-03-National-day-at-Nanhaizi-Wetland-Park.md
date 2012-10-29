@@ -1,0 +1,51 @@
+--- 
+published: true
+title: 十一游南海子公园
+layout: post
+author: Yu
+category: 游玩指南
+tags: 
+- 假期
+- 玩
+- 麋鹿
+---
+这是一篇迟到了3个多月的游记。
+
+南海子公园位于北京城南中轴延长线，地处北京主城区、亦庄新城和未来大兴新城中间的核心地带，它的建设范围是：东起凉水河，西至104国道，北接南五环 路，南抵黄亦路，总体面积11.65平方公里，其中公园占地面积7.86平方公里。现在建成的一期工程位于公园的东南部，占地面积159.64公顷。
+
+在金秋十月，班里几个同学一起去大兴南海子公园游玩，这个公园仍处在建设状态，一期工程的面积已经非常大了。估计一天下来走马观花，勉强能看完整个园区。由于时间有限（我领错路了<code>orz</code>）我们只去了其中的一部分。
+
+先说一下乘车路线，五号线导亦庄线到旧宫，在坐953到鹿苑路。记住在亦庄线下车往西走是953总站，车比较少20分钟一辆，千万别往东走，Google地图也有坑爹的时候。到了鹿苑路下车要往南走在向东走，起码得有2km的距离，就到南面的小门了（就是露营进出门）。为啥这么远？因为南海子公园还在建设，一些侧门关闭了。16路汽车会到南海子公园南门前面的一条街，所以比较方便，我们回去时坐的就是它（有一站是地铁站）。
+
+南海子公园风景优美，可以露营，以前是清朝皇家狩猎的地方，有麋鹿（四不像）苑，曾经是麋鹿的家乡（当然麋鹿在中国是地理灭绝了，从英国引进回来的）。
+
+废话少说，上一些图。
+
+麋鹿
+
+<a href="http://yulijia.net/cn/wp-content/uploads/2012/01/麋鹿.png"><img class="alignnone size-large wp-image-186" title="麋鹿" src="http://yulijia.net/cn/wp-content/uploads/2012/01/麋鹿-889x1024.png" alt="麋鹿" width="580" height="668" /></a>
+
+鹿群
+
+<a href="http://yulijia.net/cn/wp-content/uploads/2012/01/成群麋鹿.png"><img class="alignnone size-large wp-image-187" title="成群麋鹿" src="http://yulijia.net/cn/wp-content/uploads/2012/01/成群麋鹿-1024x624.png" alt="群鹿" width="580" height="353" /></a>
+
+湖边景色
+
+<a href="http://yulijia.net/cn/wp-content/uploads/2012/01/湖边景色.png"><img class="alignnone size-large wp-image-188" title="湖边景色" src="http://yulijia.net/cn/wp-content/uploads/2012/01/湖边景色-1024x641.png" alt="湖边景色" width="580" height="363" /></a>
+
+花
+
+<a href="http://yulijia.net/cn/wp-content/uploads/2012/01/花1.png"><img class="alignnone size-full wp-image-190" title="花" src="http://yulijia.net/cn/wp-content/uploads/2012/01/花1.png" alt="花" width="596" height="446" /></a>
+
+
+
+南海子公园有音乐喷泉上午10点一次，下午2点一次。不过我们去时没有赶上完整的，只是在湖上的桥上随便看了一下。整个公园花卉品种非常多，有专门的花卉展区（应该是在喷泉那一侧，这次没有去）。bucter有一拨人早我们一天去，据说他们主要是占领了一块地方，搭帐篷做游戏，风景都没看。感觉园区里搭帐篷露营（不能生火）的人非常多，有些便利的地段都是帐篷。
+
+比较有意思的还是看麋鹿（这可是第一次亲眼看见真的四不像!），看台距离麋鹿很遥远，麋鹿在树荫下悠闲的午休，旁边不时有几只黑天鹅经过，麋鹿栖息地的桥上刻着不同时期古人对麋鹿的描述，非常有意思。
+
+
+
+
+最后合影一张
+
+<a href="http://yulijia.net/cn/wp-content/uploads/2012/01/合影.png"><img class="alignnone size-full wp-image-191" title="合影" src="http://yulijia.net/cn/wp-content/uploads/2012/01/合影.png" alt="合影" width="400" height="300" /></a>

@@ -1,0 +1,29 @@
+---
+layout: default
+---
+{% for post in paginator.posts %}<!---limit: listing_limit %}-->
+<h2 class="title"><a href="/cn{{ post.url }}" rel="bookmark">{{ post.title }}</a></h2>
+<div class="postmeta">
+    <span class="comments"><a href='/cn{{post.url}}#disqus_thread'>Comments</a></span>
+    <span>Posted by {{ site.author }} </span>
+    <span>in 
+    {% for cat in post.categories %}
+    <a href="{{site.url}}/categories/#{{ cat }}">{{ cat }}</a>&nbsp;
+    {% endfor %}
+    </span>
+    <span> 
+    on {{ post.date | date_to_string }}
+    </span>
+    <br /> 
+    {% if post.tags != empty %}
+    <span>Tagged with: 
+    {% for tag in post.tags %}
+    <a href="{{ site.url }}/tags/#{{ tag }}" title="{{ tag }}">{{ tag }} </a>&nbsp;
+    {% endfor %}
+    </span>
+    {% endif %}
+</div>
+<div class="entry">{{ post.content }}
+    <hr />
+</div>
+{% endfor %} 

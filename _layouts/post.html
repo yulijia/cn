@@ -1,0 +1,48 @@
+---
+layout: default
+---
+<h2 class="title">{{ page.title }}</h2>
+<div class="postmeta">
+    <span class="comments"><a href='{{post.url}}#disqus_thread'>Comments</a></span>
+    <span>Posted by {{ site.author }} </span>
+    <span>in 
+    {% for cat in page.categories %}
+    <a href="{{ site.url }}/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>&nbsp;
+    {% endfor %}
+    </span>
+    <span> 
+    on {{ page.date | date_to_string }}
+    </span>
+    <br /> 
+    {% if page.tags != empty %}
+    <span>
+    Tagged with:
+    {% for tag in page.tags %}
+    <a href="{{ site.url }}/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>&nbsp;
+    {% endfor %}
+    </span>
+    {% endif %}
+</div>
+<div class="entry">
+  {{ content}}
+  <hr />
+</div>
+
+   <div class="pagination">
+      <ul>
+      {% if page.previous %}
+        <li><a href="/cn{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
+      {% else %}
+        <li class="disabled"><a>&larr; Previous</a></li>
+      {% endif %}
+      {% if page.next %}
+        <li><a href="/cn{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a></li>
+      {% else %}
+        <li class="disabled"><a>Next &rarr;</a>
+      {% endif %}
+      </ul>
+    </div>
+
+
+{% include comments.md %}
+

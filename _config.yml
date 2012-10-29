@@ -1,0 +1,8 @@
+paginate: 5
+markdown: kramdown
+#rdiscount
+pygments: true
+title : On Your Mark
+tagline: Never give up
+author: Lijia YU
+url: http://yulijia.github.com/cn

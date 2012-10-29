@@ -1,0 +1,92 @@
+--- 
+published: true
+title: 中国国家博物馆参观攻略
+layout: post
+author: Yu
+category: 游玩指南
+tags:
+- 国家博物馆
+---
+2003年2月，在中国历史博物馆和中国革命博物馆两馆基础上正式组建的中国国家博物馆，已于2011年3月正是开放。
+
+9月11日，和同学观了国博的部分展览，写篇参观攻略以表经历。
+
+<a href="http://yulijia.net/cn/wp-content/uploads/2011/09/chnmuseum03.jpg"><img class="alignnone size-full wp-image-106" title="chnmuseum03" src="http://yulijia.net/cn/wp-content/uploads/2011/09/chnmuseum03.jpg" alt="" width="527" height="309" /></a>
+
+
+**位置攻略**
+
+
+国博位于天安门广场以东。乘坐地铁1号线到天安门东下车即可。附近公交车站的名称是天安门广场东站。
+
+<a href="http://yulijia.net/cn/wp-content/uploads/2011/09/chnmuseum01.jpg"><img class="alignnone size-full wp-image-100" title="chnmuseum01" src="http://yulijia.net/cn/wp-content/uploads/2011/09/chnmuseum01.jpg" alt="" width="566" height="196" /></a>
+
+公交车：1，1区间，2，10，20，37，52，59，82，99，120，126，203夜，205夜，210夜，728，专1，专2
+
+地铁：1号线
+
+
+**开放时间**
+
+
+9：00 — 17：00（15：30停止门票发放，16：00停止进入场馆）
+
+周一闭馆（国家法定节假日逢周一亦闭馆）
+
+由于去时恰逢小长假，人比较多，从8点就有人开始排队，我们8点半到的门口，已有30-40人排队，在开门时排在我们前方的人瞬时增加了好几倍，（有的团体来参观都是一人排队，其他人逛天安门），所以要想早点入场排队要趁早。
+
+
+**入馆需知**
+
+
+切记不要带<span style="color: #ff0000;">**双肩背包**</span>！所有双肩背包都不能进馆，门口有存包处，大包5元、小包2元，**不管包里有没有东西都要强制存包！**（这估计是博物馆唯一创收的途径……） 参观完要到原存包处取包。
+
+在进主门时还有**贴身**检查，水要喝一口。
+
+入馆时的安检顺序：排队---&gt;分成双肩包、非双肩包两队---&gt;双肩包安检存包后领票、非双肩包领票---&gt;检票---&gt;进馆大门口安检，无包的直接贴身安检，有单肩包的进行包安检和贴身安检
+
+馆厅外北侧有孔子雕像，可拍照留念，馆内参观不能拍照，但基于展品的不同以及公共素质、还是有很多人拍照的。（对这个连小学生都拿单反拍油画照片的世界绝望了-_-）
+
+<a href="http://yulijia.net/cn/wp-content/uploads/2011/09/chnmuseum02.jpg"><img class="alignnone size-full wp-image-103" title="chnmuseum02" src="http://yulijia.net/cn/wp-content/uploads/2011/09/chnmuseum02.jpg" alt="" width="584" height="389" /></a>
+
+
+**参观装备**
+
+
+水、穿舒适的鞋、近视别忘了带眼镜
+
+
+**参观路线**
+
+
+近日的展览有：国家艺术院团优秀剧目展、中央文史研究馆成立60周年特展、日出东方：马克思主义在中国暨人民出版事业90周年纪念展、125年意大利经典设计艺术展、馆藏现代经典美术作品展、古代中国、印加人的祖先——公元一至七世纪的古代秘鲁、启蒙的艺术、中国古代瓷器艺术、中国古代青铜器艺术、中国古代佛造像艺术、复兴之路
+
+由于时间有限（半天），我们只参观了：馆藏现代经典美术作品展、印加人的祖先——公元一至七世纪的古代秘鲁、中国古代青铜器艺术、中国古代佛造像艺术、中央文史研究馆成立60周年特展
+
+<a href="http://yulijia.net/cn/wp-content/uploads/2011/09/chnmuseum04.jpg"><img class="alignnone size-large wp-image-104" title="chnmuseum04" src="http://yulijia.net/cn/wp-content/uploads/2011/09/chnmuseum04-1024x822.jpg" alt="" width="580" height="465" /></a>
+
+一层示意图，展览厅少，主要的是后面的学术报告厅和剧院，常有报告举行质量颇高，某同志就因沉迷于报告而掉队。
+
+<a href="http://yulijia.net/cn/wp-content/uploads/2011/09/chnmuseum05.jpg"><img class="alignnone size-large wp-image-105" title="chnmuseum05" src="http://yulijia.net/cn/wp-content/uploads/2011/09/chnmuseum05-1017x1024.jpg" alt="" width="580" height="583" /></a>
+
+二层示意图，由于我们是从北面的电梯上楼的，所以观看的展览多集中于N1-N4和中央大厅。三层和四层布局类似。如果是只有半天参观时间的游客，建议按照全部北厅或全部南厅的顺序参观，这样可浏览到每层的展厅。有些展厅有讲解员，跟随讲解员的讲解浏览展品是最好的选择。
+
+
+**参观照片**
+
+
+<a href="http://yulijia.net/cn/wp-content/uploads/2011/09/chnmuseum07.jpg"><img class="alignnone size-full wp-image-107" title="chnmuseum07" src="http://yulijia.net/cn/wp-content/uploads/2011/09/chnmuseum07.jpg" alt="" width="600" height="800" /></a>
+
+这尊木雕佛像很精美，体现了我国古代高超的雕刻工艺。选自：中国古代佛造像艺术展览
+
+<a href="http://yulijia.net/cn/wp-content/uploads/2011/09/chnmuseum06.jpg"><img class="alignnone size-full wp-image-108" title="chnmuseum06" src="http://yulijia.net/cn/wp-content/uploads/2011/09/chnmuseum06.jpg" alt="" width="400" height="300" /></a>
+
+集体照
+
+没有看完中国古代瓷器艺术展览很可惜，展馆陶瓷艺术品实在是太精美了！！！！！！！
+
+
+**攻略秘笈**
+
+
+如果想整天参观的游客，需要中午出馆吃饭，可以在出馆后不取包（如果你不幸带了的话），直接到领票窗口再领一张门票，之后去吃饭，回来排队直接进馆继续参观。
