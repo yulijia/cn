@@ -25,7 +25,7 @@ KDD [雨夹雪](http://weather.news.sina.com.cn/news/2012/0302/73005.html "雨�
 2012.04
 
 
-作文 糖 荒废 累 presentation 模型融合 <a title="玉渊潭赏花" href="http://yulijia.net/cn/2012/04/%e7%8e%89%e6%b8%8a%e6%bd%ad%e8%b5%8f%e8%8a%b1/">玉渊潭</a> 情商低 照片 下雨 乒乓球 音乐会 热 vcfutils 时间紧 生与死 无语 雷雨 大量 春雨 饭卡 盖茨 复习 扰民 踩 卫生 失而复得 无趣 困 玩
+作文 糖 荒废 累 presentation 模型融合 [玉渊潭](http://yulijia.github.com/cn/%E6%B8%B8%E7%8E%A9%E6%8C%87%E5%8D%97/2012/04/15/Yuyuantan-Park.html "玉渊潭赏花") 情商低 照片 下雨 乒乓球 音乐会 热 vcfutils 时间紧 生与死 无语 雷雨 大量 春雨 饭卡 盖茨 复习 扰民 踩 卫生 失而复得 无趣 困 玩
 
 
 2012.05
