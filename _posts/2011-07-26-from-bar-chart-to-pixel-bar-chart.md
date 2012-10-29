@@ -29,7 +29,7 @@ bar chart是大家都很常见的条形图，传统的bar chart只能显示很�
 
 例如：要表示汽车的一周销量1、3、6、4、9，就可做出如下的条形图。
 
-<a href="http://yulijia.net/cn/wp-content/uploads/2011/07/Cars.png"><img class="alignnone size-medium wp-image-13" title="Cars" src="http://yulijia.net/cn/wp-content/uploads/2011/07/Cars-300x245.png" alt="" width="300" height="245" /></a>
+[Imgur](http://i.imgur.com/Yb7iu "Cars")
 
 图的横轴为日期，纵轴为销售总量，条形高度代表销售量。
 
