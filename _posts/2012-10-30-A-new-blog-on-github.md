@@ -18,4 +18,5 @@ tags:
 之后呢，应该会补充几篇在这个时间点（10月30日）之前的文章，目前都处于草稿(在_posts文件夹中可见)或腹稿状态。
 
 顺便记录一下，最近最喜欢的一句话：
+
 >Captains and Kings may rule the world, but it is the presence of those we love and the memory of those we have lost, but who continue to live in our hearts, which bring beauty to living and make all that we do worthwhile.
