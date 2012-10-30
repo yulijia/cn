@@ -771,12 +771,12 @@ pre code{padding:0;color:inherit;background-color:transparent;border:0}
 /*new style*/
 
 q:before {
-  content: /*'『'*/'"';
+  content: '『';
   color: #DD1144;
   font-weight:bold;
 }
 q:after {
-  content:/* '』'*/'"';
+  content:'』';
   color: #DD1144;
   font-weight:bold;
 }
