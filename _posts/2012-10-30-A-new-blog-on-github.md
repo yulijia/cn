@@ -19,4 +19,5 @@ tags:
 
 顺便记录一下，最近最喜欢的一句话：
 
->Captains and Kings may rule the world, but it is the presence of those we love and the memory of those we have lost, but who continue to live in our hearts, which bring beauty to living and make all that we do worthwhile.
+>Captains and Kings may rule the world, but it is the presence of those we love and the memory of those we have lost, but who continue to live in our hearts, which bring beauty to living and make all that we do worthwhile.  
+尽管还有队长或国王统治世界，但是那些现在身边的所爱的人，和对已经失去的但永存心中的人的回忆，带给世界美丽，并使我们做的一切都值得。（翻译是MOSQY提供的）
