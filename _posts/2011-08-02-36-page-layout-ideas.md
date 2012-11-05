@@ -6,6 +6,7 @@ author: Yu
 category: 格式技巧
 tags:
 - 可视化
+
 ---
 在网上看到了[Extreme Presentation™](http://www.extremepresentation.com/ "Extreme Presentation™")，这个网站主要介绍写信息报告的方式，其中[36种页面布局思路](http://www.google.com.hk/url?sa=t&amp;source=web&amp;cd=1&amp;ved=0CCcQFjAA&amp;url=http%3A%2F%2Fextremepresentation.typepad.com%2Fblog%2Ffiles%2F36_page_layout_ideas.pdf&amp;ei=Mag3Tta-AajViALJsZzCDg&amp;usg=AFQjCNHh3tzu8zcxDifvEvvwPB1CAOSHuw "pdf下载")对做幻灯片很有帮助，现简单介绍如下。
 

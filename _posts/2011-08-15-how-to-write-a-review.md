@@ -5,6 +5,7 @@ layout: post
 author: Yu
 category: 格式技巧
 tags:
+
 ---
 这个格式规范是从APA style中总结出来的，虽然我不会去写心理学的相关review，不过格式还是有一定的普遍参考价值。
 

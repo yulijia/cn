@@ -8,6 +8,7 @@ tags:
 - Bioinformatics
 - Biology Problem
 - Stanford University
+
 ---
 <blockquote>弄清楚研究的生物问题最重要！！！
 <p style="text-align: left;">——记同stanford统计教授的谈话有感</p>

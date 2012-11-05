@@ -5,6 +5,7 @@ layout: post
 author: Yu
 category: 生活点滴 
 tags:
+
 ---
 最近看了点Fate/Zero，结果网上有个比较搞笑的名言，[亚历山大](http://en.wikipedia.org/wiki/Alexander_the_Great "Alexander the Great")对将士们说：向东，向东，一定要赶在[麦哲伦](http://en.wikipedia.org/wiki/Ferdinand_Magellan "Ferdinand Magellan")之前。将一位公元前人物和一位公元后人物联系在一起的竟然是有些相似的梦想，一个想[征服东方](http://en.wikipedia.org/wiki/Wars_of_Alexander_the_Great "Wars of Alexander the Great")，一个想环游世界。区别是一个向东前进，一个向西进发。
 

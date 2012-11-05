@@ -5,6 +5,7 @@ layout: post
 author: Yu
 category: 所思所悟
 tags: microRNA
+
 ---
 >[microRNA](http://en.wikipedia.org/wiki/MicroRNA "microRNA")能在植物-动物间转移，它们能使目标基因序列沉默，抑制特定蛋白质合成。  
 食物掌控基因——《[环球科学](http://www.huanqiukexue.com/ "环球科学")》2012.01期

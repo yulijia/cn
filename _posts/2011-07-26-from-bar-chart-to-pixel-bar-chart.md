@@ -7,6 +7,7 @@ category: 参会有感
 tags:
 - bar chart
 - 可视化
+
 ---
 上周末去旁听了可视化研讨会（Visualization Workshop），主题演讲是来自Universität Konstanz的[Daniel A. Keim](http://www.inf.uni-konstanz.de/gk/people/member/keim.html "Prof. Dr. Daniel Keim")教授。我对于他提到的pixel bar chart很感兴趣，搜索了一些资料，来介绍一下从bar chart到pixel bar chart的演化过程。
 
