@@ -61,4 +61,10 @@ KDD [雨夹雪](http://weather.news.sina.com.cn/news/2012/0302/73005.html "雨�
 2012.10
 
 
-矛盾 油漆 饭卡 鲁邦 修电梯 鸭脖 海报 rm 车票 入乡随俗 六度空间 查文献 rep 数分 金鸡湖 BingRen Lucy cohesin 志愿者 chinglish 秋雨 孙博 开会收获 背单词 出错 组内聚餐 回家 不准时 
+矛盾 油漆 饭卡 鲁邦 修电梯 鸭脖 海报 rm 车票 入乡随俗 六度空间 查文献 rep 数分 金鸡湖 BingRen Lucy cohesin 志愿者 chinglish 秋雨 孙博 开会收获 背单词 出错 组内聚餐 回家 不准时 作息 推倒重来 死不认帐 
+
+
+2012.11
+
+
+normalize 暂停 没带伞 下雪 整理硬盘
