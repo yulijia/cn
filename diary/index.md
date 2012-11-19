@@ -67,4 +67,4 @@ KDD [雨夹雪](http://weather.news.sina.com.cn/news/2012/0302/73005.html "雨�
 2012.11
 
 
-normalize 暂停 没带伞 下雪 整理硬盘 数据线 工作时间 元太 回到8月 秋雨 晚秋 感冒 吃药 /etc/profile 借伞 [It all returns to nothing]
+normalize 暂停 没带伞 下雪 整理硬盘 数据线 工作时间 元太 回到8月 秋雨 晚秋 感冒 吃药 /etc/profile 借伞 [It all returns to nothing] 建站 理解 驼背
