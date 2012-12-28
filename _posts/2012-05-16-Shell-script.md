@@ -4,8 +4,8 @@ title: Shell 处理文本常用命令
 layout: post
 author: Yu
 categories: 
-- 壳牌脚本
-    - 编程攻略
+- 编程攻略
+    - 壳牌脚本
 tag: Shell
 
 ---
