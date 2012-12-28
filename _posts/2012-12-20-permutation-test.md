@@ -10,10 +10,10 @@ tags:
 
 ---
 
-昨天，在plob.org写完这篇<q>[permutaion test 置换检验](http://www.plob.org/2012/12/19/3176.html "Permutation Test 置换检验")</q>。这是一篇拖了半年的文章。
-今天，在这里想说一下Permutaion test中的一些小细节。
+昨天，在plob.org写完这篇<q>[permutation test 置换检验](http://www.plob.org/2012/12/19/3176.html "Permutation Test 置换检验")</q>。这是一篇拖了半年的文章。
+今天，在这里想说一下Permutation test中的一些小细节。
 
-1. permuation是对已有的样本进行重新排序，打乱之前对照组和实验组的差异。而Bootstrap是从样本中抽心抽样。
+1. permuation是对已有的样本进行重新排序，打乱之前对照组和实验组的差异。而Bootstrap是从样本中重复抽样。
 
 2. permutation test不需要有样本分布为正态的条件（稍微有点废话，非参的方法就是用来处理不是正态的问题的）。**But resampling in a way that moves observations between the two groups requires that the two populations are identical when the null hypothesis is true—not only are their means the same, but also thire spreads and shapes.** 其实还是得需要是同分布的。
 
