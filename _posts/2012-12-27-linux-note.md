@@ -79,3 +79,7 @@ export PATH="$PATH:/home/ABC/build_tools/bin"
 还有其他常用的<code>vi, top, awk, grep, diff, ln</code>等等，请自行在需要的时候google。
 
 **要记住，你想做的80%的文件处理工作，linux都有<q>常用工具+简单的pipeline</q>可以帮你实现，不要在处理数据时show自己那点可怜的编程技术，耽误处理的速度。**
+
+**最好的学习方法就是逼迫自己使用linux系统，等你每天都见不到Windows时，你会发现自己变成了一个自由软件的忠实使用者。**
+
+**一个学习参考网站[http://nixsrv.com/llthw](http://nixsrv.com/llthw "Learn Linux The Hard Way")**
