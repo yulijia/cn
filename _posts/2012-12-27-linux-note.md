@@ -5,7 +5,7 @@ layout: post
 author: Yu
 category: 知行并进
 tags:
-- linux
+- Linux
 - 服务器
 
 ---
@@ -18,11 +18,11 @@ tags:
 
 <center>/bin /sbin /home /tmp /lib /usr /var /etc </center>
 
-没有像C:\ D:\ E:\ 这样的盘符，在Windows系统中我们都把系统文件安装在C:\中，而在linux中系统文件是分别放在不同的目录中的，/bin 中存放编译好的二进制可执行程序，/home 是用户存放数据的目录，/lib 用来存放内核模块和共享链接，具体可以[参考这里](http://linux-wiki.cn/wiki/zh-hans/Linux%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84 "linux结构目录")
+没有像C:\ D:\ E:\ 这样的盘符，在Windows系统中我们都把系统文件安装在C:\中，而在linux中系统文件是分别放在不同的目录中的，/bin 中存放编译好的二进制可执行程序，/home 是用户存放数据的目录，/lib 用来存放内核模块和共享链接，具体可以[参考这里](http://linux-wiki.cn/wiki/zh-hans/Linux%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84 "linux结构目录")。
 
-那么为什么linux的目录结构是这个样子？[阮一峰对此有个深入的挖掘](http://www.ruanyifeng.com/blog/2012/02/a_history_of_unix_directory_structure.html "Unix目录结构的来历")
+那么为什么linux的目录结构是这个样子？[阮一峰对此有个深入的挖掘](http://www.ruanyifeng.com/blog/2012/02/a_history_of_unix_directory_structure.html "Unix目录结构的来历")。
 
-一般用的服务器多为linux系统的，管理员root会给你开通一个帐号ABC，你登录后进入的用户目录就是/home/ABC
+一般用的服务器多为linux系统的，管理员root会给你开通一个帐号ABC，你登录后进入的用户目录就是/home/ABC。
 
 ####2. 登录服务器
 
@@ -59,9 +59,12 @@ export PATH="$PATH:/home/ABC/build_tools/bin"
 ####4. 常用命令
 
 查看目录下的文件和文件夹 <code>ls</code>。
-查看目录下的文件和文件夹的具体属性 <code>ll</code>。**注意：** <q>ll</q>有两个辅助选项很管，一个是<q>-h</q>可以显示文件的大小（以human看得懂的方式<code>;)</code>，所以你知道为啥简称是h了吧）；另一个是<q>-a</q>可以显示隐藏文件，对了，linux系统下的隐藏文件写法是<q>.文件名</q>，这个辅助选项在<q>ls</q>后面加也管用。[在文件名前加个点，就看不见了，为啥呢？](https://plus.google.com/101960720994009339267/posts/R58WgWwN9jp "A lesson in shortcuts") 看完原因后，大家是不是都有个<q>姚明笑</q>的表情。
 
-跳转目录 <code>cd 目录绝对地址或相对地址（如果调转到下层子目录，可以用相对地址）</code>
+查看目录下的文件和文件夹的具体属性 <code>ll</code>。**注意：** <q>ll</q>有两个辅助选项很管，一个是<q>-h</q>可以显示文件的大小（以human看得懂的方式<code>;)</code>，所以你知道为啥简称是h了吧）；另一个是<q>-a</q>可以显示隐藏文件，对了，linux系统下的隐藏文件写法是<q>.文件名</q>，这个辅助选项在<q>ls</q>后面加也管用。
+
+[在文件名前加个点，就看不见了，为啥呢？](https://plus.google.com/101960720994009339267/posts/R58WgWwN9jp "A lesson in shortcuts") 看完原因后，大家是不是都有个<q>姚明笑</q>的表情。
+
+跳转目录 <code>cd</code>目录绝对地址或相对地址（如果调转到下层子目录，可以用相对地址）。
 
 察看文件内容 <code>less</code>。**注意：**<q>less -N</q>命令可以显示文件的行号。另外，二进制文件是无法察看的（你能看到的也是乱码），<q>二进制</q>是给机器看的嘛。
 
