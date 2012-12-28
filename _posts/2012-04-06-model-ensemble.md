@@ -4,7 +4,6 @@ title: 模型融合
 layout: post
 author: Yu
 categories:
-- 人工智能
 - 机器学习
 tag: Machine Learning
 
