@@ -32,6 +32,7 @@ tags:
 
 1. 复制出的英文会乱码
 
-2. 无法生成中文索引 <code>\usepackage[colorlinks=true,linkcolor=black,anchorcolor=black,citecolor=black,unicode]{hyperref}</code>
+2. 无法生成中文索引 
+        \usepackage[colorlinks=true,linkcolor=black,anchorcolor=black,citecolor=black,unicode]{hyperref}
 
 
