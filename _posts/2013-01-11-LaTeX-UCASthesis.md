@@ -5,7 +5,7 @@ layout: post
 author: Yu
 category: 格式技巧
 tags: 
-- LaTex
+- LaTeX
 - 论文模板
 
 ---
