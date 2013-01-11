@@ -22,7 +22,7 @@ tags:
 版本号：1.1 beta
 
 
-<del>###尚存在的问题
+<del>尚存在的问题
 
 1. 复制出的英文会乱码，写模板时我使用的是CJK包，不知道为何英文文字无法正确的复制下来，估计和编码格式有关。
 
@@ -33,6 +33,6 @@ tags:
 1. 复制出的英文会乱码
 
 2. 无法生成中文索引 
-        \usepackage[colorlinks=true,linkcolor=black,anchorcolor=black,citecolor=black,unicode]{hyperref}
+<pre><code>\usepackage[colorlinks=true,linkcolor=black,anchorcolor=black,citecolor=black,unicode]{hyperref}</code></pre>
 
 
