@@ -79,4 +79,4 @@ normalize 暂停 没带伞 下雪 整理硬盘 数据线 工作时间 元太 回
 2013.01
 
 
-K歌 流泪 14人 开始 服务器 初中数学 LDA 缓行 6/8 7/8 8/8 分析bucter 肩膀 无法网购 结束了 毕业论文 rosalind.info
+K歌 流泪 14人 开始 服务器 初中数学 LDA 缓行 6/8 7/8 8/8 分析bucter 肩膀 无法网购 结束了 毕业论文 rosalind.info 八卦 aggregate
