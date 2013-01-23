@@ -1,6 +1,6 @@
 --- 
 published: true
-title: rosalind.info——一个在线生物信息学算法学习网站
+title: 沉默就是助纣为虐
 layout: post
 author: Yu
 category: 网络观察
