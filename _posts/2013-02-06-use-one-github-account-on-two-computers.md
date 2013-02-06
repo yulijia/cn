@@ -26,7 +26,7 @@ tags:
 
 ####具体步骤
 
-1.检查SSH Keys，将已有的key备份。（[做什么都要备份，要不就干等着吃亏吧](http://yulijia.net/en/Git/2012/10/09/github-pages.html "all file on your disk folder will be deleted")）
+1. 检查SSH Keys，将已有的key备份。（[做什么都要备份，要不就干等着吃亏吧](http://yulijia.net/en/Git/2012/10/09/github-pages.html "all file on your disk folder will be deleted")）
 
           $cd ~/.ssh
           $ls
@@ -36,15 +36,15 @@ tags:
           $rm id_rsa*
 
 
-  2.1. 复制老key到新电脑上，cp A电脑上~/.ssh/id_rsa  到B电脑上 ~/.ssh/id_rsa.new，并把权限改为600
+  2.1.  复制老key到新电脑上，cp A电脑上~/.ssh/id_rsa  到B电脑上 ~/.ssh/id_rsa.new，并把权限改为600
     
               $ssh -T git@github.com  #测试看是否能成功
                    Hi 你的名字! You've successfully authenticated, but GitHub does not provide shell access.
 
 
-  2.2. 重新生成新key，<code>ssh-keygen -C "youremail@youremail.com" -f ~/.ssh/id_rsa.new</code>
+  2.2.  重新生成新key，<code>ssh-keygen -C "youremail@youremail.com" -f ~/.ssh/id_rsa.new</code>
 
-3.设置用户名和电子邮件。      
+3. 设置用户名和电子邮件。      
 
   
           $ git config --global user.name "Firstname Lastname"
