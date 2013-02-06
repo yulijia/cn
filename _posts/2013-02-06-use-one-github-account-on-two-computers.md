@@ -45,8 +45,6 @@ tags:
   
           $ git config --global user.name "Firstname Lastname"
           $ git config --global user.email "youremail@youremail.com"
-
-
 4. 本地运行 git pull。
 
 ###结果
