@@ -42,7 +42,9 @@ tags:
               $ssh -T git@github.com  #测试看是否能成功
                    Hi 你的名字! You've successfully authenticated, but GitHub does not provide shell access.
                    
-    3. 重新生成新key，<code>ssh-keygen -C "youremail@youremail.com" -f ~/.ssh/id_rsa.new</code>
+    3. 重新生成新key
+    
+              $ssh-keygen -C "youremail@youremail.com" -f ~/.ssh/id_rsa.new
 
 3. 设置用户名和电子邮件。      
 
