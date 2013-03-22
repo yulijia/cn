@@ -1,10 +1,10 @@
 --- 
 published: true
 layout: diary
-title: 记事
+title: 结绳记事
 ---
 
-#结绳记事#
+
 网站创建时间：2011.07.19
 
 
