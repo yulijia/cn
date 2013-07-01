@@ -3,7 +3,7 @@ published: true
 title: 书评：《DNA：生命的秘密》
 layout: post
 author: Yu
-category: 好书推荐
+category: 囤书成瘾
 tags:
 - DNA
 - Francis Crick
