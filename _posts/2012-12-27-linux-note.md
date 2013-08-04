@@ -47,7 +47,7 @@ putty是有一个登录界面软件，setupssh.zip则是可以直接用CMD窗口
 export PATH="$PATH:/home/ABC/build_tools/bin"
 
 2. 修改.bashrc文件：
-# vi /<p>root</p>/.bashrc 或者 /home/xxxx/.bashrc  <q>我高估了人类的举一反三能力，指写/root/他们不管有没有权限，都敢往/root/下写<\q>
+# vi /<q>root</q>/.bashrc 或者 <q>/home/xxxx/.bashrc</q>  <q>我高估了人类的举一反三能力，指写/root/他们不管有没有权限，都敢往/root/下写</q>
 在里面加入：
 export PATH="$PATH:/home/ABC/build_tools/bin"
 
