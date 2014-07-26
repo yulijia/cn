@@ -26,7 +26,7 @@ tags:
 
 ####具体步骤
 
-1. 检查SSH Keys，将已有的key备份。（[做什么都要备份，要不就干等着吃亏吧](http://yulijia.net/en/Git/2012/10/09/github-pages.html "all file on your disk folder will be deleted")）
+1. 检查SSH Keys，将已有的key备份。（[做什么都要备份，要不就干等着吃亏吧](http://yulijia.net/en/git/2012/10/09/github-pages.html "all file on your disk folder will be deleted")）
 
           $cd ~/.ssh
           $ls
