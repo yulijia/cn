@@ -2,8 +2,8 @@
 layout: default
 ---
 {% for post in paginator.posts %}<!---limit: listing_limit %}-->
-<h2 class="title"><a href="/cn{{ post.url }}" rel="bookmark">{{ post.title }}</a></h2>
-<div class="postmeta">
+<h2 class="blog-post-title"><a href="/cn{{ post.url }}" rel="bookmark">{{ post.title }}</a></h2>
+<div class="blog-post-meta">
     <span class="comments"><a href='/cn{{post.url}}#disqus_thread'>Comments</a></span>
     <span>Posted by {{ site.author }} </span>
     <span>in 

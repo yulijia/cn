@@ -5,14 +5,32 @@
   <meta name="Description" content="A website of Lijia Yu, including Chinese and English blogs." />
   <meta name="Keywords" content="genomics, bioinformatics, mathematics, statistics, perl, R language, data visualization, data analysis, LaTeX, Lijia Yu" />
   <title>Lijia Yu's Website</title> 
- <!-- 
-  <link rel="stylesheet" href="http://yulijia.github.com/cn/assets/css/style.css" type="text/css" />
-  <link rel="stylesheet" href="http://yulijia.github.com/cn/assets/css/highlight.css" type="text/css" />
--->
-  <link rel="stylesheet" href="http://yulijia.github.com/css/style.css" type="text/css" />
+
+ <!-- <link rel="stylesheet" href="http://yulijia.github.com/css/style.css" type="text/css" />-->
   <link rel="stylesheet" href="http://yulijia.github.com/css/highlight.css" type="text/css" />
   <link rel="shortcut icon" href=" http://yulijia.github.com/images/favicon.ico" /> 
   <link rel="alternate" type="application/rss+xml" title="On Your Mark &raquo; Feed" href="http://yulijia.net/cn/feed/" />
+
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/assets/css/blog.css" rel="stylesheet">
+     <link href="/assets/css/navbar-static-top.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="/assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="/assets/js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 
 <!-- MathJax Section -->
   <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
@@ -48,98 +66,130 @@
 
 </head>
 <body>
-  <div id="wrapper">
-    <div id="header">
+  <div class="container">
+  
+    <div class="blog-header">
       <h1 class="blog-title">
       <a href="{{ site.url }}" name="top">{{ site.title }}</a><br />
       </h1>
-      <h1 class="blog-description"><span>{{ site.tagline }}</span></h1>
-      <ul id="menu-navigation" class="menu">
-      <li><a href="{{ site.url }}/" title="Homepage">首页</a></li>
-      <li><a href="{{ site.url }}/guestbook/" title="Guestbook">留言</a></li>
-      <li><a href="{{ site.url }}/plan/" title="Plan">计划</a></li>
-<!--      <li><a href="{{ site.url }}/diary/" title="Diary">记事</a></li>  -->
-      <li><a href="{{ site.url }}/categories/" title="Categories">目录</a></li>
-      <li><a href="{{ site.url }}/tags/" title="Tags">标签</a></li>
-      <li><a href="{{ site.url }}/feed/" title="subscribe by RSS">订阅</a></li>
-      </ul>
+      <h1 class="lead blog-description"><span>{{ site.tagline }}</span></h1>
     </div>
-    <div id="content">
+    
+    <div class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="{{ site.url }}/" title="Homepage">首页</a></li>
+            <li><a href="{{ site.url }}/guestbook/" title="Guestbook">留言</a></li>
+            <li><a href="{{ site.url }}/plan/" title="Plan">计划</a></li>
+      <!--      <li><a href="{{ site.url }}/diary/" title="Diary">记事</a></li>  -->
+            <li><a href="{{ site.url }}/categories/" title="Categories">目录</a></li>
+            <li><a href="{{ site.url }}/tags/" title="Tags">标签</a></li>
+            <li><a href="{{ site.url }}/feed/" title="subscribe by RSS">订阅</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div><!--container-->
+    </div><!--navbar navbar-default navbar-static-top-->
+
+
+
+    <div class="row">
+    <div class="col-sm-8 blog-main">
     {{ content }}   
-      <div class="pagination">
+      <div class="pager">
         <div class="left">
           <ul>
           {% if paginator.previous_page %}
           {% if paginator.previous_page == 1 %}
-          <li><a href="/cn/" title="Previous Page">&larr; 前一页</a></li>
+          <li><a href="/cn/" title="前一页">&larr; 前一页</a></li>
           {% else %}
-          <li><a href="/cn/page{{ paginator.previous_page }}/" title="Previous Page">&larr; 前一页</a></li>
+          <li><a href="/cn/page{{ paginator.previous_page }}/" title="前一页">&larr; 前一页</a></li>
           {% endif %}
           {% endif %}
         </div>
         <div class="right">
           {% if paginator.next_page %}
-          <li><a href="/cn/page{{ paginator.next_page }}/" title="Next Page">下一页 &rarr;</a></li>
+          <li><a href="/cn/page{{ paginator.next_page }}/" title="下一页">下一页 &rarr;</a></li>
           {% endif %}
           </ul>
         </div>
       </div>
-    </div> 
-    <ul id="sidebar">
-    <div class="widget">
-      <li class="widget">
-      <h2>版权声明</h2>			
-      <div><a href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.zh">
+      
+
+    </div> <!-- /.blog-main -->
+ 
+   <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+    
+    <div class="sidebar-module"> <!-- sidebar-module-inset">-->
+      <h4>版权声明</h4>
+     <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.zh">
         <img src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png">
         </a>
         <br>
         <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.zh">署名-非商业性使用-相同方式共享</a>
-      </div>
-    	</li>
-      <li class="widget">
-      <h2 >近期文章</h2>
-      <ul>
+
+    </div>
+    <div class="sidebar-module">
+    <h4>近期文章</h4>
+      <ol class="list-unstyled">
       {% for post in site.posts limit:5 %}
       <li>
       <a href="/cn{{ post.url }}" title="{{ post.title }}" rel="bookmark">{{ post.title }}</a>
       </li>
       {% endfor %}
-      </ul>
-      </li>
-      <li class="widget ">
-      <h2>分类目录</h2>
-      <ul>
-      {% for cat in site.categories %}
-      <li><a href="{{ site.url }}/categories/#{{ cat[0] }}" title="{{ cat[0] }}" rel="{{ cat[1].size }}">{{ cat[0] }} ({{ cat[1].size }})</a></li>
-      {% endfor %}
-      </ul>
-      </li>
-      <li class="widget ">
-      <h2>标签</h2>
-      <ul>
-      {% for tag in site.tags %}
-      <a href="{{ site.url }}/tags/#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a> &nbsp;
-      {% endfor %}
-      </ul>
-      </li>
-      <li class="widget ">
-      <h2>良师益友</h2>
-      <ul>
-      <li><a href="http://jimliu.net/" title="百度无线码民，伪90后技术男" target="_blank">Jim Liu's Blog</a></li>
-      <li><a href="http://www.plob.org/" title="牛人师兄ybzhao的Bioinformatics图书馆">Public Library of Bioinformatics</a></li>
-      </ul>
-      </li>
+      </ol>
     </div>
-    </ul>
-    <div id="footer">
-      <div class="alignleft">
+    <div class="sidebar-module">
+    <h4>分类目录</h4>
+      <ol class="list-unstyled">
+        {% for cat in site.categories %}
+        <li><a href="{{ site.url }}/categories/#{{ cat[0] }}" title="{{ cat[0] }}" rel="{{ cat[1].size }}">{{ cat[0] }} ({{ cat[1].size }})</a></li>
+        {% endfor %}
+      </ol>
+    </div>
+    <div class="sidebar-module">
+    <h4>标签</h4>
+      <ol class="list-unstyled">
+        {% for tag in site.tags %}
+        <a href="{{ site.url }}/tags/#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a> &nbsp;
+        {% endfor %}
+      </ol>
+    </div>
+    <div class="sidebar-module">
+    <h4>良师益友</h4>
+      <ol class="list-unstyled">
+        <li><a href="http://jimliu.net/" title="百度无线码民，伪90后技术男" target="_blank">Jim Liu's Blog</a></li>
+        <li><a href="http://www.plob.org/" title="牛人师兄ybzhao的Bioinformatics图书馆">Public Library of Bioinformatics</a></li>
+      </ol>
+    </div>
+
+  </div><!-- /.blog-sidebar -->
+</div><!-- /.row -->
+
+
+
+    <div class="blog-footer">
+  
         <p>Copyright &copy; <a href="{{ site.url }}/">{{site.title}}</a></p>
-      </div>
-      <div class="alignright">
+
         <p>Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a> on GitHub | Design by <a href="{{ site.url }}/">{{site.author}}</a></p>
-      </div>
+   
+      
     </div>
-    <div style="clear:both"></div>
-  </div>
-</body>
+</div><!-- /.container -->
+ <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/docs.min.js"></script>
+  </body>
 </html>
