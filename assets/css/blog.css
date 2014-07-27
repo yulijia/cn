@@ -211,6 +211,11 @@ a:focus{
   border-bottom: 1px dotted;
 }
 
+.entry a:hover,a:focus{
+  color:#669900;
+  text-decoration:none;
+  border-bottom: 1px dotted;
+}
 
 .blog-title,.lead,.blog-description h1{
    text-align: center;
