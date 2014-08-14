@@ -3,7 +3,7 @@
  */
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Microsoft YaHei','Lato', sans-serif;
   color: #555;
   background-color:#F2F2F2;
 }
@@ -234,6 +234,8 @@ a:focus{
     color: #fff; 
     text-shadow: none;
 }
+
+
 
 .blog-title,.lead,.blog-description h1{
    text-align: center;
