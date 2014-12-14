@@ -2,6 +2,7 @@
 layout: page
 title: Guestbook
 comments: yes
+permalink: /guestbook/
 ---
 ##关于我
 
