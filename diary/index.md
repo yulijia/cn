@@ -1,9 +1,9 @@
---- 
-published: true
-layout: diary
-title: 结绳记事
 ---
-
+published: false
+layout: page
+title: 结绳记事
+permalink: /diary/
+---
 
 网站创建时间：2011.07.19
 
@@ -96,9 +96,3 @@ K歌 流泪 14人 开始 服务器 初中数学 LDA 缓行 6/8 7/8 8/8 分析buc
 2013.04
 
 愚人节 清明 H7N9 SVD 复印5张 Code
-
-
-
-
-
-
