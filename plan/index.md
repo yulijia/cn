@@ -1,5 +1,5 @@
 ---
-published: false
+published: ture
 layout: page
 title: 计划
 permalink: /plans/
