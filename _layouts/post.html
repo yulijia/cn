@@ -1,48 +1,31 @@
 ---
 layout: default
 ---
-<h2 class="blog-post-title">{{ page.title }}</h2>
-<div class="blog-post-meta">
-    <span class="comments"><a href='{{post.url}}#disqus_thread'>Comments</a></span>
-    <span>Posted by {{ site.author }} </span>
-    <span>in 
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-meta">
+    Posted in 
     {% for cat in page.categories %}
-    <a href="{{ site.url }}/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>&nbsp;
-    {% endfor %}
-    </span>
-    <span> 
-    on {{ page.date | date_to_string }}
-    </span>
-    <br /> 
+    <a href="{{site.url}}/categories/#{{ cat }}">{{ cat }}</a>&nbsp;
+    {% endfor %} 
     {% if page.tags != empty %}
-    <span>
-    Tagged with:
+    and tagged      
     {% for tag in page.tags %}
-    <a href="{{ site.url }}/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>&nbsp;
+    <a href="{{ site.url }}/tags/#{{ tag }}" title="{{ tag }}">{{ tag }} </a>{% unless page.tags.last == tag %}, {% endunless %}
     {% endfor %}
-    </span>
     {% endif %}
-</div>
-<div class="entry">
-  {{ content}}
+    on {{ page.date | date: "%b %-d, %Y" }}
+    </p>
+  </header>
+
+  <article class="post-content">
+    {{ content }}
+  </article>
   <hr />
 </div>
 
-   <div class="pager">
-      <ul>
-      {% if page.previous %}
-        <li><a href="/cn{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; 前一页</a></li>
-      {% else %}
-        <li class="disabled"><a>&larr; 前一页</a></li>
-      {% endif %}
-      {% if page.next %}
-        <li><a href="/cn{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">下一页 &rarr;</a></li>
-      {% else %}
-        <li class="disabled"><a>下一页 &rarr;</a>
-      {% endif %}
-      </ul>
-    </div>
-
-
-{% include comments.md %}
+{% include page_pagination.html%}
+{% include comments.html %}
 
