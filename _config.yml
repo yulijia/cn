@@ -63,7 +63,9 @@ Blogroll:
    - name: Public Library of Bioinformatics
      href: http://www.plob.org/
      title: 牛人师兄ybzhao的Bioinformatics图书馆
-
+   - name: Yihui Xie's Blog
+     href: http://yihui.name
+     title: R界小前锋谢益辉，knitr作者
 
 ### Build settings
 markdown: kramdown
