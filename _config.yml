@@ -1,8 +1,65 @@
-paginate: 5
-markdown: kramdown
-#rdiscount
-pygments: true
+### Site info:
+
 title : On Your Mark
 tagline: Never give up, Dream big
 author: Lijia YU
-url: http://yulijia.net/cn
+email: yu@lijiayu.net
+description: "The Chinese blog of Lijia Yu."
+keywords: "genomics, bioinformatics, mathematics, statistics, perl, R language, data visualization, data analysis, LaTeX, Lijia Yu"
+baseurl: "/cn" # the subpath of your site, e.g. /blog/
+url: "http://yulijia.net/cn" # the base hostname & protocol for your site
+
+
+### Personal info and site tools info:
+twitter_username: yulijia
+github_username:  yulijia
+disqus_shortname: onyourmark
+#favicon:     "images/favicon.ico"
+#touch_icon:  "img/apple-touch-icon.png"
+#google_analytics_key: UA-49607422-1 # put YOUR key here to enable tracking! (blank to disable)
+#aboutme: Hi, this is Lijia Yu.  # these are shown on aboutme-sidebar.
+#aboutme_photo: https://i.imgur.com/15BT1.jpg # your photo.
+
+
+### Site setting:
+ShowContactInfo: "False" 
+default_column: "two" # blog style: two columns, if default_column != "two", you will see a one column blog.
+default_locale: "cn" # blog sidebar language set, only include: English(en) and Chinese (cn)
+
+locales:
+    en:
+      Aboutme: "About Me"
+      Archives: "Archives"
+      Blogroll: "Blogroll"
+      Categories: "Categories"
+      Copyright_Notice: "Copyright Notice"
+      Resent_Posts: "Resent Posts"
+      Tags: "Tags"
+      Previous: "Newer"
+      Next: "Older"
+    cn:
+      Aboutme: "关于我"
+      Archives: "存档"
+      Blogroll: "良师益友"        
+      Categories: "分类目录"    
+      Copyright_Notice: "版权声明"
+      Resent_Posts: "近期文章"
+      Tags: "标签" 
+      Previous: "前一页"
+      Next: "下一页"
+
+### your Blogroll info, only name can shown on the page.
+
+Blogroll:
+   - name: Jim Liu's Blog
+     href: http://jimliu.net/
+     title: 百度无线码民，伪90后技术男
+   - name: Public Library of Bioinformatics
+     href: http://www.plob.org/
+     title: 牛人师兄ybzhao的Bioinformatics图书馆
+
+
+### Build settings
+markdown: kramdown
+highlighter: pygments
+paginate: 5
