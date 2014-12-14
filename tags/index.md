@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tags
+title: 标签
 premalink: /tags/
 ---
 
