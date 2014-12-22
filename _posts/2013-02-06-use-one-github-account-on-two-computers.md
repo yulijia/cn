@@ -26,33 +26,40 @@ tags:
 
 ####具体步骤
 
-1. 检查SSH Keys，将已有的key备份。（[做什么都要备份，要不就干等着吃亏吧](http://yulijia.net/en/git/2012/10/09/github-pages.html "all file on your disk folder will be deleted")）
+1.检查SSH Keys，将已有的key备份。（[做什么都要备份，要不就干等着吃亏吧](http://yulijia.net/en/git/2012/10/09/github-pages.html "all file on your disk folder will be deleted")）
 
-          $cd ~/.ssh
-          $ls
-              config  id_rsa  id_rsa.pub  known_hosts
-          $mkdir key_backup
-          $cp id_rsa* key_backup
-          $rm id_rsa*
+{% highlight  Bash shell scripts linenos %}
+$ cd ~/.ssh
+$ ls
+    config  id_rsa  id_rsa.pub  known_hosts
+$ mkdir key_backup
+$ cp id_rsa* key_backup
+$ rm id_rsa*
+{% endhighlight %}
 
-2. 添加SSH Keys
-          
-    1. 复制老key到新电脑上，cp A电脑上~/.ssh/id_rsa  到B电脑上 ~/.ssh/id_rsa.new，并把权限改为600
-    
-              $ssh -T git@github.com  #测试看是否能成功
-                   Hi 你的名字! You've successfully authenticated, but GitHub does not provide shell access.
-                   
-    3. 重新生成新key
-    
-              $ssh-keygen -C "youremail@youremail.com" -f ~/.ssh/id_rsa.new
+2.添加SSH Keys
 
-3. 设置用户名和电子邮件。      
+- 复制老key到新电脑上，cp A电脑上~/.ssh/id_rsa  到B电脑上 ~/.ssh/id_rsa.new，并把权限改为600
+ 
+{% highlight  Bash shell scripts linenos %}
+$ ssh -T git@github.com  #测试看是否能成功
+       Hi 你的名字! You have successfully authenticated, but GitHub does not provide shell access.
+{% endhighlight %}
 
-  
-          $ git config --global user.name "Firstname Lastname"
-          $ git config --global user.email "youremail@youremail.com"
-          
-4. 本地运行 git pull。
+- 重新生成新key
+
+{% highlight  Bash shell scripts linenos %}
+$ ssh-keygen -C "youremail@youremail.com" -f ~/.ssh/id_rsa.new
+{% endhighlight %}
+
+3.设置用户名和电子邮件。      
+
+{% highlight  Bash shell scripts linenos %}
+$ git config --global user.name "Firstname Lastname"
+$ git config --global user.email "youremail@youremail.com"
+{% endhighlight %} 
+
+4.本地运行 git pull。
 
 ###结果
 

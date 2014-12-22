@@ -40,7 +40,6 @@ putty是有一个登录界面软件，setupssh.zip则是可以直接用CMD窗口
 
 在安装后，你会发现很多软件只能在安装的目录下“./软件名”这样执行，这是因为你没有设置[环境变量](http://zh.wikipedia.org/wiki/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F "环境变量")，还不能被相应的应用程序或守护进程访问到安装的软件（这半句的解释不一定正确）。 设置环境变量的方法，请自行google，基本格式是：
 <pre><code>
-
 1. 修改profile文件： 
 #vi /etc/profile 
 在里面加入:
@@ -50,7 +49,6 @@ export PATH="$PATH:/home/ABC/build_tools/bin"
 # vi /root/.bashrc 或者 <q>/home/xxxx/.bashrc</q>  <q>我高估了人类的举一反三能力，如我只写/root/地址他们不管有没有权限，都只往/root/下写，另外写对地址的，一定要重新登录，不愿意重新登录的，在终端键入 source /root/.bashrc 或者 source /home/xxxx/.bashrc ，从这件事情我发现，饭不喂到嘴里，没人会吃，这是通病（估计我有时也一样）。2013年08月04日</q>
 在里面加入：
 export PATH="$PATH:/home/ABC/build_tools/bin"
-
 </code></pre>
 
 

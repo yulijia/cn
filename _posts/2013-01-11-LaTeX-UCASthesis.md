@@ -35,4 +35,4 @@ tags:
 2. 无法生成中文索引 
 <pre><code>\usepackage[colorlinks=true,linkcolor=black,anchorcolor=black,citecolor=black,unicode]{hyperref}</code></pre>
 
-
+#### 2014年 更新了XeTeX版本，具体请浏览项目页面，我也同UCAS say good-bye 了，我的毕业论文是用word写的，用LaTeX无法达到毕业要求。
