@@ -3,7 +3,7 @@ published: true
 title: rosalind.info——一个在线生物信息学算法学习网站
 layout: post
 author: Yu
-category: 知行并进
+category: 网络观察
 tags: 
 - rosalind.info
 - Bioinformatics

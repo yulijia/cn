@@ -4,7 +4,6 @@ title: 二代测序分析常用软件
 layout: post
 author: Yu
 categories: 
-- 知行并进
 - 软件世界 
 tags:
 - bedtools

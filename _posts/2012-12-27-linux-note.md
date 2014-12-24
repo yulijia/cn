@@ -3,7 +3,7 @@ published: true
 title: linux系统以及服务器操作笔记
 layout: post
 author: Yu
-category: 知行并进
+category: 操作系统
 tags:
 - Linux
 - 服务器

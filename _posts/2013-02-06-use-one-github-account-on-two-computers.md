@@ -3,7 +3,7 @@ published: true
 title: 在不同电脑上git push同个github账户下的repositories
 layout: post
 author: Yu
-category: 知行并进
+category: 软件世界
 tags: 
 - Github
 - Git
