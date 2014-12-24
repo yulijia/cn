@@ -4,8 +4,7 @@ title: 文本加密解密
 layout: post
 author: Yu 
 category: 
-- 编程攻略
-    - 壳牌脚本
+- 壳牌脚本
 tags:
 - encode
 - decode
