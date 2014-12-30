@@ -39,14 +39,14 @@ $ rm id_rsa*
 
 2.添加SSH Keys
 
-- 复制老key到新电脑上，cp A电脑上~/.ssh/id_rsa  到B电脑上 ~/.ssh/id_rsa.new，并把权限改为600
+- 方法一：复制老key到新电脑上，cp A电脑上~/.ssh/id_rsa  到B电脑上 ~/.ssh/id_rsa.new，并把权限改为600
  
 {% highlight  Bash shell scripts linenos %}
 $ ssh -T git@github.com  #测试看是否能成功
        Hi 你的名字! You have successfully authenticated, but GitHub does not provide shell access.
 {% endhighlight %}
 
-- 重新生成新key
+- 方法二：重新生成新key
 
 {% highlight  Bash shell scripts linenos %}
 $ ssh-keygen -C "youremail@youremail.com" -f ~/.ssh/id_rsa.new
