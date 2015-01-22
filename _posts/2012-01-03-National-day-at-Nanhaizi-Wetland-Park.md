@@ -24,7 +24,7 @@ tags:
 
 麋鹿
 
-<a href="https://i.imgur.com/15BT1.jpg"><img title="麋鹿" src="https://i.imgur.com/15BT1.jpg" alt="麋鹿" width="580" height="668" /></a>
+<a href="https://i.imgur.com/Mdc4szJl.jpg"><img title="麋鹿" src="https://i.imgur.com/Mdc4szJl.jpg" alt="麋鹿" width="580" height="668" /></a>
 
 鹿群
 
