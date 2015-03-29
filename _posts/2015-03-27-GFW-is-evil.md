@@ -27,8 +27,23 @@ tags:
 
 由于DDOS攻击一直在持续，架设在github.io上的网站从中国境内访问有很多问题，另外这个网站之前用了Baidu 的CDN加速，刚才访问时发现，直接5xx报错，我已经将Baidu的加速撤销。
 
-下面这个命令可以在linux终端中用来查看DNS（ Domain Name System）设置情况，我估计在撤销Baidu时直接删除，而没有刷新，所以现在显示的还是Baidu的加速服务，但是登录网站，已经看不到加速相关的源代码了
+**关掉百度云加速时，首先在系统界面关掉加速，然后再删除网站，切记！否则DNS地址还是百度的**
+
+下面这个命令可以在linux终端中用来查看DNS（ Domain Name System）设置情况:
 
 ~~~
- dig yulijia.net +nostats +nocomments +nocmd
+### 关掉前
+[@localhost ~]# dig yulijia.net +nostats +nocomments +nocmd
+
+;; global options: +cmd
+;yulijia.net.     IN  A
+yulijia.net.    15  IN  SOA n3368.ns.yunjiasu.com. dns.yunjiasu.com. 2017926777 10000 2400 604800 3600
+
+
+### 关掉后
+[@localhost ~]# dig yulijia.net +nostats +nocomments +nocmd
+
+;; global options: +cmd
+;yulijia.net.     IN  A
+yulijia.net.    190 IN  A 192.30.252.153
 ~~~
