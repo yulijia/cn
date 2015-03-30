@@ -8,7 +8,7 @@ description: "The Chinese blog of Lijia Yu."
 keywords: "genomics, bioinformatics, mathematics, statistics, perl, R language, data visualization, data analysis, LaTeX, Lijia Yu"
 baseurl: "/cn" # the subpath of your site, e.g. /blog/
 url: "http://yulijia.net/cn" # the base hostname & protocol for your site
-local: zh_CN
+locale: zh_CN
 
 ### Personal info and site tools info:
 twitter_username: yulijia
