@@ -27,6 +27,10 @@ tags:
 - Open Graph META Tags
 - Microdata (schema.org)
 
+TOC我在刚做模版时给忘记了，kramdown语法支持TOC，所以这块CSS是后加上的，先前fork本模版的用户要苦逼了`m(_ _)m`。
+Open graph meta tags 和Microdata的信息都是为了Facebook，Twitter，G+这些社交分享功能才加入的，我觉得写个模版，需要遵守的规定越来越多了。
+
+
 ### 2.基本的页面应该包括的内容(模块)
 
 - 目录
