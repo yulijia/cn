@@ -71,3 +71,4 @@ Blogroll:
 markdown: kramdown
 highlighter: pygments
 paginate: 5
+exclude: [Rakefile]
