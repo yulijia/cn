@@ -11,7 +11,7 @@ tags:
 ---
 
 从去年11月底开始，我下定决心要把自己的Jekyll博客模版改成WordPress Twenty Eleven和Twenty Twelve类似的模式，做了个[Freshman21（读作21st）](https://github.com/yulijia/freshman21/)，并且在github上公布了出来（这句有点像废话，本博客就是放在github pages的）。
-并且在jekyllthemes.org做了宣传，三个月下来，有不少Jekyll博客的用户使用了我的模版，并且给我的模版纠正了很多错误的地方，非常感谢这些热心的用户。
+并且在jekyllthemes.org做了宣传，三个月下来，有不少Jekyll博客的用户使用了我的模版，并且给我的模版(纠正了很多错误的地方)[https://github.com/yulijia/freshman21/issues?q=is%3Aissue+is%3Aclosed]，非常感谢这些热心的用户。
 那么，接下来想总结一下“一个博客模版必备的元素”。
 
 ### 1.基本Html+CSS应该包括的内容
