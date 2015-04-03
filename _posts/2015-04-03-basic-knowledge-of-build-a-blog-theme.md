@@ -14,7 +14,7 @@ tags:
 并且在jekyllthemes.org做了宣传，三个月下来，有不少Jekyll博客的用户使用了我的模版，并且给我的模版纠正了很多错误的地方，非常感谢这些热心的用户。
 那么，接下来想总结一下“一个博客模版必备的元素”。
 
-### 1.基本CSS应该包括的内容
+### 1.基本Html+CSS应该包括的内容
 
 - Table of Content
 - h1,h2,h3,h4,etc.
@@ -24,6 +24,8 @@ tags:
 - font style : cite and bold 
 - Responsive web design
 - li style
+- Open Graph META Tags
+- Microdata (schema.org)
 
 ### 2.基本的页面应该包括的内容(模块)
 
