@@ -23,3 +23,7 @@ tags:
     3.3 Relationships between two quantitative variables：当零假设说的<q>变量是不相关的</q>时。
     
 4. 如果你要找个置信区间，我们不需要知道零假设是否成立，那么还是用Bootstrap吧。
+
+> 2015.04.04 update
+>
+> 我在自己的博客里备份了<q>permutation test 置换检验</q>[这篇文章](https://github.com/yulijia/cn/blob/gh-pages/_posts/2015-04-04-Permutation-Test-article-backup.md)
