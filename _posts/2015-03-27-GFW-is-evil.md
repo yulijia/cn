@@ -11,7 +11,7 @@ tags:
 - DDOS
 ---
 
-真是什么缺德的事情都能做的出来。今天发现<q>git push + https</q>完全不管用了，查了一下原因，估计是这个事情——[百度统计js被劫持用来DDOS Github](http://drops.wooyun.org/papers/5398)，[V2EX讨论地址（需要翻墙）](http://www.v2ex.com/t/179695)。
+真是什么缺德的事情都能做的出来。今天发现<q>git push + https</q>完全不管用了，查了一下原因，估计是这个事情——[百度统计js被劫持用来DDOS Github](http://drops.wooyun.org/papers/5398)，[V2EX讨论地址（需要翻墙）](http://www.v2ex.com/t/179695)。[2015.04.11更新，后续依旧精彩，中华大加农，国外人家没事写了篇论文出来。](http://citizenlab.org/2015/04/chinas-great-cannon/)
 
 然后就立即换成<q>git push+ssh</q>进行操作，可以正常提交。
 
