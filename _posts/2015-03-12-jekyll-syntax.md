@@ -8,6 +8,7 @@ tags:
 - Jekyll
 - 静态博客
 - YAML
+- Liquid 
 ---
 
 * Table of contents
