@@ -14,7 +14,7 @@ tags:
 * Table of contents
 {:toc}
 
-最近尝试用Jekyll写个小展示网站，发现Jekyll的功能还是很强大的。之前很多不熟悉的语法，现在也都能摸索着用在模版里。本篇总结记录一下我常用的Jekyll基本语法。
+最近尝试用Jekyll写个小展示网站，发现Jekyll的功能还是很强大的。之前很多不熟悉的语法，现在也都能摸索着用在模版里。本篇总结记录一下我常用的Jekyll基本语法（包括Liquid 语法）。
 
 ### YAML Front Matter
 
