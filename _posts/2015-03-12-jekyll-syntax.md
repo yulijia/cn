@@ -108,6 +108,68 @@ Jekyll 支持 从 _data 目录中加载 YAML， JSON， 和 CSV 格式的文件�
   { % endfor % }
 ~~~
 
+#### if判断
+
+注意逻辑“与或”分别是`and`,`or`
+
+~~~
+{% if user %}
+  Hello {{ user.name }}
+{% endif %}
+
+# Same as above
+{% if user != null %}
+  Hello {{ user.name }}
+{% endif %}
+
+{% if user.name == 'tobi' %}
+  Hello tobi
+{% elsif user.name == 'bob' %}
+  Hello bob
+{% endif %}
+
+{% if user.name == 'tobi' or user.name == 'bob' %}
+  Hello tobi or bob
+{% endif %}
+
+{% if user.name == 'bob' and user.age > 45 %}
+  Hello old bob
+{% endif %}
+
+{% if user.name != 'tobi' %}
+  Hello non-tobi
+{% endif %}
+
+# Same as above
+{% unless user.name == 'tobi' %}
+  Hello non-tobi
+{% endunless %}
+# Check for the size of an array
+{% if user.payments == empty %}
+   you never paid !
+{% endif %}
+
+{% if user.payments.size > 0  %}
+   you paid !
+{% endif %}
+
+{% if user.age > 18 %}
+   Login here
+{% else %}
+   Sorry, you are too young
+{% endif %}
+
+# array = 1,2,3
+{% if array contains 2 %}
+   array includes 2
+{% endif %}
+
+# string = 'hello world'
+{% if string contains 'hello' %}
+   string includes 'hello'
+{% endif %}
+~~~
+
 #### 自动生成摘要
 
 ~~~
@@ -182,3 +244,4 @@ remove 可以删除变量中的指定内容
 
 - [Jekyll 语法简单笔记](http://github.tiankonguse.com/blog/2014/11/10/jekyll-study/)
 - [Jekyll DOCUMENTATION](http://jekyllrb.com/docs/home/)
+- [Liquid for Designers](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers)
