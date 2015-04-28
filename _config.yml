@@ -66,7 +66,9 @@ Blogroll:
    - name: Yihui Xie's Blog
      href: http://yihui.name
      title: R界小前锋谢益辉，knitr作者
-
+   - name: DBA@Robin(Focus on database)
+     href: http://dbarobin.com
+     title: 我个人github项目的第一个捐助人（未遂他愿），由于项目本身不具备什么价值，最终十动然拒了
 ### Build settings
 markdown: kramdown
 highlighter: pygments
