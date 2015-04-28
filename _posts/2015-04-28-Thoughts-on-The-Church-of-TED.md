@@ -3,7 +3,7 @@ published: ture
 layout: post
 title: 关于TED神教的一些感想
 author: Yu
-categroies: 网络观察
+category: 网络观察
 tags:
 - TED
 - 精神鸦片
