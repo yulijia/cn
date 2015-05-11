@@ -32,7 +32,7 @@ tags:
 ###编程相关：###
 
 
-[Rstudio](http://rstudio.org/ "Rstudio") -RStudio brings together everything you need to be productive with R in a single, customizable environment. (当然不能忘了安装R)
+[Rstudio](http://rstudio.org/ "Rstudio") -RStudio brings together everything you need to be productive with R in a single, customizable environment. (当然不能忘了安装R) **2015.05.11更新，强大的version 0.99支持插入Roxygen的功能，我再也不用学习emacs了！！！**
 
 [Scicoslab](http://www.scicoslab.org/ "Scicoslab") - ScicosLab is a free open-source software package providing a multi-platform environment for scientific computation. <del>（前身是Scilab）</del>
 
