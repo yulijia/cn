@@ -52,7 +52,7 @@ $ ssh -T git@github.com  #测试看是否能成功
 $ ssh-keygen -C "youremail@youremail.com" -f ~/.ssh/id_rsa.new
 {% endhighlight %}
 
-3.设置用户名和电子邮件。      
+3.设置用户名和[电子邮件](https://help.github.com/articles/setting-your-email-in-git/)。(**这一步非常重要！！！**)      
 
 {% highlight  Bash shell scripts linenos %}
 $ git config --global user.name "Firstname Lastname"
