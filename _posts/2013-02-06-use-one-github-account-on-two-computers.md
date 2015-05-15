@@ -5,7 +5,7 @@ layout: post
 author: Yu
 category: 软件世界
 tags: 
-- Github
+- GitHub
 - Git
 
 ---
