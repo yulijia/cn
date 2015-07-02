@@ -22,7 +22,7 @@ tags:
 
 MIT license 
 
-(http://choosealicense.com/licenses/mit/)[http://choosealicense.com/licenses/mit/]
+[http://choosealicense.com/licenses/mit/](http://choosealicense.com/licenses/mit/)
 
 ~~~
 The MIT License (MIT)
