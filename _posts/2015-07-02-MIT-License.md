@@ -17,8 +17,7 @@ tags:
 
 以后见到一个我就在这里加一个github repository的地址，曝(Pu4)光一下这些人。这篇文章也会在博客模版的首页永远置顶。
 
-- [https://github.com/dbarobin/dbarobin.github.io](https://github.com/dbarobin/dbarobin.github.io)
-
+[20150703更新] 用户已经修正License的，会剔除出曝光列表。
 
 MIT license 
 
