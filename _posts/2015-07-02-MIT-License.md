@@ -46,3 +46,11 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ~~~
+
+[20150709更新]
+
+我在freshman21的博客里注明了在fork并修改这套模版后正确的License修改方式。
+感谢用户们的支持，这次发现的问题都发生在国内用户中，所以有了这篇博客，我之后私下联系了我看到有问题的repo作者，他们都很礼貌的将Licese修改正确。
+也感谢最开始，被我挂到网站上的那位用户，主动联系了我解决问题。
+另外，我自己也要总结，没联系对方时，最好不要在网站上挂出来，当时一激动就直接挂了最开始找到一个，给对方也造成了一定的麻烦。
+在此感谢所有用户的理解与支持。
