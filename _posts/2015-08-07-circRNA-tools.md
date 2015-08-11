@@ -94,10 +94,31 @@ CIGAR值在junction read的特征是xS/HyM或者xMyS/H，其中x,y代表碱基�
 
 CIRI方法消耗的内存比较大，我跑了个12G的sam文件，内存用了20G。
 
+
+## 从mapping工具中找backsplice junction
+
+除了上述直接找circRNA的工具外，还可以用mapping工具直接找backsplice的junction，然后在人工判断这些junction，例如segemehl。
+
+~~~
+#Create index:
+./segemehl.x -d hg19.fa -x hg18.idx
+#Map you reads:
+./segemehl.x -d hg19.fa -i chr1.idx -q reads.fastq -S | samtools view -bS - | samtools sort -o - deleteme | samtools view -h - > mapped.sam
+#Call different splice junctions:
+./testrealign.x -d hg19.fa -q mapped.sam -n 
+~~~
+
+最后一步可以生成两个文件，一个是splicesites.bed，另一个是transrealigned.bed，从splicesites.bed文件中可以得到backsplice junction，在文件中的指示标志是"C"。
+
+从我的测试样本中可以找到4085个通过检验的backsplice junction。
+
+
 ## 方法比较
 
 从一开始的biostar链接中就可以看到不同方法的差异非常大，我测试了一个实际数据，从第一个软件有126163行结果，第二个软件只有327行，第三个软件有687行。
 
 我认为不同的mapping策略从一开始就会导致搜索circRNA的空间不一样。
+
+
 
 `（未完待续）`
