@@ -134,4 +134,9 @@ CIRI方法消耗的内存比较大，我跑了个12G的sam文件，内存用了2
 
 https://github.com/dieterich-lab/CircTest
 
+### 中文介绍
+
+环形RNA分子揭秘——张 杨 1 ,王海滨 1,2 ,陈玲玲 1 *
+
+
 `（未完待续）`
