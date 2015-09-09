@@ -52,7 +52,7 @@ tags:
 **材料与方法部分有很多信息**
 
 1. 找somatic mutation的原则。
-2. 如何检测allel dropout。
+2. 如何检测allele dropout。
 3. 在研究异质性问题是，<q>所用的SNV要排除那些在CNV异常区域的。</q>
 
 ### 单词本
