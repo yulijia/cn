@@ -55,4 +55,15 @@ tags:
 2. 如何检测allel dropout。
 3. 在研究异质性问题是，<q>所用的SNV要排除那些在CNV异常区域的。</q>
 
+### 单词本
 
+|英文|中文|英文|中文|
+|:----:|:----:|:----:|:----:|
+|aberrant crypt foci|隐窝异常病灶|polyps|息肉|
+|sporadic|零星|etiology|病因学，病源论|
+|pathogenesis|发病机理|hybridization|杂交|
+|inertia|惯性迟钝|specimen|样品|
+|depict|描述|truncation|截断|
+|abrogate|取消，去掉|elucidate|阐明|
+|ectopic|异常|colonocyte|结肠|
+|chloridepotassium symporter|氯化钾转运体|||
