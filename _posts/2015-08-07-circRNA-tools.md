@@ -94,14 +94,15 @@ CIGAR值在junction read的特征是xS/HyM或者xMyS/H，其中x,y代表碱基�
 
 CIRI方法消耗的内存比较大，我跑了个12G的sam文件，内存用了20G。
 
-## https://github.com/dieterich-lab/DCC
+<!--
+#### https://github.com/dieterich-lab/DCC
 
-## https://github.com/lindaszabo/KNIFE
+#### https://github.com/lindaszabo/KNIFE
 
-## https://github.com/orzechoj/circRNA_finder
+#### https://github.com/orzechoj/circRNA_finder
 
-## https://github.com/bioxfu/circRNAFinder
-
+#### https://github.com/bioxfu/circRNAFinder
+-->
 
 ## 从mapping工具中找backsplice junction
 
