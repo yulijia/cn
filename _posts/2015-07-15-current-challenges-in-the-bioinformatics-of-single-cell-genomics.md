@@ -1,5 +1,5 @@
 ---
-published: ture
+published: false
 layout: post
 title: "目前单细胞基因组、转录组分析中产生的生物信息学问题"
 author: Yu
