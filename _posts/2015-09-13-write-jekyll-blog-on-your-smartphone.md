@@ -7,6 +7,8 @@ category: 聚类不能
 tags:
 - 手机
 - 博客
+- PocketGit
+- DroidEdit
 ---
 
 这是我第一篇在手机上写的Jekyll博客，用到了两个Android app,一个是DroidEdit,用来写文档和代码，客户端做的非常好。另一个是pocket git用来提交代码。
