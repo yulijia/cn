@@ -1,5 +1,5 @@
 ---
-published: false
+published: ture
 layout: post
 title: "目前单细胞基因组、转录组分析中产生的生物信息学问题"
 author: Yu
@@ -63,7 +63,7 @@ MDA方法在计算CNV时，会有序列重复问题，在染色体终端也有�
 
 可以用来研究CTC表达量。
 
-RSEM这个软件可以计算expression level of TPM(transcripts per million)
+**RSEM这个软件可以计算expression level of TPM(transcripts per million)**
 
 在单细胞全转录本扩增时会产生的问题有：
 
@@ -71,4 +71,10 @@ RSEM这个软件可以计算expression level of TPM(transcripts per million)
 2. 转录本的扩增效率不一致
 3. 低表达量的转录本难以被检测到
 
-RPKM没有考虑转录本的bias（）
+文章中还说道FPKM/RPKM没有考虑转录本间的偏差，所以不适合用在单细胞的计算中。（<u>我没看明白这是为什么</u>）
+
+对于单细胞转录本表达情况的定量分析，文章中提出了两点建议：由于在3'和5'端测序质量不好，所以在做标准化时不要根据转录本的长度计算而是根据覆盖度范围内的长度进行计算；用一些方法（机器学习之类的）研究扩增偏差和正常情况的区别，开发新的工具来减少计算时的扩增偏差。
+
+## 第三部分：单细胞能研究哪些问题
+
+说白了，还是开头说的那些内容，一个是肿瘤演化谱系，另一个是干细胞发育。
