@@ -1,6 +1,6 @@
 --- 
 published: true
-title: 在手机上些博客
+title: 在手机上写博客
 layout: post
 author: Yu
 category: 聚类不能
