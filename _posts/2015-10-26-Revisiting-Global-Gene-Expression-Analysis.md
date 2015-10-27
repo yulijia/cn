@@ -35,7 +35,7 @@ Encode已经把spiked-in当作标准流程了，新上传的RNA表达量数据�
 
 4. 为了得到可靠的基因表达量，文章中采用spiked-in 标准，加入表达量基本确定的RNA作为参照。
 他们分别在Microarrays，RNA-seq以及Nanostring中做了实验，加入spiked-in RNA的表达谱变化更接近真实情况。
-另外，做实验时严格统计了c-Myc高和c-Myc低的细胞数目[^1]，在同等细胞数目的条件下进行的RNA表达情况的分析。
+另外，做实验时严格统计了c-Myc高和c-Myc低的细胞数目[^1]在同等细胞数目的条件下进行的RNA表达情况的分析。
 
 5. 当无法具体统计细胞数目时怎么办？
 When cell counting may be problematic, as for expression experiments from solid tumors or tissues, DNA content may be used as a surrogate if ploidy and DNA replication profiles are also characterized to prevent the introduction of a DNA content-based artifact.
@@ -49,6 +49,7 @@ The answer is likely related to the prevalence of regulatory mechanisms that glo
 
 
 备注：
+
 [^1]: Cell number was determined by counting cells with C-hip disposable hemocytometers (Digital Bio) and equivalent numbers of high- and low-Myc cells were harvested.
 
 [^2]: The names "lowess" and "loess" are derived from the term "locally weighted scatter plot smooth".
