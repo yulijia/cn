@@ -146,11 +146,11 @@ rather than a statistical one, as it depends on what types of expression differe
 ### Conclusions
 
 1. $$FC_{difference}$$和改良的t检验都是t检验的一种改良形式，也就是有不同的$$s_0$$。一些$$s_0$$的选取可以提高精确性。
-2. 别用普通的t检验
+2. 别用普通的t检验。
 3. 可重复性高并不暗示着精确性高，The issues of reproducibility and accuracy should be kept separate when evaluating the performance of a statistic.
 4. 在实际分析中并没有FC和t统计量谁好谁坏的说法，都要看生物学意义。有噪声干扰就用改良的t检验，没有噪声干扰就用FC。
 
-参考资料
+### 参考资料
 
 [^1]: [Significance analysis of microarrays](https://en.wikipedia.org/wiki/Significance_analysis_of_microarrays)
 
