@@ -11,7 +11,7 @@ tags:
 - Julia
 - LaTeX
 - Linux
-- Phyton
+- Pyton
 - R
 - Scilab
 - Software
