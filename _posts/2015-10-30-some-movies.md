@@ -3,7 +3,7 @@ published: ture
 layout: post
 title: "看过且收藏的一些电影"
 author: Yu
-categories: 佳片有约
+categories: 影视评论
 tags:
 - 美丽心灵
 - 黑客帝国
