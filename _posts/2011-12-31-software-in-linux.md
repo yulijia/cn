@@ -38,13 +38,17 @@ tags:
 
 [Scilab](http://www.scilab.org/ "Scilab") - Scilab is an open source, cross-platform numerical computational package and a high-level, numerically oriented programming language.（我之前以为它已经被淘汰了，原来是产生了若干个分支版本）
 
-[Spyder](http://code.google.com/p/spyderlib/ "Spyder") -Spyder (previously known as Pydee) is a powerful interactive development environment for the Python language with advanced editing, interactive testing, debugging and introspection features.
+[Spyder](http://code.google.com/p/spyderlib/ "Spyder") - Spyder (previously known as Pydee) is a powerful interactive development environment for the Python language with advanced editing, interactive testing, debugging and introspection features. (2015年已经不喜欢这个了)
 
 [Vi IMproved](http://www.google.com.hk/url?sa=t&amp;rct=j&amp;q=Vi+IMproved&amp;source=web&amp;cd=1&amp;ved=0CCUQFjAA&amp;url=http%3A%2F%2Fwww.vim.org%2F&amp;ei=H_7-TqCdKqaUiAfmn7nOAQ&amp;usg=AFQjCNE8C6iOb5uQLy74YKg-WBd9hikKaw "Vim") -找了个有弹出界面版本
 
 [GSL（GNU Scientific Library）](http://www.gnu.org/software/gsl/ "GSL") -The GNU Scientific Library (GSL) is a numerical library for C and C++ programmers.
 
 [Julia](http://julialang.org/ "The Julia Language") - Julia is a high-level, high-performance dynamic programming language for technical computing, with syntax that is familiar to users of other technical computing environments. （可以部分代替scilab和matlab，注意 export PATH=$PATH:/opt/julia/）
+
+[Rodeo](https://github.com/yhat/rodeo/) - Rodeo is a data centric IDE for Python. 
+
+[Jupyter](http://jupyter.org/) - The Jupyter Notebook is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. （这个比rodeo还好，但我还在犹豫用那种，2016年更新）
 
 
 ###阅读器：###
@@ -56,7 +60,7 @@ tags:
 ###互联网相关：###
 
 
-[aMule](http://www.amule.org/ "aMule") -电驴，P2P
+[aMule](http://www.amule.org/ "aMule") -电驴，P2P （2016年再来看，这真成历史了）
 
 [FileZilla](http://filezilla-project.org/ "FileZilla") - Open Source (GNU/GPL) FTP client for Windows, Mac OS X and GNU/Linux.
 
@@ -64,9 +68,9 @@ tags:
 ###可视化与绘图：###
 
 
-[Processing](http://processing.org/ "Processing") - Processing is an open source programming language and environment for people who want to create images, animations, and interactions.  （一个安装问题解决办法 http://goo.gl/fE5Jp，[安装方法](http://www.edwards.je/2011/11/11/processing-arduino/ "安装方法") ）
+[Processing](http://processing.org/ "Processing") - Processing is an open source programming language and environment for people who want to create images, animations, and interactions.  （一个安装问题解决办法 http://goo.gl/fE5Jp，[安装方法](http://www.edwards.je/2011/11/11/processing-arduino/ "安装方法") ） （我一直都没学，2016年留）
 
-[Graphviz](http://www.graphviz.org/ "Graphviz") - Graph Visualization Software
+[Graphviz](http://www.graphviz.org/ "Graphviz") - Graph Visualization Software 
 
 
 ###软件管理：###
