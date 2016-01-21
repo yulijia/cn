@@ -96,9 +96,10 @@ git config core.editor "vim"
 安装方式如下：
 
 ~~~
-curl https://gist.githubusercontent.com/Linell/bd8100c4e04348c7966d/raw/84c0ea6e0f0a1431d406be6b7bb6e136949090cd/.git-commit-template.txt >> ~/.git-commit-template.txt
+curl https://gist.githubusercontent.com/Linell/bd8100c4e04348c7966d/raw/37c1f07f864587a01eb051dc38264267f4a840df/.git-commit-template.txt >> ~/.git-commit-template.txt
 git config --global commit.template ~/.git-commit-template.txt
 ~~~
+
 
 另外，在这里也提供一个[中文的模板](https://gist.github.com/yulijia/fe2522fe138b6ed41ff4)
 
