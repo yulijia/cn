@@ -12,6 +12,10 @@ tags:
 最近看了Ruan YiFeng写的[Commit message 和 Change log 编写指南](http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html)。
 了解了如何写规范的commit message。
 
+* 目录
+{:toc}
+
+
 ### 编写规范
 
 先简要记录一下编写规范，这部分内容可以直接看Ruan YiFeng的博客，要比我写的详细。
@@ -107,6 +111,12 @@ curl https://gist.githubusercontent.com/yulijia/fe2522fe138b6ed41ff4/raw/5fa0007
 git config --global commit.template ~/.git-commit-template.txt
 ~~~
 
+实际使用截图如下：
+
+![Imgur](http://i.imgur.com/LMDCXdN.png)
+
+
+
 ### 写博客的commit message应该怎么写？
 
 <u>这部分就是自娱自乐了</u>。查看了一下自己写博客提交的message，基本分为四类：1.提交一篇/多篇新内容；2.改错别字；3.修改/更新内容；4.修改/更新YAML说明；5.增加新页面。
@@ -142,3 +152,7 @@ git config --global commit.template ~/.git-commit-template.txt
 curl https://gist.githubusercontent.com/yulijia/fe2522fe138b6ed41ff4/raw/1e90ec272180dba299f5ad861e72dfab876c0c5b/.git-commit-blog.txt >> ~/.git-commit-template.txt
 git config --global commit.template ~/.git-commit-template.txt
 ~~~
+
+实际使用时的截图如下
+
+![Imgur](http://i.imgur.com/rVEhe7Z.png)
