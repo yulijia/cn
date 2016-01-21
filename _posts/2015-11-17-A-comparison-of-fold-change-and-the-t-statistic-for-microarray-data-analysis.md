@@ -97,8 +97,7 @@ fold-change方法找到的基因在control和treatment里有很大的差异，
 
 我自己计算的结果通论文上的不太一眼，Gene1的t统计量是3.6844，而不是1.69。
 
-{%  highlight R %}
-
+```
 t.test(c(101.1,101.2,101.3),c(100.1,100.2,100.3))
 
   Welch Two Sample t-test
@@ -125,7 +124,7 @@ t.test(c(150,200,250),c(1,50,100))
   mean of x mean of y 
   200.00000  50.33333 
 
-{% endhighlight %}
+```
 
 那么在生物学家的眼中，究竟哪个基因是需要关注的基因呢？我觉得应该是Gene1吧。
 

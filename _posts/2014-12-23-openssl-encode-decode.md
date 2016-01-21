@@ -20,22 +20,22 @@ tags:
 
 ### 问题重现
 
-{% highlight  Bash shell scripts linenos %}
+```
 ## 将一个长达45个字符的字符串进行加密，加密方法 enc -aes-256-cfb
 $ echo "123456789012345678901234567890123456789012345" | openssl enc -aes-256-cfb -e -base64 -k "test" -salt 
-{% endhighlight %}
+```
 
-{% highlight  Bash shell scripts linenos %}
+```
 $ echo "123456789012345678901234567890123456789012345" | openssl enc -aes-256-cfb -e -base64 -k "test" -salt
 U2FsdGVkX1+jfo70LlMECXRyLhH9N/Pp9jRK7yMyqdhmEiDdM13fTsh/nntt/yd8
 3A2VaByW0yRBIs1oEKk=
-{% endhighlight %}
+```
 
 由上可以看到，加密后的输出被分成了两行。
 
 接下来，对输出内容进行解密:
 
-{% highlight  Bash shell scripts linenos %}
+```
 ## 对分成两部分的加密字符串分别解密
 $ echo "U2FsdGVkX1+jfo70LlMECXRyLhH9N/Pp9jRK7yMyqdhmEiDdM13fTsh/nntt/yd8" |openssl enc -aes-256-cfb -d -base64 -k "test"
 12345678901234567890123456789012
@@ -51,7 +51,7 @@ $ echo "U2FsdGVkX1+jfo70LlMECXRyLhH9N/Pp9jRK7yMyqdhmEiDdM13fTsh/nntt/yd8\ 3A2VaB
 error reading input file
 $ echo "U2FsdGVkX1+jfo70LlMECXRyLhH9N/Pp9jRK7yMyqdhmEiDdM13fTsh/nntt/yd8\n3A2VaByW0yRBIs1oEKk=" |openssl enc -aes-256-cfb -d -base64 -k "test"
 error reading input file
-{% endhighlight %}
+```
 
 由上可以看出，根本就无法正常解密之前的字符串。
 
@@ -59,9 +59,9 @@ error reading input file
 
 查找资料后，发现需要在<code>openssl</code> 语句中增加<q>-A</q>选项，具体为:
 
-{% highlight  Bash shell scripts linenos %}
+```bash
 $ echo "123456789012345678901234567890123456789012345" | openssl enc -aes-256-cfb -e -base64 -k "test" -salt -A
 U2FsdGVkX19XLlseSQxqXVmA8LIfIpQyEv/lVrM9EJk2RyMcHJsubnxN2M+365RnBG3oxXDYPOBNqIU+q0E=
 $ echo "U2FsdGVkX19XLlseSQxqXVmA8LIfIpQyEv/lVrM9EJk2RyMcHJsubnxN2M+365RnBG3oxXDYPOBNqIU+q0E=" |openssl enc -aes-256-cfb -d -base64 -k "test" -A
 123456789012345678901234567890123456789012345
-{% endhighlight %}
+```

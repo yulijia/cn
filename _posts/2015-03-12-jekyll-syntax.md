@@ -103,17 +103,17 @@ Jekyll 支持 从 _data 目录中加载 YAML， JSON， 和 CSV 格式的文件�
 
 和平常的解释性语言很像
 
-~~~
+```bash
 { % for post in site.posts % }
     <a href="{ { post.url } }">{ { post.title } }</a>
-  { % endfor % }
-~~~
+{ % endfor % }
+```
 
 #### if判断
 
 注意逻辑“与或”分别是`and`,`or`
 
-~~~
+~~~bash
 { % if user % }
   Hello {{ user.name }}
 { % endif % }
@@ -173,7 +173,7 @@ Jekyll 支持 从 _data 目录中加载 YAML， JSON， 和 CSV 格式的文件�
 
 #### 自动生成摘要
 
-~~~
+~~~ bash
   { % for post in site.posts % }
      { { post.url } } { { post.title } }
       { { post.excerpt | remove: 'test' } }
@@ -194,7 +194,7 @@ remove 可以删除变量中的指定内容
 
 #### 代码高亮并且显示行数
 
-~~~
+~~~ bash
 { % highlight ruby linenos % }
 \# some ruby code
 { % endhighlight % }

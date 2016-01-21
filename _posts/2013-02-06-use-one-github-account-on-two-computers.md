@@ -28,36 +28,36 @@ tags:
 
 1.检查SSH Keys，将已有的key备份。（[做什么都要备份，要不就干等着吃亏吧](http://yulijia.net/en/git/2012/10/09/github-pages.html "all file on your disk folder will be deleted")）
 
-{% highlight  Bash shell scripts linenos %}
+```bash
 $ cd ~/.ssh
 $ ls
     config  id_rsa  id_rsa.pub  known_hosts
 $ mkdir key_backup
 $ cp id_rsa* key_backup
 $ rm id_rsa*
-{% endhighlight %}
+```
 
 2.添加SSH Keys
 
 - 方法一：复制老key到新电脑上，cp A电脑上~/.ssh/id_rsa  到B电脑上 ~/.ssh/id_rsa.new，并把权限改为600
- 
-{% highlight  Bash shell scripts linenos %}
+
+```bash
 $ ssh -T git@github.com  #测试看是否能成功
        Hi 你的名字! You have successfully authenticated, but GitHub does not provide shell access.
-{% endhighlight %}
+```
 
 - 方法二：重新生成新key
 
-{% highlight  Bash shell scripts linenos %}
+```bash
 $ ssh-keygen -C "youremail@youremail.com" -f ~/.ssh/id_rsa.new
-{% endhighlight %}
+```
 
 3.设置用户名和[电子邮件](https://help.github.com/articles/setting-your-email-in-git/)。(**这一步非常重要！！！**)      
 
-{% highlight  Bash shell scripts linenos %}
+```bash
 $ git config --global user.name "Firstname Lastname"
 $ git config --global user.email "youremail@youremail.com"
-{% endhighlight %} 
+``` 
 
 4.本地运行 git pull。
 

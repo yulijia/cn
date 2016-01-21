@@ -74,8 +74,7 @@ $$S_{per}:=mean(X_{a}')-mean(X_{b}')= -7.875$$
 
 附录：R语言求解上例的代码
 
-{% highlight R linenos %}
-
+```r
 a<-c(24,43,58,67,61,44,67,49,59,52,62,50,42,43,65,26,33,41,19,54,42,20,17,60,37,42,55,28)
 group<-factor(c(rep("A",12),rep("B",16)))
 data<-data.frame(group,a)
@@ -86,4 +85,4 @@ results<-replicate(999,find.mean(data.frame(group,sample(data[,2]))))
 p.value<-length(results[results>mean(data[group=="A",2])-mean(data[group=="B",2])])/1000
 hist(results,breaks=20,prob=TRUE)
 lines(density(results))
-{% endhighlight %}
+```
