@@ -101,9 +101,45 @@ git config --global commit.template ~/.git-commit-template.txt
 ~~~
 
 
-另外，在这里也提供一个中文的模板
+另外，在这里也提供一个[中文的模板](https://gist.github.com/yulijia/fe2522fe138b6ed41ff4)
 
 ~~~
 curl https://gist.githubusercontent.com/yulijia/fe2522fe138b6ed41ff4/raw/5fa0007d1863f70cf4631f2dc1513c8676cd4ab8/.git-commit-template.txt >> ~/.git-commit-template.txt
+git config --global commit.template ~/.git-commit-template.txt
+~~~
+
+### 写博客的commit message应该怎么写？
+
+<u>这部分就是自娱自乐了</u>。查看了一下自己写博客提交的message，基本分为四类：1.提交一篇/多篇新内容；2.改错别字；3.修改/更新内容；4.修改/更新YAML说明；5.增加新页面。
+
+根据现有的git commit message写作规范，编写了自己的博客提交message规范。
+
+~~~
+<type>(<scope>): <subject>
+// 空一行
+<body>
+// 空一行
+<footer>
+~~~
+
+**type**为：
+
+- add 增加新博客/页面（add new post/page）
+- correct 改错别字/语法（correct spelling/grammar ）
+- update 更新内容（update content）
+- change 修改YAML说明（change YAML front-matter）
+
+**scope**为：post/page, spelling/grammar, content, YAML front-matter
+
+**subject**为：短描述，可以包含文件名等内容(如果名字过长，用首字母大写代替，省略连词)。（`add(post):20160121-postname.md `)
+
+**body**为：具体的修改内容，如果是新增博客/页面，则可以省略。
+
+**footer**为：空
+
+这个模板也放到[gist](https://gist.github.com/yulijia/fe2522fe138b6ed41ff4#file-git-commit-blog-txt)上。
+
+~~~
+curl https://gist.githubusercontent.com/yulijia/fe2522fe138b6ed41ff4/raw/1e90ec272180dba299f5ad861e72dfab876c0c5b/.git-commit-blog.txt >> ~/.git-commit-template.txt
 git config --global commit.template ~/.git-commit-template.txt
 ~~~
