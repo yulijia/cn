@@ -68,6 +68,9 @@ Blogroll:
      title: R界小前锋谢益辉，knitr作者
 ### Build settings
 markdown: kramdown
+kramdown:
+        input: GFM
+        syntax_highlighter: rouge
 highlighter: pygments
 gems: [jekyll-paginate]
 paginate: 5
