@@ -40,6 +40,7 @@ CNA（copy number alteration）是体细胞的染色体区域/基因的拷贝数
 ### 单词本
 
 |英文|中文|英文|中文|
+|:----:|:----:|:----:|:----:|
 |primordial|原发|malignant|恶性|
 |malignancy|恶性肿瘤|neoplasm|肿瘤|
 |pervasive|无处不在|experimentally|实验证明|
