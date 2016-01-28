@@ -109,7 +109,7 @@ Box 1. Outstanding questions
 
 **Analytical platform evaluation for quantification of ERG in prostate cancer using protein and mRNA detection methods**
 
-这篇文章是实验检测技术。用PRISM-SRM质谱方法来检测前列腺癌症中的ERG蛋白，这种蛋白由于基因融合导致变化，是一个癌基因（原癌）蛋白。
+这篇文章是实验检测技术。用PRISM-SRM质谱（不需要抗体）方法来检测前列腺癌症中的ERG蛋白，这种蛋白由于基因融合导致变化，是一个癌基因（原癌）蛋白。
 
 文章的摘要部分已经把内容讲得很清晰了：本文主旨就是找寻新的前列腺癌症检测靶标以及检测方法。在细胞、组织和直肠指诊尿液沉积物中做实验，
 用ELISA, western blog, NanoString和qRT-PCR分别检测蛋白和RNA含量。
