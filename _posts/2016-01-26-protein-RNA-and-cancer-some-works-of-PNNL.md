@@ -72,4 +72,46 @@ Top-down（自上而下）技术虽可以直接对完整的蛋白——包括翻
 
 **The utility of protein and mRNA correlation**
 
+文章一开头就说本文不在于竭尽可能的罗列前人的工作，而是指出什么样的实验能产生科学有用的结论。
+
+正片一共就两页，首先说明了从1999年的一个关于mRNA和蛋白质的研究开始，大家发现了转录组表达水平和蛋白质组的含量没有一个很好的定量关系可以解释。
+也就是转录组数据不能预测蛋白质组的水平。但是，RNA在蛋白质翻译中肯定起到了作用，例如：microRNA可以调控蛋白质合成。
+mRNA和蛋白质得降解速率也大不相同（前者几分钟，后者几个小时甚至几年），并且对于同一个基因来说，其RNA和蛋白质的合成/降解速率也没有联系。
+所以我们不能期望发现mRNA和蛋白质之间简单的相关性。
+
+第二部分就是说如何整合多组学数据，产生深入的新发现。
+
+随着各种技术的不断发展，多种数据整合是非常重要的。蛋白质可以用来监视磷酸化过程，转录组可以用来说明基因上下调时被哪些转录调控因子所调控。
+蛋白质可以决定哪些转录本在哪个时间点可以翻译成蛋白质。整个过程是非常复杂的相互调控。
+有研究发现，结肠癌CNA的变化通过反式作用来影响多种蛋白质。这个工作建立起了突变（CNV）同表型的关系。
+
+最后作者表达了我们需要的是真正的整合组学研究的观念模式，而不仅仅是相关性研究(see Box 1)。
+
+Box 1. Outstanding questions
+
+- What is data integration beyond correlation? 
+- How do we educate new scientists to appreciate the diversity of -omics measurements?
+- How to determine which -omic data type is best to investigate a hypothesis?
+- When to generate multi-omic data?
+
+### 单词本
+
+|英文|中文|英文|中文|
+|:----:|:----:|:----:|:----:|
+|nuanced|细微差别|disruptive|破坏性|
+|interrogation|审讯|elucidate|阐明|
+|succinctly|简洁的|pervasive|普遍|
+|oscillation|[振荡](http://www.hwjyw.com/jxyd/cybx/200811/t20081104_23265.shtml)|[orthogonally](http://stats.stackexchange.com/questions/30592/what-is-the-meaning-of-orthogonal-in-validation-testing)|互不相关|
+|utilitarian|功利|perspective|角度|
+|phosphorylation|磷酸化|delineating|描述|
+|cognate|同源|myriad|无数|
+|paradigm|范式|mindeset|观念模式，思维倾向|
+
+**Analytical platform evaluation for quantification of ERG in prostate cancer using protein and mRNA detection methods**
+
+这篇文章是实验检测技术。用PRISM-SRM质谱方法来检测前列腺癌症中的ERG蛋白，这种蛋白由于基因融合导致变化，是一个癌基因（原癌）蛋白。
+
+文章的摘要部分已经把内容讲得很清晰了：本文主旨就是找寻新的前列腺癌症检测靶标以及检测方法。在细胞、组织和直肠指诊尿液沉积物中做实验，
+用ELISA, western blog, NanoString和qRT-PCR分别检测蛋白和RNA含量。
+结果就是不管是检测ERG转录本产物还是蛋白质产物，在临床诊断和预后分析中都有价值。
 
