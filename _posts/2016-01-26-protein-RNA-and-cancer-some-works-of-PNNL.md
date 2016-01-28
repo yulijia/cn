@@ -115,3 +115,19 @@ Box 1. Outstanding questions
 用ELISA, western blog, NanoString和qRT-PCR分别检测蛋白和RNA含量。
 结果就是不管是检测ERG转录本产物还是蛋白质产物，在临床诊断和预后分析中都有价值。
 
+### 单词本
+
+|英文|中文|英文|中文|
+|:----:|:----:|:----:|:----:|
+|prostate|前列腺|post-DRE|直肠指诊|
+|sediment|沉积物|immunosorbent|免疫吸附|
+|lysate|裂解液|prognostic assays|预后分析|
+|androgen|雄激素|Ewing's sarcoma|尤文氏肉瘤|
+|indolent|缓慢|impetus|动力|
+|epitope|抗原决定部位|immunohistochemistry|免疫组织化学|
+|serologic|血清学|assay|试验|
+|hemocytometer|细胞计数器|ailquote|整除|
+|titrate|滴定|stroma|基质|
+|spurre|鞭策|biopsies|组织活检|
+|Caucasian|高加索人，白种人|endothelial|内皮|
+|devoid|缺乏|mimic，mimicking|模仿|
