@@ -10,7 +10,7 @@ tags:
 ---
 
 读了三篇PNNL某实验室的文章，PNNL感觉都是做蛋白质。
-由于是初次接触蛋白质，所以有很多地方都理解的不好，这篇博客主要记录一下问题。
+由于是初次接触蛋白质，所以有很多地方都理解的不好，这篇博客主要记录一下大致理解的地方。
 
 
 ### Comprehensive Quantitative Analysis of Ovarian and Breast Cancer Tumor Peptidomes
