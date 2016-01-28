@@ -13,7 +13,7 @@ tags:
 由于是初次接触蛋白质，所以有很多地方都理解的不好，这篇博客主要记录一下问题。
 
 
-**Comprehensive Quantitative Analysis of Ovarian and Breast Cancer Tumor Peptidomes**
+### Comprehensive Quantitative Analysis of Ovarian and Breast Cancer Tumor Peptidomes
 
 这篇文章是定量分析肿瘤里的肽组学。由于对于肽链，小整体蛋白（多肽组学）经常被评估为不适合用于研究。
 
@@ -65,7 +65,7 @@ Top-down（自上而下）技术虽可以直接对完整的蛋白——包括翻
 |cytosolic|细胞溶质|proteolytic|蛋白水解|
 
 
-**The utility of protein and mRNA correlation**
+### The utility of protein and mRNA correlation
 
 文章一开头就说本文不在于竭尽可能的罗列前人的工作，而是指出什么样的实验能产生科学有用的结论。
 
@@ -102,7 +102,7 @@ Box 1. Outstanding questions
 |cognate|同源|myriad|无数|
 |paradigm|范式|mindeset|观念模式，思维倾向|
 
-**Analytical platform evaluation for quantification of ERG in prostate cancer using protein and mRNA detection methods**
+### Analytical platform evaluation for quantification of ERG in prostate cancer using protein and mRNA detection methods
 
 这篇文章是实验检测技术。用PRISM-SRM质谱（不需要抗体）方法来检测前列腺癌症中的ERG蛋白，这种蛋白由于基因融合导致变化，是一个癌基因（原癌）蛋白。
 
