@@ -3,7 +3,7 @@ published: ture
 layout: post
 title: "关于蛋白质、RNA和癌症的三篇文章"
 author: Yu
-categories: [论文研读]
+categories: [论文笔记]
 tags:
 - 蛋白质
 - RNA
