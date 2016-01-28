@@ -96,7 +96,7 @@ Box 1. Outstanding questions
 |nuanced|细微差别|disruptive|破坏性|
 |interrogation|审讯|elucidate|阐明|
 |succinctly|简洁的|pervasive|普遍|
-|oscillation|[振荡](http://www.hwjyw.com/jxyd/cybx/200811/t20081104_23265.shtml)|[orthogonally](http://stats.stackexchange.com/questions/30592/what-is-the-meaning-of-orthogonal-in-validation-testing)|互不相关|
+|oscillation|[振荡](http://www.hwjyw.com/jxyd/cybx/200811/t20081104_23265.shtml "振荡和震荡")|[orthogonally](http://stats.stackexchange.com/questions/30592/what-is-the-meaning-of-orthogonal-in-validation-testing "orthognal in validation testing")|互不相关|
 |utilitarian|功利|perspective|角度|
 |phosphorylation|磷酸化|delineating|描述|
 |cognate|同源|myriad|无数|
