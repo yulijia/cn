@@ -21,6 +21,7 @@ Nature Methods有个系列讲统计显著性points of significance之中的<q>Po
 Efron大神的短篇主要讲贝叶斯是非常有用滴，从1763年至今，越来越有用，在上世纪50年代我们有了**经验贝叶斯**这个工具。
 该工具在新世纪的大数据统计中焕发光彩。贝叶斯统计让Nate Silver在2012年美国总统大选中百分百预测了50个州的结果。
 现在我们还可以结合FDR来用这个工具。当然，贝叶斯也不是万能的，我们总要有其他工具来检测我们的贝叶斯结果是否合理，就是频率理论。
+Efron的文章中用词具有多样性，写作时应该学习。
 
 ### 关于显著程度
 
@@ -39,3 +40,27 @@ Efron大神的短篇主要讲贝叶斯是非常有用滴，从1763年至今，�
 ![Imgur](http://i.imgur.com/J7mwLsX.png)
 
 所以做试验要有尽量多的生物学重复，会适当减小统计功效太小的问题。
+
+
+### 单词本
+
+|英文|中文|英文|中文|
+|:----:|:----:|:----:|:----:|
+|controversial|有争议的|oxymoron|矛盾形容法，逆喻|
+|triumph|巨大胜利|sonogram|超声波图|
+|identical|全等的|fraternal|兄弟的|
+|identical twins|同卵双胞胎|fraternal twins|异卵双胞胎|
+|odds|几率|pundit|评论员|
+|impeccable|无可挑剔|violator|违犯者|
+|parlance|腔调，说法，用语|fueled|激起|
+|repetition|重复|dispute|辩论|
+|interim|暂时的|corollary|必然结果|
+|firmly|坚固的|bust|破产|
+|fire hose|灭火水龙带|disparate|完全不同的|
+|intensely|强烈的|jujitsu|柔术，柔道的旧称|
+|coined|创造|statistical power|统计功效|
+|bleak|暗淡的，没指望的|fiscal|财政|
+|rigor|严格的|dire|可怕的|
+|unethical|不道德的|postulate|假定|
+|noncentrality parameter|非中心参数|reassess|再评估|
+|effect size|效应值|||
