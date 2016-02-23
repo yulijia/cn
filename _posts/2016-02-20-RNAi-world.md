@@ -122,6 +122,13 @@ CRISPR/Cas9 今后将会如何呢？拭目以待。
 >RNAi和ASO领域目前最好的公司是位于Boston的Alnylam，以及位于Carlsbad的ISIS；目前alnylam最接近FDA批准的药物是利用LNP递送siRNA治疗TTR Amyloidosis (FAP) (临床三期，目前业界对他的结果相当乐观，可能就在年内批准）； ISIS有自己的核心ASO技术，有一个药物于2013年被批准，治疗hypercholesteromia，还有很多在2/3期临床。两个公司的pipeline里都有多个药物在未来3-5年有批准的可能。但是目前RNAi或ASO的大问题是只能做liver delivery，其他组织都不太成功。RNAi治疗癌症我觉得potency是一个问题，毕竟只是transient knockdown。RNAi刚出来的时候受到的追捧并不比今天的CRISPER/Cas9少，大家都觉得太牛逼；然而在发展的过程中出现了很多挫败，包括big pharma 的撤退等，因此目前该领域都是相对的小公司在develop。幸运的是过去2-3年里有明显的复苏迹象。我们如果再从历史记录看，这种过山车式的pattern也可以从之前的virus gene therapy的发展过程中看到。从这点来讲，我始终对CRISPER/Cas9保持一个谨慎乐观的态度：说到脱靶效应，CRISPER/CAS9面临的问题更多，临床转化的问题比RNAi更复杂。我个人判断RNAi在未来十年将有多个成药的例子（bottom line），但是能有多成功（upper limit），不太好说。
 
 
+
+比较搞笑的是我看得这个版本的paper已经在杂志网站下架了，因为侵权，Fire并没有授权Cell Death and Differentiation 这个期刊来刊载他的演讲。这个期刊的文章中压缩了Fire的slides内容（少了几页）。
+我已经不知道当时是谁（任课老师or同学）给我发的文献了，这篇绝版文献也找不到了，最后发张照片纪念一下。
+
+![Imgur](http://i.imgur.com/5U0z0Zp.jpg)
+
+
 单词表过长，我在看这篇文献的时候头脑空白，所有一看不能想起意思的词都标注了出来。
 
 ### 单词本
