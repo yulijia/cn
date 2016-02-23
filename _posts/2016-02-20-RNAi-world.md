@@ -91,6 +91,9 @@ Mello的研究发现Argonaute也同一些内源的沉默通路相关，包括转
 |polycomb|多梳|virtue of|凭借|
 |surveillance|监控|nascent|初期|
 
+
+<br />
+
 **2.Gene Silencing by Double-Stranded RNA(Nobel Lecture)**
 
 Fire的演讲围绕着线虫的生物学试验来写的。比Mello的更侧重于某些人做了些什么。很严谨，把能列出的合作者都列在了slides上。
