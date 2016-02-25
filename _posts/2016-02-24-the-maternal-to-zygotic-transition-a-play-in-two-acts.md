@@ -14,6 +14,12 @@ tags:
 标题可能翻译的不太好，这篇综述写的很有意思，值得研究受精卵、转录本、发育相关的人士阅读。
 文中借用莎士比亚戏剧的方式，阐述了从母本到合子过渡时期（MZT）转录本的差异变换，这种转变类似于戏剧中的两幕。
 
+> maternal-to-zygotic transition (MZT): the period that begins with the elimination of maternal transcripts, continues through the production of zygotic transcripts and ends with the first major morphological requirement for zygotic transcripts in embryonic development.
+
+> [mid-blastula transition (MBT)](https://en.wikipedia.org/wiki/Midblastula):  is a stage during the blastula stage of embryonic development in which zygotic gene transcription is activated. 
+
+MZT和MBT不完全相同，但也不好区分，具体请查阅相关文献，在本文中，我觉得它没解释MBT是什么，只是说我们要用MZT，MZT是个时期，而不是一个时间点。
+
 母本到合子的过渡可以分为两个进程：1.一部分母本mRNA和蛋白质消失；2.合子转录开始。
 
 合子转录出的转录本后续的蛋白质和micorRNA产物会返回来加强母本mRNA降解。初期在合子中合成的的mRNA也是催化剂，会加强合子的转录。
