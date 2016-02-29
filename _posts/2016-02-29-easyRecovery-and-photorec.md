@@ -18,7 +18,7 @@ tags:
 
 经过：从昨天晚上到今天，抽时间找了不同的软件和方法来恢复数据。
 
-1. 在linux下采用 <q>testdisk</q> 中的<q>photorec</q> 来恢复图片文件。
+1.在linux下采用 <q>testdisk</q> 中的<q>photorec</q> 来恢复图片文件。
 
 如果用终端版的不适应，可以安装GUI `dnf install qphotorec`。
 具体步骤可以参考[这里](http://www.cgsecurity.org/wiki/PhotoRec_Step_By_Step)。
@@ -31,13 +31,13 @@ tags:
 
 找出的图片有几个问题：首先不会按照原来的名字来命名，其次图片文件信息也会丢失，最重要的是所有文件按照在磁盘的位置（就是从0到最大容量的数字）来存放，查找起想要的文件非常不方便。
 
-2. 百度经验里的debugfs修复
+2.百度经验里的debugfs修复
 
 [该文档](http://jingyan.baidu.com/article/2f9b480d6c2bcd41cb6cc223.html)应该有错。在`dd if= of=` 这个步骤。出来的结果是无法识别的。
 
 绝对不建议使用，除非很熟悉`dd` 命令。
 
-3. EasyRecovery
+3.EasyRecovery
 
 只测试了恢复`/meida/disk` 里的文件。**绝赞好评！**
 
