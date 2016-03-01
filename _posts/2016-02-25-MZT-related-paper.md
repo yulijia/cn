@@ -17,6 +17,8 @@ tags:
 - 降解
 - cis-regulatory
 - miRNA
+- H3K9me3
+- ZGA
 ---
 
 感觉这样写下去，博客就变成论文记录了。为了避免这种情况，以后**论文笔记**都以归纳总结多篇文章为主，如果是非常好的文章，会单开一篇写一写。
@@ -42,7 +44,30 @@ tags:
 
 在这篇综述中，作者详细介绍了mRNA降解在生物发育中控制基因表达。
 首先说降解会控制基因表达动力学：如果降解太快，那么基因表达水平会很低，会影响转录进程；如果降解太慢，基因表达水平就会很高（机体会想这个细胞是不是不想玩了），细胞就会进入机体删除阶段。
-mRNA降解受控于RBPs（RNA结合蛋白），small RNAs，miRNA-RBP，cis-regulatory（顺式作用元件）。RNA降解在动物发育中的作用有两点：1.控制发育过程；2.细胞特异性。
+mRNA降解受控于RBPs（RNA结合蛋白），small RNAs，miRNA-RBP，cis-regulatory（顺式作用元件）。
+RNA降解在动物发育中的作用有两点：1.控制发育过程；2.细胞特异性。
+
+### 4.Prepatterning of Developmental Gene Expression by Modified Histones before Zygotic Genome Activation
+
+这篇文章发在Developmental Cell上，很有意思，试验设计合理。
+
+主要是讲斑马鱼发育阶段Zygotic Genome Activation（ZGA）时期的组蛋白信号对于转录的影响。
+共检测了H3K4me3, H3K9me3, H3K27me3, H3K36me3, RNA PolII的marker在不同时期基因组上的分布情况。
+研究发现H3K4me3富集在1000个pre-MBT时期的基因上，至少9000个MBT和post-MBT时期的基因上。
+在这个部分，研究的母系表达的基因，也就是这些基因在pre-MBT期基本不表达，而在MBT期开始表达上调。
+
+研究结果揭示了在不同时期这些组蛋白甲基化富集在基因组上的情况各有特点。尤其是在256个细胞阶段检测到的H3K4me3, H3K9me3和H3K27me3说明在这个时期转录抑制已经存在。
+
+之后又发现H3K4me3 marker在256个细胞时期，存在于一些转录不活跃的基因区域上。
+本来想说明这些基因不活跃，还找出了H3K36me3和RNA PolII的marker做对照，结果发现H3K36me3的确没什么信号，
+但是RNA PolII存在于基因的启动子区域（不在gene body，也是转录不活跃的表现）。
+
+我个人觉得最有意思的就是下面的这张图。作者们做了一个**epigenetic fate map of the pre-MBT H3K4me3-marked gene**,
+从这个图可以看到不同的基因在不同的阶段又不同的表观遗传学marker。
+
+![Imgur](http://i.imgur.com/Iv2t3bO.png)
+
+后续，文章有讲述了Pre-MBT时期H3K4me3 mark对合子转录的积极作用，以及在精子和卵细胞中有这个maker的交集的基因有哪些。
 
 
 
@@ -72,4 +97,7 @@ mRNA降解受控于RBPs（RNA结合蛋白），small RNAs，miRNA-RBP，cis-regu
 |poeron|操纵子|chaperone|监督人|
 |stoichiometry|化学计量|dictate|控制|
 |bearing|风姿|convergent|趋同|
-|chimeras|嵌合体|||
+|chimeras|嵌合体|gamete|配子|
+|per se|本质|onward|向前|
+|entail|牵涉|homeostatic|自我平衡|
+|guiescence|静止|stricto sensu|狭义上来说，严格意义上|
