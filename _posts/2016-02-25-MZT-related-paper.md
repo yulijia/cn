@@ -69,7 +69,11 @@ RNA降解在动物发育中的作用有两点：1.控制发育过程；2.细胞�
 
 后续，文章有讲述了Pre-MBT时期H3K4me3 mark对合子转录的积极作用，以及在精子和卵细胞中有这个maker的交集的基因有哪些。
 
+### 5.Transcript clearance during the maternal-to-zygotic transition
 
+这篇review有意思的地方是在后面的引用文献中作者点评了一些他们感兴趣的文章，这也方便了读者的阅读。
+
+综述的主要内容是讲mRNA在MTZ过程中的降解以及它的机制。RNA结合蛋白，小RNA家族均有参与，后面还说了降解的mRNA有哪些作用。
 
 ### 单词本
 
