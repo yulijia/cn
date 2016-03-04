@@ -22,3 +22,9 @@ tags:
 
 对于作为参考基因组的家系内部样本，首先要拼接好，转成一致序列(consensus sequence)。
 
+整个流程如下：
+1. 过滤低质量的reads
+2. mapping
+3. 生成一致序列
+4. 除去repeat
+5. call SNP
