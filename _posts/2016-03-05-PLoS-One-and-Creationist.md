@@ -49,6 +49,6 @@ Andrew说自己不是批评这类文章不能出现在学术刊物上，而是�
 
 > P.S. We seem to have been getting a lot of spam from patriotic people using fake names. You guys should take it up with the editor of the paper who described it as a mistake, and the editors of Plos-One who retracted it, stating, “This evaluation confirmed concerns with the scientific rationale, presentation and language, which were not adequately addressed during peer review. Consequently, the PLOS ONE editors consider that the work cannot be relied upon and retract this publication.” Their call, not mine.
 
-看了评论我就呵呵了，像评论中说<q>英语是第二语言，写作出错难免，认为批评这类错误是一种西方式傲慢</q>的人，那你不会把英语学溜一些，找人好好修改修改，PLOS ONE的编辑不能再认真一些，好好条条语病？ 明明是PLOS ONE编辑的错，非要代表Chinese给自己背上。
+看了评论我就呵呵了，像评论中说<q>英语是第二语言，写作出错难免，认为批评这类错误是一种西方式傲慢</q>的人，那你不会把英语学溜一些，找人好好修改修改，PLOS ONE的编辑不能再认真一些，好好挑挑语病？ 明明是PLOS ONE编辑的错，非要代表Chinese给自己背上。
 
 
