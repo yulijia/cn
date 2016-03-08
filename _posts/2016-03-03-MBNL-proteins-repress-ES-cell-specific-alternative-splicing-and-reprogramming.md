@@ -8,6 +8,9 @@ tags:
 - 剪接
 - MBNL
 - 胚胎干细胞
+- Benjamin J. Blencowe
+- Christopher B. Burge
+- Eric Wang
 ---
 
 本文章曾经在组会报告过，文章介绍了MBNL蛋白在胚胎干细胞特异性的可变剪接和重编程过程中的作用。
