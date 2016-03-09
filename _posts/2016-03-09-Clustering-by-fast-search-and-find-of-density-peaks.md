@@ -8,7 +8,7 @@ tags:
 - 聚类
 ---
 
-这是我看过的公式最少的一篇方法类文章。
+<q>Clustering by fast search and find of density peaks</q>是我看过的公式最少的一篇方法类文章。
 
 全篇就两个公式，介绍了一类新的（2013年的）聚类方法。
 我们一般聚类都会用k-means或者层次聚类，但是这些方法都是在空间中找个中心点。
