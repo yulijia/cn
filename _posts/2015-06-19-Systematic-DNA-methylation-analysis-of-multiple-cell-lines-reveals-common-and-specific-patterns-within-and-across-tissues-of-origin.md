@@ -73,8 +73,6 @@ local clusters of CpG sites的就是把DNA甲基化位点密集的区域变成�
 |deplete|用尽，少有|intragenic|基因内|
 |antagonism|对立，相克|||
 
-<br />
-
 ### 附注
 
 [^1]: [Alix Groom: How to measure DNA methylation](http://www.bristol.ac.uk/caite/geocode/newcastleshortcourse/howtomeasuredna.pdf)
