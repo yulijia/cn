@@ -1,7 +1,7 @@
 ---
 published: true
 layout: page
-title: 想法
+title: 思索
 permalink: /thoughts/
 ---
 
