@@ -62,3 +62,44 @@ tags:
 |perturbation|忧虑，不安，摄动|surrogate|代理|
 |foetal|胎儿|||
 
+
+### 3.Expression of 24,426 human alternative splicing events and predicted cis regulation in 48 tissues and cell lines
+
+本文用的是microarray数据来检测cassette exon splicing的情况，主要监测了inclusion和exclusion的**已知**cassette exon。比较老，2008年的文章，有chaolin zhang参与。
+
+在不同组织中有剪接的exon的表达情况各不相同。
+他们围绕调控的外显子抽取8个区域（区域见下图）的序列，在序列中找4mer到7mer的“words”，对看这些words的富集情况，从而获得剪接相关的调控元件。
+
+![Imgur](http://i.imgur.com/Ij77696.png)
+
+之后是对高精度RNA可见剪接图谱的研究，对每种检测到的关键motif的特点和潜在功能进行分析，并预测RNA结合蛋白和motif之间的关系。
+
+
+
+### 单词本
+
+|英文|中文|英文|中文|
+|:----:|:----:|:----:|:----:|
+|*in silico*|电脑模拟|*in vivo*|生物活体内|
+|*in vitro*|生物活体外|pyrimidine|嘧啶|
+
+
+### 4.Estimation of alternative splicing variability in human populations
+
+这篇文章评估了可变剪接多样性在两个人群（高加索人，尼日利亚人）里的相同点和差异。
+
+文章中采用CV（coefficient of variation）对基因和转录本的表达量多样性进行了评估，采用splicing ratio $$f_i=\frac{x_i}{\lambda}$$（即某个剪接形式的转录本拷贝数$$x_i$$占这个基因所有转录本拷贝数$$\lambda$$的比例）
+结论是基因表达比splicing ratio对于转录本富集的调控贡献较大。
+
+文中将使用同一个TSS的转录本定义位一个基因的转录本，一开始研究了lncRNA然后发现lncRNA看不出什么明显结论，
+就只研究mRNA了，在研究时用到了[**Hellinger distance**](https://en.wikipedia.org/wiki/Hellinger_distance)来球splicing ratio的variability（变化程度）。
+
+分析方法和数据对比（在两个人群中）应该是这篇文章的优点。
+
+### 单词本
+
+|英文|中文|英文|中文|
+|:----:|:----:|:----:|:----:|
+|deconvolute|去卷积|Caucasian|高加索人，白人|
+|Yoruban|约鲁巴人|Nigerian|尼日利亚人|
+|overdispersion|不平均分布，过离散|centroid|质心|
