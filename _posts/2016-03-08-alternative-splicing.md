@@ -103,3 +103,26 @@ tags:
 |deconvolute|去卷积|Caucasian|高加索人，白人|
 |Yoruban|约鲁巴人|Nigerian|尼日利亚人|
 |overdispersion|不平均分布，过离散|centroid|质心|
+
+### 5.Epigenetic features are significantly associated with alternative splicing
+
+这篇文章是出自Tian Weidong老师的实验室。主要刻画了表观遗传学特征同可变剪接的关系。
+我很早之前在JC上讲过，感觉是一篇细节问题较多的文章。
+
+具体来说文章里研究了组蛋白修饰，9个转录因子，CTCF和RNA Pol II同可变剪接外显子的关系。
+这个文章中有很多小问题，感觉做得不严谨，主要在于对表观遗传学数据，并不是所有的都减去input做标准化。
+
+首先，文章一开始的背景里说剪接事件可以分为：cassette exon, exon skipping, blablabla的，我就没弄清楚这里专门指出的 cassette exon 同 exon skipping 的区别在哪里。
+我还专门翻了翻后面带的那两篇引用文章，写得都是cassette exon。在result部分就没再出现cassette exon，只用了exon skipping，且这里特指skip单个exon的情况（即不会连续2个或以上的exon都被skip）。
+
+还有就是，研究的数据有一部分同前面我做过笔记的文章中的类似，用的都是ENCODE的RNA-seq外加组蛋白修饰、转录因子，CTCF以及RNA Pol II的数据。
+计算的时候还一般都从bam或者wig文件开始，有没有考虑过实验之间的差异性以及如何度量或者减少这类问题？这些数据的mapping质量到底怎么样？
+
+文中最逗的就是关于组蛋白修饰和input的问题，在Figure2中没有做control(input)的处理，但是在Figure6中就做了input的矫正。
+也就是文中的最后一个小节专门讲述矫正后的结果是什么样子。
+另外在附录里有Figure2情况下input的数据分布情况。为什么不全部矫正后画图呢？像这样有时做矫正，有时不做矫正，会对理解造成困扰。
+感觉像是在review后添加了矫正的内容。
+
+整篇文章中介绍的方法是可取的，只是很多不严谨的地方，让结果不是那么可信。
+
+*（这个系列未完待续，每次更新5篇为一个post）*
