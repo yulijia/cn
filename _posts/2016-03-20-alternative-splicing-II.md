@@ -39,7 +39,7 @@ tags:
 |heuristic|启发式|pyrimidine|嘧啶|
 |stretche|延伸|concatenation|一系列互相关联的事物|
 
-2. Widespread establishment and regulatory impact of Alu exons in human genes
+### 2.Widespread establishment and regulatory impact of Alu exons in human genes
 
 Yi Xing（邢毅）老师组里的工作，他们组专门研究转录调控，从文章里可以学到不少东西。
 本文是介绍alu exon在基因中的调控作用，实验和分析相结合。有高剪接活动的Alu exons富集在5'-UTR区域。
