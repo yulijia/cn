@@ -45,4 +45,20 @@ Yi Xing（邢毅）老师组里的工作，他们组专门研究转录调控，�
 本文是介绍alu exon在基因中的调控作用，实验和分析相结合。有高剪接活动的Alu exons富集在5'-UTR区域。
 文章里的东西可以说是对Alu exon同转录关系的一个较为全面的总结。
 
+### 3.Automated classification of alternative splicing and transcriptional initiation and construction of visual database of classified patterns
+
+这篇文章是讲述如何对可变剪接类型进行分类，并且还做了个可视化的数据库（网站）。
+
+我关注这篇的内容就在它如何对可见剪接分类，方法挺有意思的，就是对外显子和内含子（基因间区）用二进制进行标注，然后找相似的pattern进行合并。
+合并后，又进行了二进制到十进制的转换。已知的一些可变剪接pattern可以换算成这样的十进制数字，然后从基因组上的所有可变5’端和可变剪接换算成的结果中进行查找，
+找到一样的，就说明这个可变剪接模式是已知的哪种。
+
+文章的精华全在Figure1和Figure2。
+
+### 单词本
+
+|英文|中文|英文|中文|
+|:----:|:----:|:----:|:----:|
+|atypical|非典型|miscellaneous|杂项|
+|herein|此处|decimal|十进制|
 
