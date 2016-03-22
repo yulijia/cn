@@ -62,3 +62,8 @@ Yi Xing（邢毅）老师组里的工作，他们组专门研究转录调控，�
 |atypical|非典型|miscellaneous|杂项|
 |herein|此处|decimal|十进制|
 
+### 3.ARH: predicting splice variants from genome-wide data with modified entropy
+
+这是一篇算法文章，预测剪接变异，用的是Affymetrix exon array的数据。
+
+
