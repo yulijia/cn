@@ -1,7 +1,7 @@
 ---
 published: ture
 layout: post
-title: "可变剪接相关文献II"
+title: "可变剪接相关研究II"
 author: Yu
 categories: 论文笔记
 tags:
