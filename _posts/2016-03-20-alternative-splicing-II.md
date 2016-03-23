@@ -120,6 +120,7 @@ Yi Xing（邢毅）老师组里的工作，他们组专门研究转录调控，�
 所用的方法无外乎是那些距离：Kendalls tau rank corre- lation coefficient (I), Spearman's rank correlation coeffi- cient (II), Pearson correlation coefficient (III), normalised Euclidean distance (IV) and evolutionary substitution score (V), 或者这些方法的结合。
 有了距离后就用自下而上的聚类方法（Agglomerative hierarchical clustering）来聚类，之后根据silhouette value来优化子集合的数量。
 
+文章中还介绍了计算蛋白质序列的距离用spearman和pearson 相关性方法比较好。
 
 ### 单词本
 
