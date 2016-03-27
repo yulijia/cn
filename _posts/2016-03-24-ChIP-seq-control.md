@@ -26,7 +26,7 @@ ChIP中一般会用到对照数据，对照数据就是在不特意富集所研�
 一般情况下优先选择Input DNA方法，第二种方法有正义（究竟这么抓到的DNA能否做对照？我对此持怀疑态度）。
 
 另外，Treatment和control的处理也需要关注，在call peaks的时候要选择会用Control做校正的方法。
-如果是自己处理，查找Treatment的分布信息，也要做校正，否则就像我之间讨论过的[某篇文章](http://yulijia.net/cn/论文笔记/2016/03/08/alternative-splicing.html)一样。
+如果是自己处理，查找Treatment的分布信息，也要做校正，否则就像我之间讨论过的[某篇文章](http://yulijia.net/cn/论文笔记/2016/03/08/alternative-splicing.html#5)一样。
 
 ### 参考资料
 
