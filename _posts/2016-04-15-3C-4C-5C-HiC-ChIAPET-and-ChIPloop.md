@@ -51,4 +51,4 @@ HiC （选自：[Comprehensive Mapping of Long-Range Interactions Reveals Foldin
 
 ### 参考资料
 
-[1]: [染色质构象捕获及其衍生技术](www.pibb.ac.cn/pibben/ch/reader/create_pdf.aspx?file_no=20100158)
+1. [染色质构象捕获及其衍生技术](www.pibb.ac.cn/pibben/ch/reader/create_pdf.aspx?file_no=20100158)
