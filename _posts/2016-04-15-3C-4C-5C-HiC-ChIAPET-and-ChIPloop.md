@@ -38,15 +38,15 @@ ChIA-PET(chromatin immunoprecipitation using PET) 技术是3C、paired-end-tags 
 
 HiC （选自：[Comprehensive Mapping of Long-Range Interactions Reveals Folding Principles of the Human Genome](http://science.sciencemag.org/content/326/5950/289.full)）
 
-![Imgur](http://i.imgur.com/zxLHE12.jpg)
+![Imgur](https://i.imgur.com/zxLHE12.jpg)
 
 3C，4C，5C （摘自：[wiki](https://en.wikipedia.org/wiki/Chromosome_conformation_capture)）
 
-![Imgur](http://i.imgur.com/TIpfG0A.jpg)
+![Imgur](https://i.imgur.com/TIpfG0A.jpg)
 
 几种方法的比较（选自：[A decade of 3C technologies: insights into nuclear organization](http://genesdev.cshlp.org/content/26/1/11.full)）
 
-![Imgur](http://i.imgur.com/h2HJcdo.jpg)
+![Imgur](https://i.imgur.com/h2HJcdo.jpg)
 
 
 ### 参考资料
