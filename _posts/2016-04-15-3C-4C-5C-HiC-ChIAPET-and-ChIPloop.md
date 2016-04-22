@@ -57,12 +57,12 @@ HiC数据从fastq到bam文件主要经过：truncate, mapping, filter, deduplica
 
 从bam到interaction图像，我测试通过的方法有：
 
-1. [hicexplorer](http://hicexplorer.readthedocs.org/en/latest/content/mES-HiC_analysis.html)
+1.[hicexplorer](http://hicexplorer.readthedocs.org/en/latest/content/mES-HiC_analysis.html)
 
 这个方法坑很多，他们的程序里有错，但是没有更新。
 主要问题有：1）hicCorrectMatrix 参数同网上教程中的不同。2）画图时只能输出.png图像。3）从github下载安装的软件有引用library错误。
 
-2. [HOMER](http://homer.salk.edu/homer/interactions/HiCmatrices.html)
+2.[HOMER](http://homer.salk.edu/homer/interactions/HiCmatrices.html)
 
 HOMER功能真全面。用这个工具时要注意`makeTagDirectory`这个步骤中处理pairend reads要在后面加上`-illuminaPE`选项，要不然`analyzeHiC`识别不出Tags。
 
