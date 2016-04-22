@@ -14,7 +14,7 @@ tags:
 - ChIP-loop
 ---
 
-整理一下这几种技术的原理。
+整理一下这几种技术的原理和数据分析流程。
 
 ### 3C
 染色质构象捕获（3C）技术是用福尔马林瞬时固定细胞核染色质，用过量的限制性内切酶酶切消化染色质 - 蛋白质交联物，在 DNA 浓度极低而连接酶浓度极高的条件下用连接酶连接消化物，蛋白酶 K 消化交联物以释放出结合的蛋白质，用推测可能有互作的目的片段的引物进行普通PCR和定量PCR来确定是否存在相互作用。3C 技术假定物理上互作的 DNA 片段连接频率最高，以基因座特异性 PCR 来检测基因组中 DNA 片段之间的物理接触，最终以 PCR 产物的丰度来确定是否存在相互作用。**注意：用PCR意味着我们对于消化后留下的片段，知道其序列信息。**
@@ -47,6 +47,25 @@ HiC （选自：[Comprehensive Mapping of Long-Range Interactions Reveals Foldin
 几种方法的比较（选自：[A decade of 3C technologies: insights into nuclear organization](http://genesdev.cshlp.org/content/26/1/11.full)）
 
 ![Imgur](https://i.imgur.com/h2HJcdo.jpg)
+
+
+### HiC 数据分析
+
+HiC数据从fastq到bam文件主要经过：truncate, mapping, filter, deduplication这几个步骤。
+
+在mapping的时候要去掉chimeric reads。filter时需要过滤掉一些同cutting site距离较远的reads。
+
+从bam到interaction图像，我测试通过的方法有：
+
+1. [hicexplorer](http://hicexplorer.readthedocs.org/en/latest/content/mES-HiC_analysis.html)
+
+这个方法坑很多，他们的程序里有错，但是没有更新。
+主要问题有：1）hicCorrectMatrix 参数同网上教程中的不同。2）画图时只能输出.png图像。3）从github下载安装的软件有引用library错误。
+
+2. [HOMER](http://homer.salk.edu/homer/interactions/HiCmatrices.html)
+
+HOMER功能真全面。用这个工具时要注意`makeTagDirectory`这个步骤中处理pairend reads要在后面加上`-illuminaPE`选项，要不然`analyzeHiC`识别不出Tags。
+
 
 
 ### 参考资料
