@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: "3C 4C 5C HiC ChIA-PET 以及 ChIP-loop"
 author: Yu
