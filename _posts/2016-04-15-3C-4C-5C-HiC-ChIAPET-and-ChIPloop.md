@@ -32,7 +32,7 @@ tags:
 常见的有ChIP-3C和ChIP-4C，在过量的限制性内切酶将染色质 -蛋白质交连物酶切消化后，用所研究蛋白质因子特异性的抗体进行免疫沉淀，然后再进行酶切产物连接，后续步骤同3C、4C相同。**注意：使用特异性抗体沉淀下来的蛋白质有可能作用于目的 DNA 旁边的位点，而不是介导目的DNA 与其他 DNA 之间的相互作用。**
 
 ### ChIA-PET
-ChIA-PET(chromatin immunoprecipitation using PET) 技术是3C、paired-end-tags (PET)和下一代测序技术的结合，既可检测细胞内染色质的相互作用又可解决实验所得DNA片段较小、数据量大等问题。它可以无偏的、在全基因组范围找出与目标蛋白因子作用的染色质片段。其部分实验流程与ChIP-loop实验相似，都是以福尔马林固定细胞，限制性酶切基因组，用目的蛋白特异性的抗体沉淀蛋白质-DNA 复合物，给酶切片段加上带有生物素标记的接头(此接头带有特殊的酶切位点，例如 *Mme* I)，然后进行二次连接反应，再使用带有接头的酶进行酶切(例如 *Mme* I)，所得产物再加上接头，进行深度测序。使用ChIA-PET可确定目标蛋白与DNA作用的位点，也可进一步确定目标蛋白可能调控的基因。带生物素标记可以较准确的定位蛋白质与DNA相互作用区域。
+ChIA-PET(chromatin immunoprecipitation using PET) 技术是3C、paired-end-tags (PET)和下一代测序技术的结合，既可检测细胞内染色质的相互作用又可解决实验所得DNA片段较小、数据量大等问题。它可以无偏的、在全基因组范围找出与目标蛋白因子作用的染色质片段。其部分实验流程与ChIP-loop实验相似，都是以福尔马林固定细胞，限制性酶切基因组，用目的蛋白特异性的抗体沉淀蛋白质-DNA 复合物，给酶切片段加上带有生物素标记的接头(此接头带有特殊的酶切位点，例如 *Mme* I)，然后进行二次连接反应，再使用带有接头的酶进行酶切(例如 *Mme* I)，所得产物再加上接头，进行深度测序。使用ChIA-PET可确定目标蛋白与DNA作用的位点，也可进一步确定目标蛋白可能调控的基因。带生物素标记可以较准确的定位蛋白质与DNA相互作用区域。研究的是特定蛋白介导的DNA与DNA的相互作用。
 
 具体实验流程看这张图可以一目了然：
 
@@ -64,7 +64,18 @@ HiC数据从fastq到bam文件主要经过：truncate, mapping, filter, deduplica
 
 2.[HOMER](http://homer.salk.edu/homer/interactions/HiCmatrices.html)
 
-HOMER功能真全面。用这个工具时要注意`makeTagDirectory`这个步骤中处理pairend reads要在后面加上`-illuminaPE`选项，要不然`analyzeHiC`识别不出Tags。
+<del>HOMER功能真全面。用这个工具时要注意`makeTagDirectory`这个步骤中处理pairend reads要在后面加上`-illuminaPE`选项，要不然`analyzeHiC`识别不出Tags。</del>
+
+### HiC 生成相互作用矩阵
+
+这是从raw data到关键信息提取的关键步骤。
+
+生成相互作用矩阵要用pairend的mapping到远处的成对Reads，首先对基因组划分区间（bin），然后确定过滤好的成对reads
+究竟落在哪两个区间里，然后在矩阵中那两个区间对应的单元中填写reads数量。
+
+填写完所有的矩阵元素，还最好做一个归一化。
+方法有很多种：1.假设binA和binB相距50kb，那么将所有（或者sampling很多）50kb的bin的reads数求期望。用binA和binB的reads数除以平均reads数。
+2.假设binA有30个相互作用的bin，binB有20个相互作用的bin，binA和binB之间有100条reads，那么归一化位为100/(20\*30) （是不是一种平均除？）
 
 
 
