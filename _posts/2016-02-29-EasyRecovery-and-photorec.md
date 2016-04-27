@@ -48,3 +48,4 @@ tags:
 
 结果：以后不要用`rm`命令了，用`trash-put`来代替，在`.bashrc`里`alias rm='trash-put'`
 
+Trash-put 对于移动硬盘和windows系统下的盘里的删除数据，无法恢复到原有位置，只会在移动硬盘或者windows系统硬盘的根目录建立`.Trash`文件夹，所恢复的文件会在该文件夹的路径下，这一点还是不太好用。20160427
