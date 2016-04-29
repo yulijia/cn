@@ -4,7 +4,8 @@ layout: post
 title: "破事水"
 author: Yu
 categories: 聚类不能
-tags:[吐槽]
+tags:
+- 吐槽
 
 ---
 
@@ -25,3 +26,4 @@ tags:[吐槽]
 
 北京移动偷偷跑流量现象严重，用了个流量检测软件，结果移动告诉我，这个流量监测软件用的流量超高。
 
+我决定不在看plos one上的paper了，每周都有那么几天，发一大堆correction，这些文章发表前就不能先好好审稿吗。
