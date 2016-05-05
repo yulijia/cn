@@ -5,7 +5,7 @@ title: "circRNA 检测工具介绍"
 author: Yu
 categories: 论文笔记
 tags:
-- cricRNA 
+- circRNA 
 - 检测算法
 - RNA
 ---
@@ -61,7 +61,7 @@ CIRCexplorer这个工具巧妙的用fusion gene这个思路去检测circRNA。
 
 这篇文章里介绍了在intron区域的*反向重复Alu序列*是引起circRNA形成的一个原因（即“内含子配对驱动环化”（intron-pair-driven circularization）模型，除此之外还有一种模型是“套索驱动环化”（lariat-driven circularization）模型），这些序列在跨越外显子的内含子区间上可以形成互补序列，所以在转录过程中容易形成茎环结构。环的部分就是外显子，然后在剪接酶的参与下，被剪接成了环形。
 
-另外，cricRNA也存在很多的**可变环形结构**，这也是由于在基因组中广泛存在的内含子上的Alu序列造成的，不同的Alu序列互补，形成含有不同exon的环形结构。
+另外，circRNA也存在很多的**可变环形结构**，这也是由于在基因组中广泛存在的内含子上的Alu序列造成的，不同的Alu序列互补，形成含有不同exon的环形结构。
 
 强烈建议研究circRNA的工作者好好学习一下这篇文章。[附薛宇老师对这篇文章的评价](http://blog.sciencenet.cn/blog-404304-830473.html)，薛宇老师的博客是我看科学网唯一的动力。
 
