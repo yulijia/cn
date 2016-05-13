@@ -51,19 +51,21 @@ tags:
 所以完整的Rmarkdown YAML 写法是：
 
 ```YAML
+---
 title: "Tufte样式"
 subtitle: "一个R Markdown实现"
 author: "JJ Allaire，谢益辉"
 date: "`r Sys.Date()`"
 output:
   tufte::tufte_handout:
-      citation_package: natbib
-      includes:
-          in_header: header.tex
-      latex_engine: xelatex
+    citation_package: natbib
+    includes:
+      in_header: header.tex
+    latex_engine: xelatex
 biblio-title: 参考文献
 bibliography: skeleton.bib
 link-citations: yes
+---
 
 ```
 
