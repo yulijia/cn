@@ -9,7 +9,7 @@ tags:
 - xeCJK
 - Rmarkdown
 - LaTeX
-- bookdown
+- Bookdown
 ---
 
 我自己的系统里没有安装windows下的字体，也不打算装ctex宏包，所以需要用xeCJK宏包来显示中文。
