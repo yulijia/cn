@@ -9,6 +9,7 @@ tags:
 - xeCJK
 - Rmarkdown
 - LaTeX
+- bookdown
 ---
 
 我自己的系统里没有安装windows下的字体，也不打算装ctex宏包，所以需要用xeCJK宏包来显示中文。
@@ -70,3 +71,32 @@ link-citations: yes
 ```
 
 其中header.tex 像上面$$\LaTeX$$例子中的那样。
+
+
+## 这是打脸最快的一篇文章
+
+20160519更新
+
+我现在已经不用tufte包了，改用bookdown包的`bookdown::tufte_handout2`。
+
+**强烈推荐使用，但要注意编译后的排版同tufte包的有所不同，主要是bookdown包里的tufte样式貌似没有对table进行优化。**
+
+在bookdown里配置YAML实现中文tufte sytle的方法如下所示。
+
+```YAML
+title: "A Minimal Book Example"
+author: "Yihui Xie"
+date: "`r Sys.Date()`"
+output: 
+  bookdown::tufte_handout2:
+    citation_package: natbib
+    latex_engine: xelatex
+    includes: 
+      in_header: header.tex
+    toc: yes
+link-citations: yes
+description: "This is a minimal example of using the bookdown package to write a book."
+```
+
+
+
