@@ -77,7 +77,14 @@ link-citations: yes
 
 20160519更新
 
-我现在已经不用tufte包了，改用bookdown包的`bookdown::tufte_handout2`。
+我现在已经不用tufte包了，改用[bookdown](https://github.com/rstudio/bookdown)包的`bookdown::tufte_handout2`。
+
+安装方式如下：
+
+```r
+install.packages("devtools")
+devtools::install_github("rstudio/bookdown")
+```
 
 **强烈推荐使用，但要注意编译后的排版同tufte包的有所不同，主要是bookdown包里的tufte样式貌似没有对table进行优化。**
 
