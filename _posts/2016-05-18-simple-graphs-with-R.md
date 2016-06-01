@@ -22,3 +22,6 @@ tags:
 
 PDF版文件在这里[下载](http://yulijia.net/projects/SimpleGraphswithR.pdf)，会持续更新。
 
+Bookdown包目前编译pdf文档采用的命令是`bookdown::render_book("index.Rmd", "bookdown::pdf_book")`。注意**首先**要将R工作目录跳转到需要编译的文档目录下，否则会找不到要编译的文件。
+不能在函数中以添加路径的方式来编译，因为找不到需要涵盖到书籍里的所有文档（这是错误的->`render_book("/root/bookfiles/index.Rmd")`）。
+
