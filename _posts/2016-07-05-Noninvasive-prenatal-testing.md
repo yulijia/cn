@@ -36,5 +36,5 @@ NIPT方法目前主要还是用于测染色体倍增或者缺失（截至2013年
 我本认为技术应该很高超，结果看完相关网络资料发现不用区分母婴的DNA时，方法也就很常规了。
 
 
-[^1] [Noninvasive Prenatal Testing (NIPT): Separate But Not Equal](http://www.agt-info.org/Documents/2014%20Annual%20Meeting/HANDOUT%20Strom.pdf)
-[^2] [Non-invasive prenatal aneuploidy testing: technologies and clinical implications. By: Brynn Levy and Errol Norwitz, June 20, 2013](http://www.mlo-online.com/non-invasive-prenatal-aneuploidy-testing-technologies-and-clinical-implications.php)
+[^1]: [Noninvasive Prenatal Testing (NIPT): Separate But Not Equal](http://www.agt-info.org/Documents/2014%20Annual%20Meeting/HANDOUT%20Strom.pdf)
+[^2]: [Non-invasive prenatal aneuploidy testing: technologies and clinical implications. By: Brynn Levy and Errol Norwitz, June 20, 2013](http://www.mlo-online.com/non-invasive-prenatal-aneuploidy-testing-technologies-and-clinical-implications.php)
