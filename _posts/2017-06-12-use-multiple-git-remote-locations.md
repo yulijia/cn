@@ -10,7 +10,7 @@ tags:
 ---
 
 
-众所周知，GitLab.com 在今年年初上演了一场惊天大戏————[从删库到直播](https://about.gitlab.com/2017/02/01/gitlab-dot-com-database-incident/)。
+众所周知，GitLab.com 在今年年初上演了一场惊天大戏——[从删库到直播](https://about.gitlab.com/2017/02/01/gitlab-dot-com-database-incident/)。
 最近一段时间GitHub也经常down个十几分钟，据说是断电引起的。
 
 ![GitHub_down](http://i.imgur.com/5HmTBcr.png)
