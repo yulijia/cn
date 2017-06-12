@@ -31,8 +31,11 @@ tags:
 git init
 ## 添加备份仓库地址（在此之前要在备份仓库网站创建相应的空白仓库）
 git remote add alt git@github.com:yulijia/cn.git
+## Git 添加文件信息
+git add .
+git commit -m "git init push"
 ## push到备份地址
-git push alt master
+git push --set-upstream origin master
 ```
 
 
