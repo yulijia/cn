@@ -3,7 +3,7 @@ published: ture
 layout: post
 title: "累积分布?累积/派发线!"
 author: Yu
-categories: 技术指标
+categories: 量化投资
 tags:
 - 累积/派发线
 - 股票
