@@ -19,7 +19,7 @@ tags:
 - animation package bug
 - Freshman21 theme bug
 - 欠的blog文章 (10+)
-- 某bot
+- 某bot （五月初完成一个bot，但还差一个<code>-_-</code>）
 
 ### 远期
 
