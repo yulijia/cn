@@ -27,6 +27,8 @@ tags:
 ```bash
 ## 以https://github.com/yulijia/cn 为例
 ## 首先cd到仓库相应目录
+## Git 初始化
+git init
 ## 添加备份仓库地址（在此之前要在备份仓库网站创建相应的空白仓库）
 git remote add alt git@github.com:yulijia/cn.git
 ## push到备份地址
