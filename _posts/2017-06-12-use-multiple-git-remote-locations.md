@@ -24,11 +24,12 @@ tags:
 方法是从[stackoverflow](https://stackoverflow.com/questions/849308/pull-push-from-multiple-remote-locations "pull/push from multiple remote locations")上复制下来的，仅此备份。
 
 
+**我已经在本地有一个名叫cn的仓库，同步到gitlab，现在想把这个仓库也同步到github，操作如下：**
+
 ```bash
 ## 以https://github.com/yulijia/cn 为例
 ## 首先cd到仓库相应目录
-## Git 初始化
-git init
+## 不需要 Git 初始化 git init
 ## 添加备份仓库地址（在此之前要在备份仓库网站创建相应的空白仓库）
 git remote add alt git@github.com:yulijia/cn.git
 ## Git 添加文件信息
@@ -40,7 +41,3 @@ git push --set-upstream origin master
 
 
 之后每一次添加commit的push操作都要用两次`git push`，这样才能将本地内容分别备份到两个云端仓库中。
-
-
-
-
