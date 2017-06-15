@@ -12,6 +12,9 @@ tags:
 
 GRO-seq(Global Run-On Sequencing)测序技术可以在整个基因组范围上绘制参与转录的RNA聚合酶的位置、数量并进行定位。在这个技术下，激活的RNA聚合酶II可以在有Br-UTP（Br标记的三磷酸尿苷）的条件下继续反应，RNA会水解并被有Brd-UTP抗体的磁珠抓住（纯化）。洗下来的RNA在逆转录成cDNA前要进行去帽处理和末端修复。对于cDNA的测序结果反映了正在细胞内被RNA聚合酶II转录的RNA。
 
+
+![GRO-seq](http://i.imgur.com/hh0v5FW.png)
+
 技术优点：
 
 1. 可以map正在转录中的RNA聚合酶II的位置
