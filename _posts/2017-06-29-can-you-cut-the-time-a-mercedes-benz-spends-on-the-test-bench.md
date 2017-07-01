@@ -33,3 +33,5 @@ $$R_{100}=1-\frac{(y_1-100)^2}{S_{tot}}-\frac{\sum_{i=2}^{N}(y_i)^2}{S_{tot}}$$
 该方法公布人做了[网站](https://crowdstats.eu/topics/kaggle-mercedes-benz-greener-manufacturing-leaderboard-probing)， 号召大家一起来“撞库”。目前已经停止提交新的撞库结果，因为有人蓄意提交假信息。
 
 说来说去，机器学习比赛中撞库的事情常有发生大多是根据评判测试数据的方法来猜数字。如何能避免这种情况，评估测试结果的19%和81%这两组数据最好要随机产生。在预测数据集足够大的情况下，才能避免此类情况产生不良后果。
+
+最新进展，官方出了一个[声明](https://www.kaggle.com/c/mercedes-benz-greener-manufacturing/discussion/35566)，表示不会公开“公开排行榜”的结果，并且强调若参赛者若过分关注公开排行榜的数据结果，会造成模型过拟合。
