@@ -2,7 +2,7 @@
 published: false
 title: 如何从Rosalind Franklin的衍射实验中观察出DNA双螺旋结构？
 layout: post
-author: Yu 
+author: Yu
 category: 论文介绍
 tags:
 - Rosalind Franklin
@@ -10,7 +10,7 @@ tags:
 - DNA双螺旋结构
 ---
 
-> 本文是一篇物理实验论文的介绍和翻译，由于我对文中可能涉及的概念理解有误，希望看到的读者能够指出。
+> 本文是一篇物理实验论文的介绍和编译，由于我对文中可能涉及的概念理解有误，希望看到的读者能够指出。
 >
 > **本篇文章未经授权，请勿转载。**
 
@@ -18,20 +18,33 @@ tags:
 罗莎琳德·埃尔西·富兰克林(Rosalind Elsie Franklin)是一名实验物理学家（1920-1958），她使用X射线衍射方法探测到了DNA的结构。
 
 “从那张经典的DNA晶体衍射图片(<q>Photo 51</q>)里能读到什么信息来证明DNA的结构？” 一直是我非常感兴趣的问题。之前问过学生物的同学，他们也不清楚。由于我看不懂X射线衍射图像，在网上找了一些解读的文章，发现了[这篇论文](http://homepages.ius.edu/kforinas/P105/PTE000140.pdf "How Rosalind Franklin Discovered the Helical Structure of DNA: Experiments in Diffraction")，用简单的中学实验方法讲述了富兰克林（以下用姓氏代替全名）的发现。
+<q>2017年续，其实看了上面那篇文章，我还是没有弄懂究竟为什么图像是这个样子，经过一番搜索，我找找到了[Diffraction by DNA, carbon nanotubes and other helical nanostructures](http://iopscience.iop.org/article/10.1088/0034-4885/68/5/R05)这篇文章，螺旋结构的衍射图像就是富兰克林Photo 51中的样子。一直没理解的问题，其实是由于自己物理没学好，无法理解衍射图像。再后来看到quora上的问题[How does one physically interpret the different diffraction patterns between A-DNA and B-DNA?](https://www.quora.com/How-does-one-physically-interpret-the-different-diffraction-patterns-between-A-DNA-and-B-DNA)，从答案中可以看到原始模型，光学仿真以及衍射图像排列在一起的样子。</q>
+
+![A-DNA_and_B-DNA](http://i.imgur.com/Cb2TpAz.png)
+
 
 在1951年11月的一份讲义中，富兰克林写到：这个结果支持DNA是一个螺旋结构，每个螺旋单元里包含（必须非常紧密排列的）2，3或者4个共轴核酸链，并且外侧有磷酸基团（The results suggest a helical structure (which must be very closely packed) containing 2, 3 or 4 co-axial nucleic acid chains per helical unit, and having the phosphate groups near the outside.）。这个结论比沃森（J. D. Watson）和克里克（F. Crick）公布他们基于富兰克林衍射图片对于DNA结构进行的研究要早了将近16个月。沃森和克里克是如何得到衍射图片数据的？这个在本文中不会涉及，沃森和克里克最终获得了诺奖，他们和富兰克林之间的往来是另一个吸引人的关于性格不和和男性沙文主义的故事，想了解整个发现过程，请搜索`DNA - Secret of Photo 51(Nova)`这部科学纪录片。
 
-在这篇论文中，作者设计了四个实验，使得学生可以重走富兰克林的DNA结构发现之旅，并且这些实验条件简单可以在高中或者大学本科实验室中重复。在实验中，作者用圆珠笔的弹簧来代替DNA，用普通光线来代替X射线。这些实验是一个普通的单缝或多缝衍射实验的相对简单扩展。它们可以向学生展示在一般实验室中无法很好说明的“衍射技术实用性”问题。
+在<q>How Rosalind Franklin Discovered the Helical Structure of DNA: Experiments in Diffraction</q>这篇论文中，作者设计了四个实验，使得学生可以重走富兰克林的DNA结构发现之旅，并且这些实验条件简单可以在高中或者大学本科实验室中重复。在实验中，作者用圆珠笔的弹簧来代替DNA，用普通光线来代替X射线。这些实验是一个普通的单缝或多缝衍射实验的相对简单扩展。它们可以向学生展示在一般实验室中无法很好说明的“衍射技术实用性”问题。
 四个实验中的设备条件和困难程度各不相同。实验1使用简单的设备来说明衍射如何揭示了一个对象的结构。实验2需要一个稍微复杂的设置，同时也提供了有关衍射对象的详细信息。实验3是<q>Photo 51</q>的分析，实验4是一个螺旋线的衍射的计算机模拟。实验1,2和3都是不错的课堂演示。
 
+![Photo_51](http://i.imgur.com/vzJogUJ.png)
 
 图片为罗莎琳德·富兰克林X射线衍射实验获得的B型DNA衍射图案（图片编号：Photo 51）。图中最大的圆圈的直径为94mm。在零级衍射斑的位置有铅盘覆盖，以免曝光过度。一级衍射斑的位置也基本被覆盖住了，所以在实验中我们只使用二级，三级和五级衍射斑进行计算，四级衍射斑缺失，在文中会有说明。
 
+为什么X形图案揭示了双螺旋的结构？
 
-为什么X形图案是螺旋结构？
+下面我们用一个简单的实验来介绍单缝衍射。如果我们用投影仪照射一个圆珠笔里的弹簧，可以得到图2中的图像，那么如果我们用一只激光笔或者激光二极管与投影仪一样从同样的方向来照射同样的弹簧，可以看到与投影仪照射时类似的结果(<q>类似个屁，我就是没弄清楚这个地方</q>)。由于光源的直径有限，所以只能照射到弹簧的一部分区域（例如没有照射到一部分弹簧线拐弯处时，线圈如同八字形或者倒八字形，两条“腿”的样子）。我们还可以用一个透镜来放大这个图形，投影到墙上。
+
+![projection_pattern_of_spring](http://i.imgur.com/hVNBbmw.png)
+
+根据巴比涅原理（Babinet’s principle states），在点光源照射下，一个不透光物体产生的衍射图样和一个带有与该物体形状、大小完全相同的孔的衍射屏产生的衍射图样完全相同。 那么根据线圈所照射的部位的图形，也就与同样形状的单缝衍射图形一样。
+
 
 -未完待续-
 
 
 后记：关于如何从DNA的X射线衍射图片中推测出DNA的结构的疑问，从我第一次看到那张图片起，就一直环绕在脑中，读研究生期间也没从老师同学那里得到答案，直到2013年我发现了DNA Learning Center里的这个[slide](http://www.dnalc.org/view/15874-Franklin-s-X-ray.html)，隐约从图中建立起了螺旋结构和衍射图片的联系，但是我还是没弄明白（自己的空间想象力和物理学知识都太差）。
-2014年年初，我又翻出了这个问题，从果壳搜到一篇[问答](http://www.guokr.com/question/487450/)，我依旧没有看明白，不过那篇问答的作者给出了《物理教师》期刊中的论文，这篇论文最终解答了我的问题。从我产生这个问题到自己最终弄明白经过了很多年的时间，自己都感到太不容易了。
+2014年年初，我又翻出了这个问题，从果壳搜到一篇[问答](http://www.guokr.com/question/487450/)，我依旧没有看明白，不过那篇问答的作者给出了《物理教师》期刊中的论文，这篇论文<del>最终</del>也没能解答了我的问题。在2017年我翻到旧博客，决定彻底解决这个问题的时候，还参考了[Diffraction by DNA, carbon nanotubes and other helical nanostructures](http://iopscience.iop.org/article/10.1088/0034-4885/68/5/R05) 这篇文章。<u>一直没能理解这个图像的原因是我不知道螺旋结构的衍射图案的样子。</u>
+
+从我产生这个问题到自己最终弄明白经过了很多年的时间，在没有得到任何帮助的情况下，自己都感到太不容易了。
