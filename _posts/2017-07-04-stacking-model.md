@@ -52,6 +52,9 @@ stacking 方法的第一层是类似cross validation，对于训练集合分成1
 另外在第二层做模型融合时，regression数据用glm，classification数据用boost，我测试过regression数据用boosting tree，结果糟糕的一塌糊涂（仍旧是个人观点，不一定对）。
 
 
+后记另一件事情：我发现我在5年前就用`gbm`方法做预测，但是我完全不记得我自己做过这样的事情了<code>_-_</code>。如果觉得理解不了stacking model究竟是用了哪种方法在第一层做预测，直接用python或者R的软件包。在独立日写了一天的代码，最后才发现软件包的我并不感到高兴 <code>:(</code>。
+
+
 
 参考资料：
 
