@@ -31,7 +31,7 @@ tags:
 
 ### 数据样本
 
-肺腺癌数据：Ding,L. et al. (2008) Somatic mutations affect key pathways in lung adenocarcinoma. Nature, 455, 1069–1075.
+肺腺癌数据：Ding, L. et al. (2008) Somatic mutations affect key pathways in lung adenocarcinoma. Nature, 455, 1069–1075.
 
 ## 小结
 
