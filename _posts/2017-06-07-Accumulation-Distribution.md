@@ -40,3 +40,25 @@ tags:
 a sign of strength， 翻译不好这个strength的意思。但是看图，应该还是波动（下降）趋势。
 
 累积/派发线是一个实用的检测价格趋势反转的指标。其他类似的分析成交量和价格的指标是Chaikin Oscillator (蔡金摆动指标), Money Flow Index (资金流量指标)，以及 Price Volume Trend indicator (价格交易量趋势指标)。
+
+
+### R 代码 Williams Accumulation / Distribution
+
+```r
+library(TTR)
+library(magrittr)
+library(plotly)
+data(ttrc)
+ttrc$ad <- williamsAD(ttrc[,c("High","Low","Close")])
+df=tail(ttrc,30)
+i <- list(line = list(color = '#FFD700'))
+d <- list(line = list(color = '#0000ff'))
+
+p <- df %>%
+  plot_ly(x = ~Date, type="candlestick",
+          open = ~Open, close = ~Close,
+          high = ~High, low = ~Low,
+          increasing = i, decreasing = d)%>%
+  add_lines(y= ~ad, name = "williamsAD")  %>%
+  layout(yaxis = list(title = "Price"))
+```
