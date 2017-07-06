@@ -12,10 +12,6 @@ tags:
 - Bagging
 - Boosting
 ---
-<!--xzcat TTP-001_S1_L003.raw.annovar.hg19_multianno.vcf.xz | vcftools  --vcf - --min-meanDP 10  --recode --stdout --recode-INFO-all > test.vcf -->
-<!--
-vcftools --gzvcf TTP-001_S1_L003.raw.vcf.gz --bed ../../in/SeqCapEZ_Exome_v3.0_Design_Annotation_files/SeqCap_EZ_Exome_v3_hg19_primary_targets.bed --out output_prefix --recode --keep-INFO-all
--->
 
 模型融合的方法有5种：1. 投票，2. 求均值，3. bagging，4. Boosting，5. Stacking[^1]。
 
