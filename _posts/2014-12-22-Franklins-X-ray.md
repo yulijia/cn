@@ -1,9 +1,9 @@
 ---
-published: false
+published: true
 title: 如何从Rosalind Franklin的衍射实验中观察出DNA双螺旋结构？
 layout: post
 author: Yu
-category: 论文介绍
+category: 论文笔记
 tags:
 - Rosalind Franklin
 - X-ray衍射
@@ -60,10 +60,30 @@ tags:
 
 ![far-field_diffraction_pattern](http://i.imgur.com/8f1t65T.png)
 
-为了在更近的距离得到衍射图像，我们需要调整透镜之间的距离。之后就会看到弹簧的衍射图像呈现出亮斑的样子。在衍射暗斑的范围内，一些亮点是模糊的或者会看不到（丢失）。衍射暗斑是由于线圈的厚度所引起的干涉现象造成的。在计算圈数时一定别忘了包含丢失的圈。
+为了在更近的距离得到衍射图像，我们需要调整透镜之间的距离。之后就会看到弹簧的衍射图像呈现出亮斑的样子。在衍射暗斑的范围内，一些亮点是模糊的或者会看不到（丢失）。衍射暗斑是由于线圈的厚度所引起的干涉现象造成的。在计算圈数时一定别忘了包含丢失的圈。计算半径时，我们先选取第18个衍射峰，度量其到中心最大到光斑到距离（27mm，用游标卡尺[^2]），然后使用$$d sin\theta_{max} = m \lambda$$。这个公式计算出d，即平行的两个线圈之间的距离是1.77mm，接下来根据$$P=\frac{d}{cos\alpha}$$，就可以求出P（角度应该是测量值）。投影的Sin函数波的斜率就是sin波函数的梯度，当x=0时，$$R sin(\frac{2\pi}{P\cdotx})$$，对左边当x=0时求微分，结果为$$\frac{2\piR}{P}=tan(90\degree-\alpha)$$。
+
+### 从DNA衍射照片中计算半径
+
+上面同样的方法可以应用于从DNA衍射照片中计算半径，将衍射图像按原始大小打印（直径94mm）。假设富兰克林当时使用的波长是铜$$K_{\alpha}$$线($$\lambda=0.15 nm$$)，样本和投影之间的距离是9cm。接下来就可以确定P，角度以及DNA的半径了。图像中0级和1级衍射峰被屏蔽（因为他们会在胶片上被过度曝光），所照片上离中心最近的光圈是2级（阶），我们可以用2，3，5级（阶）光圈来计算P值。<u>富兰克林将第4级（阶）光圈的缺失归结为是有第二个螺旋，即双螺旋！！！其偏移为螺距的3/8</u>
+
+> The structural unit probably consists of two co-axial molecules which are not equally spaced along the fibre axis,… If one molecule is displaced from the other by about three-eighths of the fibre- axis period, this would account for the absence of the fourth layer line maxima and the weakness of the sixth.
+
+第一个螺旋的第4阶衍射峰出现在第二个螺旋第第2阶衍射暗斑处，双缝衍射的光斑在其中一个单缝的衍射暗斑处消失。
+
+### 计算机模拟衍射图像
+
+根据惠更斯原理，衍射图案由从孔径出现的所有基本波“融合”，球形波面上的每一点（面源）都是一个次级球面波的子波源，子波的波速与频率等于初级波的波速和频率，此后每一时刻的子波波面的包络就是该时刻总的波动的波面。其核心思想是：介质中任一处的波动状态是由各处的波动决定的。
+因此我们可以通过从光圈到x和y方向出现的所有正弦波（和余弦波）上求积分的方法来计算衍射图像。弹簧的衍射图像可以用产生正弦波的两个函数叠加而成。
+
+$$Rsin\frac{2\pix}{P}+\frac{\alpha}{2}$$ 和 $$Rsin\frac{2\pix}{P}-\frac{\alpha}{2}$$，其中$$x_1<x<x_2$$。衍射图形$$F^2(k_x,k_y)$$ 可以从下图中得到。
+![eq5](http://i.imgur.com/FR4LQbs.png)
+这个结果是一个关于空间频率的函数，有了$$k_x$$和$$k_y$$ 就可以画图了。
+
+文章后面还有一个具体的例子，公式书写太麻烦，不再赘述。
 
 
--未完待续-
+
+-Q.E.D.-
 
 
 后记：关于如何从DNA的X射线衍射图片中推测出DNA的结构的疑问，从我第一次看到那张图片起，就一直环绕在脑中，读研究生期间也没从老师同学那里得到答案，直到2013年我发现了DNA Learning Center里的这个[slide](http://www.dnalc.org/view/15874-Franklin-s-X-ray.html)，隐约从图中建立起了螺旋结构和衍射图片的联系，但是我还是没弄明白（自己的空间想象力和物理学知识都太差）。
@@ -74,3 +94,5 @@ tags:
 注释：
 
 [1^]: 我用发光二极管和圆珠笔弹簧在封闭无光的厕所内重复了这个实验，由于不是“点”光源，所以衍射效果不好，近距离基本和鄂投影仪的图像一样，远距离比较模糊，但只能看出“1圈衍”射的效果。没图，在暗室里手机没法拍照。
+
+[^2]: DNA无法用游标卡尺测得光斑之间的距离，我们唯一的信息来源是衍射图像。
