@@ -14,6 +14,7 @@ tags:
 今天我又找到了在线的版本看了一遍，John Oldman看似像讲故事一样的叙述，其实给他的朋友灌输了宗教产生的另一种可能。这次欣赏时，剧情里我最喜欢的一段话是：
 
 > EDITH: You think that's all religion is about? Selling hope and survival?
+
 > JOIN: The Old Testament sells fear and guilt. The New Testament is a great work of ethics, put into my mouth by better philosophers and poets than I am. But the message isn't practiced. The fairy tales build churches.
 
 当然，朋友们听过John的故事后的反映出乎了意料，几位教授讨论了这究竟是真是假，EDITH甚至陷入了信仰的崩塌。John每一个口述的事情都有文献或者专家的推测。但是当把这一切组合成一个故事时，影片中的各位仿佛身陷其中，无法辨别（验证）其真伪。但是如果仔细想想John所说的话，他得过黑死病并没有留下伤疤，这本来就是一个很好的证据，说明John是在编故事的。可惜剧中的人物并没有再追究下去。
@@ -23,5 +24,6 @@ tags:
 关于宗教，我只想说,宗教的起源最好阅读一下《金枝》(the golden bough)，这个东西是随着人类社会的发展需要而产生的，也会随着社会的需要而变化。
 
 > EDITH: Christianity's been a worldwide belief for two thousand years. 
+
 > JOHN: How long did the Egyptians worship (Goddess of health, marriage, and wisdom)? The Sumerians, Ishtar? Sacred cows wander freely in parts of India, as reincarnated souls. In a few thousand years they'll be barbecued, and the souls will be in squirrels.
 
