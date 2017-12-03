@@ -20,7 +20,7 @@ tags:
 将外显子分成：转录起始位点，转录终止位点，内部以及有重合区域的，这四个部分。并只研究转录起始位点和内部这两个区域的外显子。
 为什么只选这两类呢？这同后续文中定义的splicing exon inclusion rate（SEIR，ranging from 0 to 1）和transcription start site inclusion rate(TSSIR，范围0到1)有关。
 
-这两个比例就是看外显子是否在每个异构体都有出现，假设一个基因有3个异构体，某个起始位点的外显子只在两个异构体种出现，那么TSSIR=2/3，SEIR数值没有。
+这两个比例就是看外显子是否在每个异构体都有出现，假设一个基因有3个异构体，某个起始位点的外显子只在两个异构体中出现，那么TSSIR=2/3，SEIR数值没有。
 SEIR也类似，一个转录本非起始终止位点（即内部）的外显子，在3个转录本中的1个转录本出现，那么这个外显子SEIR为1/3。
 <u>这篇文章的Fiugre1的注释中可能一个SEIR=0.33有误，在图中是0.67。lengend中对于SEIR计算的是exon inclusion还是spliced out有误解。</u>
 
