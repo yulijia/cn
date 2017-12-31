@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "一种采用“快速搜索”+“找寻密度峰值”的聚类方法"
 author: Yu

@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "对于芯片数据中fold change方法和t统计量方法得比较"
 author: Yu

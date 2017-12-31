@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: " 119个人类转录因子结合到基因组区域的序列特征和染色质结构分析"
 author: Yu

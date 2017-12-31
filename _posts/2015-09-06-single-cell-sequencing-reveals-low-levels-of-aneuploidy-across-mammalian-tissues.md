@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "单细胞测序揭示非整倍体（异倍体）在哺乳动物组织中出现的水平较低"
 author: Yu

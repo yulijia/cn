@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "我不是一名前端工程师"
 author: Yu

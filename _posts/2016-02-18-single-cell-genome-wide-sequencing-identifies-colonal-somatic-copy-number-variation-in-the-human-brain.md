@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "用单细胞基因组测序来检测人脑中体细胞拷贝数变异"
 author: Yu

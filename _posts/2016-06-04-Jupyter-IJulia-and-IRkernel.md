@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "Jupyter，IJulia以及IRkernel"
 author: Yu

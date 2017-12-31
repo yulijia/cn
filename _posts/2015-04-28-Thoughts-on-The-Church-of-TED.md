@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: 关于TED神教的一些感想
 author: Yu

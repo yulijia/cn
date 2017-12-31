@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "中小学生科技竞赛"
 author: Yu

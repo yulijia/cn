@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "核糖体分析测序（RIBO-seq）／ARTSEQ"
 author: Yu

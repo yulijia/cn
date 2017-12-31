@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "累积分布?累积/派发线!"
 author: Yu

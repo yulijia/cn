@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "泛癌网络分析发现在通路和蛋白质复合物中的罕见体细胞突变"
 author: Yu

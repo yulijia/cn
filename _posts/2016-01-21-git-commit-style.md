@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "git commit 编写风格模板"
 author: Yu

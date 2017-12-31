@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "腾落指数"
 author: Yu

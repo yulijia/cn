@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "母本到合子转换（MZT）发育相关的文章"
 author: Yu

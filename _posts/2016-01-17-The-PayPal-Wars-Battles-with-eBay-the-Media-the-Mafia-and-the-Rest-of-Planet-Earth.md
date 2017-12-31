@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "从《支付战争》看网络营销"
 author: Yu

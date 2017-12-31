@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "ChIPseq的input对照和IgG对照"
 author: Yu

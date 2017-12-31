@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "Eric Lander在新英格兰医学杂志上安利了一下CRISPR"
 author: Yu

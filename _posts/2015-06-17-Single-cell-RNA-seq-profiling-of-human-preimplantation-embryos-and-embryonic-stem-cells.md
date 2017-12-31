@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "人类胚胎以及胚胎干细胞的单细胞RNA测序数据分析"
 author: Yu

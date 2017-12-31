@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 date: 2017-07-04
 title: 模型融合：Stacking model

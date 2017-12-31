@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 date: 2017-06-29
 title: "Kaggle奔驰猜数字挑战赛"

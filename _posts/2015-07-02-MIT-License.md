@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "关于Jekyll博客模版的用户擅自不正当修改MIT授权许可协议的一些看法"
 author: Yu

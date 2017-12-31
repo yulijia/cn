@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "检测全基因组突变"
 author: Yu

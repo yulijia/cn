@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "KDD cup 2017 总结"
 author: Yu

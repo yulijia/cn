@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "基因修饰技术英雄榜"
 author: Yu

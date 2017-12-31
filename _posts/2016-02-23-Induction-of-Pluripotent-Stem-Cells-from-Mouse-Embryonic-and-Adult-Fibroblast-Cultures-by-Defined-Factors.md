@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "iPS技术"
 author: Yu

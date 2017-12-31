@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "电脑设备维修"
 author: Yu

@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "平均趋向指标"
 author: Yu

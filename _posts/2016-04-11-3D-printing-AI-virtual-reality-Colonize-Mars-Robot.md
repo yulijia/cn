@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "3D打印，大数据，人工智能，虚拟现实，火星殖民，机器人"
 author: Yu

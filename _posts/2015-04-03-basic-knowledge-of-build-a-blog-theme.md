@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 date: 2015-04-03
 title: 一个博客模版应该包括的内容

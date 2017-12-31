@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "通过RNA纯化进行染色质分离"
 author: Yu

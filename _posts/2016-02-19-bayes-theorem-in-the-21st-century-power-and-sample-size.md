@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "贝叶斯理论在21世纪的作用，统计功效与样本大小"
 author: Yu

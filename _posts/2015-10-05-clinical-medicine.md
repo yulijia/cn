@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "长寿很重要"
 author: Yu

@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "单细胞测序技术的优点和应用"
 author: Yu

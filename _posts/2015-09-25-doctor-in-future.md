@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "未来医生"
 author: Yu

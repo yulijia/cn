@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "怪物之子"
 author: Yu

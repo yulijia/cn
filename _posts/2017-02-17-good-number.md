@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "今天的日期是个好数字"
 author: Yu

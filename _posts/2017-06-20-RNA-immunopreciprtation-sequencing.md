@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "RNA免疫沉淀测序"
 author: Yu

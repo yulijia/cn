@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "从母本到合子的过渡：两幕戏剧"
 author: Yu

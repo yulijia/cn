@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "p value 与q value"
 author: Yu

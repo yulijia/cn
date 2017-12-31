@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "可变剪接相关研究III"
 author: Yu

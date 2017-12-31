@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "NIPT检测"
 author: Yu

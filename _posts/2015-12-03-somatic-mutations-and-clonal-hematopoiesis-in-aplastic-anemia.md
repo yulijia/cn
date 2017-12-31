@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "再生障碍性贫血中的体细胞突变和克隆造血研究"
 author: Yu

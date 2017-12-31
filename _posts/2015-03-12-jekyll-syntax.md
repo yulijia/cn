@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 title: Jekyll 语法小节
 layout: post
 author: Yu 

@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "2015年度新闻总结"
 author: Yu

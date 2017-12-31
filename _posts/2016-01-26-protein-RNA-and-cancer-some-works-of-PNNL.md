@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "关于蛋白质、RNA和癌症的三篇文章"
 author: Yu

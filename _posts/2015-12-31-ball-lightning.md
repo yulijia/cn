@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "看完了球状闪电"
 author: Yu

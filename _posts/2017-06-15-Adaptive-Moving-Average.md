@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "自适应移动平均"
 author: Yu

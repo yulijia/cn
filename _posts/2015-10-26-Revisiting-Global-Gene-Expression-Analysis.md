@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "基因表达与spiked-in"
 author: Yu

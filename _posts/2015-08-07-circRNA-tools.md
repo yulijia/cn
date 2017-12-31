@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "circRNA 检测工具介绍"
 author: Yu

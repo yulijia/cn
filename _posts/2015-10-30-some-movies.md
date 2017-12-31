@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "看过且收藏的一些电影"
 author: Yu

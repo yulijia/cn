@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "度量距离时对数据做不做比例归一化(scale)"
 author: Yu

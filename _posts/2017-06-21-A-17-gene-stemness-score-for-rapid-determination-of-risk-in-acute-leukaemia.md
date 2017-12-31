@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "用于快速检测白血病的一种新方法：17基因干细胞性分值"
 author: Yu

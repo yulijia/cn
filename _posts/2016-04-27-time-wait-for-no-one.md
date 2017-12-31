@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "破事水"
 author: Yu

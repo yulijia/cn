@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "MBNL蛋白抑制备胎干细胞特异性的剪接和重编程"
 author: Yu

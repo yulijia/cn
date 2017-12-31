@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "协同过滤"
 author: Yu

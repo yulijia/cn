@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "恢复错删的文件"
 author: Yu

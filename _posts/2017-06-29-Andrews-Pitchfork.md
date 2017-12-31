@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "安德鲁音叉线"
 author: Yu

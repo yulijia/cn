@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "入夏后笔记本电脑罢工"
 author: Yu

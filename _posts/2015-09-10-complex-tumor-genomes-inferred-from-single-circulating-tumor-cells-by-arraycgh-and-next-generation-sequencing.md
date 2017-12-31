@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "循环肿瘤细胞的一个研究"
 author: Yu

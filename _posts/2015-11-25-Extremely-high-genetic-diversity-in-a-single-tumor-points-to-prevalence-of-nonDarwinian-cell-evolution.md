@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "非达尔文细胞演化模型在肝细胞癌上的一个研究"
 author: Yu

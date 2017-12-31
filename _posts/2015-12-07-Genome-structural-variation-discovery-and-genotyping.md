@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "关于基因组结构变异和基因型的综述"
 author: Yu

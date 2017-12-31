@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "使用（Push/Pull）多个Git远程仓库"
 author: Yu

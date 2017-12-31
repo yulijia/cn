@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "App如何找到目标定位"
 author: Yu

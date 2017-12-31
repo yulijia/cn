@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "这个男人来自地球"
 author: Yu

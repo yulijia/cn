@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "整个周末都耗费在修理小米手机上了"
 author: Yu

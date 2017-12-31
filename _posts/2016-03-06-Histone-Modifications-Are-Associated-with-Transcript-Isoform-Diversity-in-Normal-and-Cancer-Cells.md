@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "在正常和癌症细胞中组蛋白修饰与转录本异构体差异性的联系"
 author: Yu

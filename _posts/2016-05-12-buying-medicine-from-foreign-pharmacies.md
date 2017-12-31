@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "已经有人在我的大学校友群里开始做海外药物代购了"
 author: Yu

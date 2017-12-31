@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "通过单细胞技术检测到结肠癌中的双克隆起源以及发现一个新致癌基因"
 author: Yu

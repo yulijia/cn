@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "RNA干扰（RNAi）的世界"
 author: Yu

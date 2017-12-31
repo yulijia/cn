@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "生物信息学课程比较"
 author: Yu

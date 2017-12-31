@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "通过多组学研究方法寻找乙肝病毒引起的肝癌的生物学标志"
 author: Yu

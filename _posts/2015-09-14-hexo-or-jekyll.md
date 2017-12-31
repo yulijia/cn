@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "Hexo or Jekyll"
 author: Yu

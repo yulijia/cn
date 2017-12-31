@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "Rmarkdown的Tufte模板用xeCJK包写中文的一点问题"
 author: Yu

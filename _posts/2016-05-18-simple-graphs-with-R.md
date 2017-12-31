@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "R画图速查手册"
 author: Yu

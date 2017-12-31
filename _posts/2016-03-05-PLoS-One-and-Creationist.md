@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "PLOS ONE 和创造论者"
 author: Yu

@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "新博客主题：书签"
 author: Yu

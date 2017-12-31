@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "累积摆动指数"
 author: Yu

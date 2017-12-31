@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "小鼠胚胎单细胞RNA-seq线性、环状RNA分析"
 author: Yu

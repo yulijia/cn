@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "多组织间的DNA甲基化系统研究"
 author: Yu

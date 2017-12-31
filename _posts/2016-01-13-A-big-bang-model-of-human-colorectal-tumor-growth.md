@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "人类结肠癌生长的bigbang模型"
 author: Yu
