@@ -65,7 +65,7 @@ RNA降解在动物发育中的作用有两点：1.控制发育过程；2.细胞�
 我个人觉得最有意思的就是下面的这张图。作者们做了一个**epigenetic fate map of the pre-MBT H3K4me3-marked gene**,
 从这个图可以看到不同的基因在不同的阶段又不同的表观遗传学marker。
 
-![Imgur](http://i.imgur.com/Iv2t3bO.png)
+![Imgur](https://i.imgur.com/Iv2t3bO.png)
 
 后续，文章有讲述了Pre-MBT时期H3K4me3 mark对合子转录的积极作用，以及在精子和卵细胞中有这个maker的交集的基因有哪些。
 

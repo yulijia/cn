@@ -17,7 +17,7 @@ tags:
 3. 中线
 4. 支持趋势线
 
-![Andrews_Pitchfork](http://i.imgur.com/jNuYfZw.gif)
+![Andrews_Pitchfork](https://i.imgur.com/jNuYfZw.gif)
 
 建立安德鲁音叉线的步骤：
 

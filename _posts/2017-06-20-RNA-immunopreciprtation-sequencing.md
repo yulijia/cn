@@ -13,7 +13,7 @@ tags:
 
 RNA免疫沉淀测序用来定位蛋白质与RNA结合的位置。在该方法中，用特定的蛋白抗体来对RNA-蛋白复合物进行免疫沉淀。 RNA酶消化后，提取蛋白质覆盖的RNA并逆转录成cDNA。 然后将位置映射回基因组。
 
-![RIP-seq](http://i.imgur.com/MSMDDHM.png)
+![RIP-seq](https://i.imgur.com/MSMDDHM.png)
 
 技术优点：
 

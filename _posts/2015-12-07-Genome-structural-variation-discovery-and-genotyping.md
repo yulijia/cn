@@ -23,7 +23,7 @@ Genome structural variation discovery and genotyping，这篇2011年的综述介
 7. Translocation 
 
 
-![Imgur](http://i.imgur.com/sCvaAOT.png)
+![Imgur](https://i.imgur.com/sCvaAOT.png)
 
 
 对于大的变异（主要是获得或者缺失几百kb的片段）在人群中是十分少见的（<1%）但是会影响很大一部分疾病。
@@ -117,7 +117,7 @@ Sequence assembly 方法在重复区域有偏，在这些区域找不准。
 
 上面讲到的不同检测方法参见下图。
 
-![Imgur](http://i.imgur.com/DnIetuN.png)
+![Imgur](https://i.imgur.com/DnIetuN.png)
 
 
 ### Genotyping（基因分形）

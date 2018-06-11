@@ -52,7 +52,7 @@ tags:
 剪接失调的基因中很多是剪接因子。
 并且文章通过以往数据分析了剪接失调同癌症的细胞增殖有着一定的关系。
 
-![Imgur](http://i.imgur.com/mvXH1JL.png)
+![Imgur](https://i.imgur.com/mvXH1JL.png)
 
 
 ### 单词本
@@ -70,7 +70,7 @@ tags:
 在不同组织中有剪接的exon的表达情况各不相同。
 他们围绕调控的外显子抽取8个区域（区域见下图）的序列，在序列中找4mer到7mer的“words”，对看这些words的富集情况，从而获得剪接相关的调控元件。
 
-![Imgur](http://i.imgur.com/Ij77696.png)
+![Imgur](https://i.imgur.com/Ij77696.png)
 
 之后是对高精度RNA可见剪接图谱的研究，对每种检测到的关键motif的特点和潜在功能进行分析，并预测RNA结合蛋白和motif之间的关系。
 

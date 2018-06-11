@@ -25,7 +25,7 @@ TF 结合位置一般在DNase I peak的两侧，也就是山谷的位置。他�
 
 看这三种的比例，根据比例来判断TFs究竟是如何结合的（参见下图）。
 
-![Imgur](http://i.imgur.com/GJ9JiNG.png)
+![Imgur](https://i.imgur.com/GJ9JiNG.png)
 
 另外，文中介绍bound motif site是在peaks区域的，unbound motif site是在peaks外的motif site，文中分析bound site区域的DNase I 超敏感位点和TS motifs都富集很多。
 

@@ -19,7 +19,7 @@ multiple annealilng- and looping-based amplification cycles(MALBAC) 方法假阳
 
 NUC-SEQ/single nucleus exome sequencing(SNES) 方法可减少技术误差。
 
-![img](http://i.imgur.com/HwFzceg.png)
+![img](https://i.imgur.com/HwFzceg.png)
 
 ### 单细胞RNA测序技术
 

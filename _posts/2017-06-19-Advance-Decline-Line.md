@@ -12,7 +12,7 @@ tags:
 例如：纽约证券市场今日交易结束后，有1692家公司的股票收盘价上涨，1311家公司下跌，那么DELTA=1692-1311=381，假设昨天的ADL是45874，那么今天的ADL就是45874+381=46255。
 ADL数值是正还是负对于分析无关紧要，重要的是看它的趋势。
 
-![ADLine](http://i.imgur.com/XkvmJRO.gif)
+![ADLine](https://i.imgur.com/XkvmJRO.gif)
 
 High \#1 to High \#2
 

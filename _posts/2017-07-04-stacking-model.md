@@ -21,7 +21,7 @@ bagging就比较复杂了，有放回的抽样，对抽样的样本建立模型�
 
 Boosting是用迭代思想，我先建立一个简单的模型，然后找到这个模型的剩余误差，接下来在用另一个模型来预测前一个模型的剩余误差，以此类推，这样会产生多个若分类器（模型），然后给每个分类器一个权重，最终组合成一个强分类器（模型）。
 
-![Gradient_Boosting](http://i.imgur.com/puZ8S3h.png)
+![Gradient_Boosting](https://i.imgur.com/puZ8S3h.png)
 上图来自于参考资料[^2]。
 
 Boosting的权重究竟怎么选？
@@ -39,7 +39,7 @@ Boosting的权重究竟怎么选？
 好了，说了这么多废话，终于到重头戏，stacking方法了，这个方法网上的文献不多，混乱程度那是相当高。
 stacking 方法的第一层是类似cross validation，对于训练集合分成10份，用其中的9份做training，1份做validation，另外在对test集合做预测，这样，最后会得到一个完整的训练数据的validation结果，以及测试数据的预测结果，然后将这两个结果分别作为第二层的训练数据和测试数据，进行预测[^3]。
 
-![stacking method](http://i.imgur.com/akHjfc3.png "Stacking Models for Improved Predictions")
+![stacking method](https://i.imgur.com/akHjfc3.png "Stacking Models for Improved Predictions")
 上图来自于参考资料[^3]。
 
 **那么问题来了，究竟是对测试数据集在第一层时，做10次预测，并将10个结果求均值或者投票，还是每次只对测试数据集的十分之一做预测？**

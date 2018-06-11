@@ -32,7 +32,7 @@ Illumina公司有一张特别牛x的poster，叫做 [For all you seq](https://ww
 
 Chromatin isolation by RNA purification (ChIRP-Seq) RNA纯化染色质分离技术是用于定位非编码RNA，例如长非编码RNA及其蛋白同染色质相互作用的位置。
 
-![ChIRP-Seq](http://i.imgur.com/4vm5lpS.png )
+![ChIRP-Seq](https://i.imgur.com/4vm5lpS.png )
 
 首先进行交联，超声打断，用Biotinylated寡核苷酸对感兴趣的RNA进行杂交，并用链霉抗生物素蛋白磁珠捕获复合物。用RNase H（核糖核酸酶H）处理后，对DNA进行提取和测序。
 

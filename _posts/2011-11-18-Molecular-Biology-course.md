@@ -33,4 +33,4 @@ tags:
 忘了放配图了，分子课最后一节，老师给我们介绍的学术代谢通路，一个科研工作者的一生。制作用的DOT，同原版相比略有差异。
 
 
-<a href="http://i.imgur.com/9YK0e.png"><img title="The pathway of academic metabolism" src="http://i.imgur.com/9YK0e.png" alt="学术代谢通路" width="580" height="449" /></a>
+<a href="https://i.imgur.com/9YK0e.png"><img title="The pathway of academic metabolism" src="https://i.imgur.com/9YK0e.png" alt="学术代谢通路" width="580" height="449" /></a>

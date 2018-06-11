@@ -58,7 +58,7 @@ $$S_{per}:=mean(X_{a}')-mean(X_{b}')= -7.875$$
 
 这样我们得到有999个置换排列求得的999个$$S_{per}$$结果，这999个Sper结果能代表拟南芥小样本实验的抽样总体情况。
 
-![Imgur](http://i.imgur.com/Q9Fexgt.png)
+![Imgur](https://i.imgur.com/Q9Fexgt.png)
 
 如上图所示，我们的观测值 $$S_{obs}$$=14 在抽样总体右尾附近，说明在零假设条件下这个数值是很少出现的。在permutation得到的抽样总体中大于14的数值有9个，所以估计的P-value是9/999=0.01
 

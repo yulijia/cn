@@ -29,7 +29,7 @@ Efron的文章中用词具有多样性，写作时应该学习。
 
 如下图中的b所示，即便功效达到0.8，也有可能出现阳性预测率仅仅为0.64的情况。这是因为只有10%的假设是有效的（not null）
 
-![Imgur](http://i.imgur.com/n291Ycl.png)
+![Imgur](https://i.imgur.com/n291Ycl.png)
 
 
 用效应值$$d=(\mu_A-\mu_0)/\sigma$$可以来度量零假设分布和备择假设分布之间的差异。
@@ -37,7 +37,7 @@ Efron的文章中用词具有多样性，写作时应该学习。
 理想情况下，我们希望在type I error 一定的情况下，power越大越好。
 达到这个目的有两种方式，一种是用多样本集（参见下图a）， 另一种是增大效应值d（下图b）。
 
-![Imgur](http://i.imgur.com/J7mwLsX.png)
+![Imgur](https://i.imgur.com/J7mwLsX.png)
 
 所以做试验要有尽量多的生物学重复，会适当减小统计功效太小的问题。
 

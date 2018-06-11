@@ -20,7 +20,7 @@ tags:
 
 从下图可以看到，北京的平均气温在进入七月的第一个7天里会有一个小幅度的上升然后回落，在月末最后5天又会重复一次同样的过程。
 
-![Beijing Average Temperature in July](http://i.imgur.com/4uhNRip.png)
+![Beijing Average Temperature in July](https://i.imgur.com/4uhNRip.png)
 
 值得注意的是7月9日，这一天的1st四分位数和3rd四分位数都非常接近中位数，说明这一天的温度差异非常的小。~~所以我可以预测，2017年的7月9日，北京的日平均气温应在26摄氏度左右（7月里最舒服的一天）。~~
 

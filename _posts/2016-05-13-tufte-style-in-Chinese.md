@@ -37,7 +37,7 @@ tags:
 
 但是在生成的文档中缺失了。
 
-![Imgur](http://i.imgur.com/BsXTesC.png)
+![Imgur](https://i.imgur.com/BsXTesC.png)
 
 
 解决这个问题的最简单方法就是在header里重新定义上边界和下边界的距离。

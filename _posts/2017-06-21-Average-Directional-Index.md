@@ -10,7 +10,7 @@ tags:
 
 平均趋向指标是用来确定股票，期货或者货币是否正在交易区间。
 
-<!--![`ADX`](http://i.imgur.com/88EnUH5.gif)-->
+<!--![`ADX`](https://i.imgur.com/88EnUH5.gif)-->
 
 平均趋向指标展示的是一种趋势强度信号，它的方向同股票的走势没有直接关系。如果股票有很强的上行趋势，那么`ADX`会增加；如果股票有很强的下行趋势，`ADX`也会增加。
 
@@ -22,7 +22,7 @@ tags:
 震荡
 震荡指标在非趋势市场上相当有效。在非趋势市场中使用震荡指标使得低买高卖成为可能。不幸的是，在趋势市场中，震荡指标表现相当差，经常提示投资者在熊市下滑期间买入或在牛市时经常卖空。对于非趋势性时期，可以使用诸如Stochastic Fast & Slow, RSI, Williams %R 或者其他由范围限制的指标，例如布林带（Bollinger Bands）或者 Moving Average Envelopes （移动平均信封）。
 
-![ADX](http://i.imgur.com/aVmFhPA.gif)
+![ADX](https://i.imgur.com/aVmFhPA.gif)
 
 
 - 低于20：非趋势市场。

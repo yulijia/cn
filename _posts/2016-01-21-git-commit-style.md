@@ -113,7 +113,7 @@ git config --global commit.template ~/.git-commit-template.txt
 
 实际使用截图如下：
 
-![Imgur](http://i.imgur.com/LMDCXdN.png)
+![Imgur](https://i.imgur.com/LMDCXdN.png)
 
 
 
@@ -155,4 +155,4 @@ git config --global commit.template ~/.git-commit-template.txt
 
 实际使用时的截图如下
 
-![Imgur](http://i.imgur.com/rVEhe7Z.png)
+![Imgur](https://i.imgur.com/rVEhe7Z.png)

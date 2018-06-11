@@ -11,7 +11,7 @@ tags:
 
 摆动指数是用来预测未来短期内的价格变化的：当摆动指数曲线穿过零值水平线（可以想象成x轴）向上运动时，价格会短时向上运动；当摆动指数曲线穿过零值水平线向下运动时，价格会在短时期内向下运动。
 
-![Swing_Index](http://i.imgur.com/3NZo5Rk.gif)
+![Swing_Index](https://i.imgur.com/3NZo5Rk.gif)
 
 计算方法参见：[http://www.marketinout.com/technical_analysis.php?id=100](http://www.marketinout.com/technical_analysis.php?id=100)
 

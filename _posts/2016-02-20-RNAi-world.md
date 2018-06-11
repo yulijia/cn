@@ -35,7 +35,7 @@ Mello说这就是当时我们对siRNA所了解的东西，现在看来奥古斯�
 
 1.长双链RNA是在rde-1的帮助下作用于Small RNA的
 
-![img](http://i.imgur.com/iXQePCq.png)
+![img](https://i.imgur.com/iXQePCq.png)
 
 RNAi和microRNA通路中利用不同的RDE-1蛋白家族的成员，聚集到Dicer上。正当Mello他们认为RDE-1在上游起作用时，其他研究组（Greg Hannon, Ji-Joon Song以及Leemor Joshua-Tor）发现Argonaute蛋白有一个同其他可以剪切RNA的蛋白类似的domain(结构域)。
 
@@ -124,7 +124,7 @@ CRISPR/Cas9 今后将会如何呢？拭目以待。
 比较搞笑的是我看得这个版本的paper已经在杂志网站下架了，因为侵权，Fire并没有授权Cell Death and Differentiation 这个期刊来刊载他的演讲。这个期刊的文章中压缩了Fire的slides内容（少了几页）。
 我已经不知道当时是谁（任课老师or同学）给我发的文献了，这篇绝版文献也找不到了，最后发张照片纪念一下。
 
-![Imgur](http://i.imgur.com/5U0z0Zp.jpg)
+![Imgur](https://i.imgur.com/5U0z0Zp.jpg)
 
 
 单词表过长，我在看这篇文献的时候头脑空白，所有一看不能想起意思的词都标注了出来。

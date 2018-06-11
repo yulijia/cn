@@ -30,19 +30,19 @@ bar chart是大家都很常见的条形图，传统的bar chart只能显示很�
 
 例如：要表示汽车的一周销量1、3、6、4、9，就可做出如下的条形图。
 
-<a href="http://i.imgur.com/Yb7iu.png"><img title="Cars" src="http://i.imgur.com/Yb7iu.png" width="300" height="245" /></a>
+<a href="https://i.imgur.com/Yb7iu.png"><img title="Cars" src="https://i.imgur.com/Yb7iu.png" width="300" height="245" /></a>
 
 图的横轴为日期，纵轴为销售总量，条形高度代表销售量。
 
 若要表示汽车、卡车、suvs的一周销售量，则可做出这样的条形图
 
-<a href="http://i.imgur.com/lHu0W.png"><img title="Autos" src="http://i.imgur.com/lHu0W.png" width="300" height="245" /></a>
+<a href="https://i.imgur.com/lHu0W.png"><img title="Autos" src="https://i.imgur.com/lHu0W.png" width="300" height="245" /></a>
 
 这时横轴表示三种车辆（并且销售数据按日期的排序），纵轴为销售总量，条形高度代表销售量。
 
 如果还想把总销量表示在图中，则需要这样
 
-<a href="http://i.imgur.com/BaVqu.png"><img title="Autos01" src="http://i.imgur.com/BaVqu.png" width="300" height="245" /></a>
+<a href="https://i.imgur.com/BaVqu.png"><img title="Autos01" src="https://i.imgur.com/BaVqu.png" width="300" height="245" /></a>
 
 横轴代表日期，纵轴代表销售总量，每个竖条分成3部分，分别代表不同车辆的销售数据。
 
@@ -58,7 +58,7 @@ bar chart是大家都很常见的条形图，传统的bar chart只能显示很�
 
         barplot(rep(1,length(as.matrix(autos_data))),width=as.matrix(autos_data), main="Autos",  beside=TRUE, col=rainbow(5))
         
-<a href="http://i.imgur.com/Ut5kC.png"><img title="等高条形图" src="http://i.imgur.com/Ut5kC.png" width="300" height="245" /></a>
+<a href="https://i.imgur.com/Ut5kC.png"><img title="等高条形图" src="https://i.imgur.com/Ut5kC.png" width="300" height="245" /></a>
 
 等高条形图的缺陷是无法从图中看出准确的数值（就是指上图中的车辆销售量）。
 
@@ -66,7 +66,7 @@ bar chart是大家都很常见的条形图，传统的bar chart只能显示很�
 
 pixel bar chart是在原有bar chart的基础上，将每个数据用一个像素为代表显示在图中，像素在图中有坐标位置和颜色这两个指标值（Daniel A. Keim老师的意思是bar chart加上x-y diagrams），故可以显示数据的多个指标，并可在有限的空间展示大量数据。
 
-<a href="http://i.imgur.com/5PZwE.png"><img title="pixelbarchart" src="http://i.imgur.com/5PZwE.png" width="300" height="204" /></a>
+<a href="https://i.imgur.com/5PZwE.png"><img title="pixelbarchart" src="https://i.imgur.com/5PZwE.png" width="300" height="204" /></a>
 
 （图像来源于论文：Pixel bar charts: a visualization technique for very large multi-attributes data sets）
 
@@ -74,7 +74,7 @@ pixel bar chart是在原有bar chart的基础上，将每个数据用一个像�
 
 这是一个在电子商务中应用的例子，图中的每个像素代表一位顾客，每个条形代表一类产品。a图中的颜色代表顾客的购物总额，b图中的颜色代表访问次数，c图中的颜色代表浏览数量。（从图中可以很直观地看出顾客的购买倾向）
 
-<a href="http://i.imgur.com/OqnHf.png"><img title="Multi-pixel bar charts" src="http://i.imgur.com/OqnHf.png" width="300" height="149" /></a>
+<a href="https://i.imgur.com/OqnHf.png"><img title="Multi-pixel bar charts" src="https://i.imgur.com/OqnHf.png" width="300" height="149" /></a>
 
 （图像来源于论文：Pixel bar charts: a visualization technique for very large multi-attributes data sets）
 

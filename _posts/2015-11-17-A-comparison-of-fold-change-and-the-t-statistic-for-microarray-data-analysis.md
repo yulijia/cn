@@ -67,7 +67,7 @@ fold-change方法找到的基因在control和treatment里有很大的差异，
 改良后的t统计量找到的基因有较小的标准差和组间较大的差异。
 由于普通的t统计量和fold-change的结果完全不一样，对于研究者来说，要考虑某个基因在研究中是否重要的根据是<u>表达量的偏移</u>还是<u>标准差的偏移</u>。
 
-![Imgur](http://i.imgur.com/h9vgnOe.png)
+![Imgur](https://i.imgur.com/h9vgnOe.png)
 
 ### Simulated and real data Concordance
 
@@ -79,7 +79,7 @@ fold-change方法找到的基因在control和treatment里有很大的差异，
 
 下图就是他们分析的一个结果，可以看到样本量在红线左侧时，用$$FC_{difference}$$比较好，样本量很大时就用改良的t统计量较好。
 
-![Imgur](http://i.imgur.com/kYRA3JS.png)
+![Imgur](https://i.imgur.com/kYRA3JS.png)
 
 其实从我们用的方法来寻找差异基因，一共就度量两类差异：
 第一类是$$\mid \mu_{control} - \mu_{treatment} \mid $$ ，另一类是$$\mid \frac{\mu_{control} - \mu_{treatment}}{\sigma}\mid$$。
@@ -137,9 +137,9 @@ rather than a statistical one, as it depends on what types of expression differe
 因而说明了，重复性和精确性在某些检验指标中不可间得的问题。
 
 
-![Imgur](http://i.imgur.com/zUiyLyf.png)
+![Imgur](https://i.imgur.com/zUiyLyf.png)
 
-![Imgur](http://i.imgur.com/szsx7pi.png)
+![Imgur](https://i.imgur.com/szsx7pi.png)
 
 
 ### Conclusions

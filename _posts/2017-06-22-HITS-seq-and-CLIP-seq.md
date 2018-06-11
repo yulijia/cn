@@ -12,7 +12,7 @@ tags:
 
 HITS-CLIP 和 CLIP-seq 可以用于定位体内的蛋白质RNA相互作用位点。这个测序技术同[RIP-seq](http://yulijia.net/cn/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF/2017/06/20/RNA-immunopreciprtation-sequencing.html)类似，但是用交联来固定蛋白质RNA复合物。方法是将RNA蛋白质复合物用紫外线交联并做免疫沉淀。复合物经过RNA酶和蛋白酶K的处理，然后提取RNA，并逆转录成cDNA，测序结果可提供精确到单碱基的蛋白质与RNA结合信息。
 
-![HITS-CLIP_and_CLIP-seq](http://i.imgur.com/hBGHzWu.png)
+![HITS-CLIP_and_CLIP-seq](https://i.imgur.com/hBGHzWu.png)
 
 技术优点：
 

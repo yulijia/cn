@@ -77,6 +77,6 @@ local clusters of CpG sites的就是把DNA甲基化位点密集的区域变成�
 
 [^1]: [Alix Groom: How to measure DNA methylation](http://www.bristol.ac.uk/caite/geocode/newcastleshortcourse/howtomeasuredna.pdf)
 
-![CpG islands/shores/shelves/open sea](http://i.imgur.com/TFVakGv.png)
+![CpG islands/shores/shelves/open sea](https://i.imgur.com/TFVakGv.png)
 
 
