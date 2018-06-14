@@ -19,4 +19,7 @@ tags:
 for i in *.md; do sed -i 's/http\:\/\/i.imgur.com/https\:\/\/i.imgur.com/g' $i; done
 ```
 
-半年没更新了。还要再闭关一段时间。就这样。
+中科大的 google font 源也不管用了（可能是我自己网络的问题），已把它在css中禁用。不管怎样，网站默认字体根据系统自定，凑合看吧。
+
+
+半年没更新了，还要再闭关一段时间，就这样。
