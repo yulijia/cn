@@ -13,7 +13,7 @@ NIPT（Noninvasive prenatal testing）非侵入式产前检测，国内一般称
 NIPT技术细分为两种：一种是测CNV，另一种是测SNP。
 在2012年时比较流行的4中具体方式是[^1]：
 1. Sequenom 公司：定量，短序列全基因组测序，并且评估胚胎DNA含量
-2. Verinata 公司：定量，短序列全基因组深度测序，不评估胚胎的DNA含量
+2. Verinata 公司：定量，短序列全基因组深度测序，并评估胚胎的DNA含量
 3. Ariosa 公司：定量，目标区域扩增，并且根据SNP频率来确定胚胎DNA含量
 4. Natera 公司：基于非定量的SNP，分析等位基因频率（这个方法中用白细胞的测序结果作为母亲的基因型）
 
@@ -35,6 +35,12 @@ NIPT方法目前主要还是用于测染色体倍增或者缺失（截至2013年
 
 我本认为技术应该很高超，结果看完相关网络资料发现不用区分母婴的DNA时，方法也就很常规了。
 
+=========================
 
-[^1]: [Noninvasive Prenatal Testing (NIPT): Separate But Not Equal](http://www.agt-info.org/Documents/2014%20Annual%20Meeting/HANDOUT%20Strom.pdf)
+2019年12月18日更新，修改错别字，标注失效链接
+
+我从网上搜NIPT的具体计算方法，结果第一篇文章是自己的。。。看样子需要再写一篇算法的介绍。
+
+
+[^1]: [Noninvasive Prenatal Testing (NIPT): Separate But Not Equal](http://www.agt-info.org/Documents/2014%20Annual%20Meeting/HANDOUT%20Strom.pdf) 这个链接已经失效
 [^2]: [Non-invasive prenatal aneuploidy testing: technologies and clinical implications. By: Brynn Levy and Errol Norwitz, June 20, 2013](http://www.mlo-online.com/non-invasive-prenatal-aneuploidy-testing-technologies-and-clinical-implications.php)
