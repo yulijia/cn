@@ -44,7 +44,7 @@ end
 
 具体方法，即从上面的矩阵方法中，求$$\begin{bmatrix}1 & 1 \\ 1 & 0\end{bmatrix}$$的特征值和特征向量，然后带回到方程中，已知$$f_{0}=\begin{bmatrix}1  \\  0\end{bmatrix}$$ 然后可求通项[^1]。
 
-网上还有一些初级数学的方法可以求解，但是我忘记高中时候是怎么推倒的了（很可能是用差分方法），如果有机会，翻翻之前的笔记，尽量找出来。
+网上还有一些初级数学的方法可以求解，但是我忘记高中时候是怎么推导的了（很可能是用差分方法），如果有机会，翻翻之前的笔记，尽量找出来。
 
 [^1]: [Fibonacci number: Matrix form](https://en.wikipedia.org/wiki/Fibonacci_number#Matrix_form)
 
