@@ -3,7 +3,7 @@ published: ture
 layout: post
 title: "Fibonacci数列"
 author: Yu
-categories: 
+categories: 计算方法
 tags:
 - Fibonacci
 - 递归
@@ -11,7 +11,7 @@ tags:
 - 通项公式
 ---
 
-接上篇内容，翻倒远古时期写的Fibonacci数列第N项的计算方法，直觉上写一个递归函数就可以搞定问题，但是其计算时间复杂度是<code>O(2^n)</code>。
+接上篇内容，翻倒远古时期用MATLAB写的Fibonacci数列第N项的计算方法，直觉上写一个递归函数就可以搞定问题，但是其计算时间复杂度是<code>O(2^n)</code>。
 
 当然，如果需要降低时间复杂度，应该写成循环的形式。我一开始以为自己写的就是递归函数的版本，查着资料，写着博客，猛然发现自己写的就是循环。
 
