@@ -12,7 +12,7 @@ tags:
 - scp
 ---
 
-### 断点续传
+### rsync断点续传
 
 网络传输速度很大程度上会影响我的工作。服务器与服务器之间的通连，有时`scp`不是最好的选择，例如：网络出现问题，两个服务器之间的连接断开后，使用`scp`再次连接时无法进行断点续传。
 
@@ -55,4 +55,22 @@ aria2c  -s 3 -x 3 "https://baidu.com/d/datadump.current.zip"
 
 测试发现，大文件上传比慢。文件只能上传到`全部文件>apps>bypy`这个文件夹。
 
+### 下载一系列FTP上的文件
 
+这是压箱底的老程序，filetype这里其实不需要使用一个循环，如果只有一个类型的话，直接在下载的循环中用grep筛出这个变量。
+
+```bash
+#!/bin/bash
+
+for filetype in pdf; 
+do 
+  for net in `grep "$filetype" file.list2 | sed "s/\<td\>\<a href=\"//g" | sed "s/\"//g" | sed "s/<TD//g"`; 
+  do 
+    if [ ! -f $net ]
+    then
+    echo $net
+    #wget  $path/$net
+    fi
+  done
+done
+```
