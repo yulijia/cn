@@ -17,3 +17,8 @@ tags:
 有些完全没有技巧性的，我就挪到[英文博客](http://yulijia.net/en/categories/#HowTo)了。中文博客记录一些可以展开说明的内容。
 
 如无特殊说明，所有程序均按照初期使用的语言编写，其中MATLAB替换成Octave，python是3.6以上版本，R是最新版本，perl语言用perl5，c和c++用电脑里GCC最新版，操作系统是CentOS或者Fedora。
+
+- [How to rename files](http://yulijia.net/en/howto/2020/01/02/how-to-rename-files.html)
+- [Fibonacci数列](http://yulijia.net/cn/%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95/2020/01/03/Fibonacci-sequence.html)
+- [Kruskal's algorithm](http://yulijia.net/en/howto/2020/01/05/Kruskal-algorithm.html)
+- [常用下载方式总结](http://yulijia.net/cn/%E8%BD%AF%E4%BB%B6%E4%B8%96%E7%95%8C/2020/01/06/Download-tools.html)
