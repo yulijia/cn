@@ -66,7 +66,7 @@ end
 - [Kruskal's algorithm](http://yulijia.net/en/howto/2020/01/05/Kruskal-algorithm.html)
 - [常用下载方式总结](http://yulijia.net/cn/%E8%BD%AF%E4%BB%B6%E4%B8%96%E7%95%8C/2020/01/06/Download-tools.html)
 - [Perl的没落](http://yulijia.net/cn/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF/2020/01/07/Fall-of-Perl.html)
-
+- [Dijkstra's algorithm](http://yulijia.net/en/howto/2020/01/06/Dijkstra-algorithm.html)
 
 
 
