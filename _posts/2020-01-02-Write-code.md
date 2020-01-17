@@ -67,6 +67,6 @@ end
 - [常用下载方式总结](http://yulijia.net/cn/%E8%BD%AF%E4%BB%B6%E4%B8%96%E7%95%8C/2020/01/06/Download-tools.html)
 - [Perl的没落](http://yulijia.net/cn/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF/2020/01/07/Fall-of-Perl.html)
 - [Dijkstra's algorithm](http://yulijia.net/en/howto/2020/01/06/Dijkstra-algorithm.html)
-
+- [How to draw multiple ggplot2 figures on a page](http://yulijia.net/en/howto/2020/01/15/How-to-draw-multiple-ggplot2-figures-on-a-page.html)
 
 
