@@ -14,7 +14,7 @@ tags:
 
 值得称赞的是，CDC、医科院，有相关经验的医院、中科院以及一些医药公司的大量医生和研究人员，通力合作，很快就对病毒进行了分离并测序，已经公布病毒的电镜图片，测定病毒蛋白结构，药物所也在今天公布了一些药物筛选结果。
 
-这个事件也让我发现了一群<q>学术小丑</q>。这种时期抢发生物信息分析论文，不负责的推测病毒溯源到中间宿主是蛇或者水貂，纯属灌水。这群人不觉得给自己工作单位丢脸么？另外Y叔在他的[微信公众号biobabble](https://mp.weixin.qq.com/s/1ydwtadMAIyjqNxWwgO7wA)上也提到了新病毒序列的版权的问题。<u>根据[Fort Lauderdale协议](https://en.wikipedia.org/wiki/Fort_Lauderdale_Agreement)和[多伦多声明](https://www.genome.gov/27533540/2009-news-feature-prepublication-data-sharing-the-toronto-statement)，数据共享者有发表第一篇论文的权利。</u> 这种时期拿别人公开的数据，抢发论文，至于这样么？
+这个事件也让我发现了一群<q>学术小丑</q>。这种时期抢发生物信息分析论文，不负责的推测病毒溯源到中间宿主是蛇或者水貂，纯属灌水。这群人不觉得给自己工作单位丢脸么？另外Y叔在他的[微信公众号biobabble](https://mp.weixin.qq.com/s/1ydwtadMAIyjqNxWwgO7wA)上也提到了新病毒序列的版权的问题。**根据[Fort Lauderdale协议](https://en.wikipedia.org/wiki/Fort_Lauderdale_Agreement)和[多伦多声明](https://www.genome.gov/27533540/2009-news-feature-prepublication-data-sharing-the-toronto-statement)，数据共享者有发表第一篇论文的权利。** 这种时期拿别人公开的数据，抢发论文，至于这样么？
 
 最后，今天高福老师还放了个大炮，说疫苗肯定会研制成功，还说了研发有时间周期。朋友都在吐槽这个，我明白了官方打士气原来是这么一回事<code>_-_</code>。。研制疫苗到投产要多长时间？看看SARS疫苗研发就知道了。等研发到临床实验的时候，病人都痊愈了，谁愿意做测试，哪个公司愿意生产。<code>_-_</code>
 
