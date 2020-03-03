@@ -80,6 +80,14 @@ crontab -r 用户名
 
 `.bashtemp/b/sync`是一段 shell 脚本，用来运行`.bashtemp/b/run`里面的内容，`run`里是恶意挖矿脚本以及添加黑客的 rsa 公钥加到`/root/.ssh/authorized_keys`的程序，具体内容和详细分析参见参考资料4[^4]。
 
+密钥长这个模样:
+
+```bash
+AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8NVbUT0bUanUV9tJ2/9p7+vD0EpZ3Tz/+0kX34uAx1RV/75GVOmNx+9EuWOnvNoaJe0QXxziIg9eLBHpgLMuakb5+BgTFB+rKJAw9u9FSTDengvS8hX1kNFS4Mjux0hJOK8rvcEmPecjdySYMb66nylAKGwCEE6WEQHmd1mUPgHwGQ0hWCwsQk13yCGPK5w6hYp5zYkFnvlC8hGmd4Ww+u97k6pfTGTUbJk14ujvcD9iUKQTTWYYjIIu5PmUux5bsZ0R4WFwdIe6+i6rBLAsPKgAySVKPRK+oRw== mdrfckr
+```
+
+用这个公钥在网上一搜，可以发现不少中招的信息。
+
 通过上面的定时人物，还可以发现在`/tmp`文件夹下有一个隐藏的文件夹`.X19-unix`, 里面有一个dota3的压缩包和隐藏的`.rsync`文件夹，压缩包查看内容后发现是整套木马程序(`.rsync`里的内容)。
 
 ```bash
