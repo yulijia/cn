@@ -13,7 +13,7 @@ tags:
 
 ### 1 事情经过
 
-昨天用 top 命令服务器 cpu 使用情况，突然发现一个用户占用了 8 个 cpu 跑了一个`cron`，并且运行时间越来越长。
+昨天用 top 命令查看服务器 cpu 使用情况，突然发现一个用户占用了 8 个 cpu 跑了一个`cron`，并且运行时间越来越长。
 
 ![top_screenshot](https://i.imgur.com/8bioErQ.png)
 
