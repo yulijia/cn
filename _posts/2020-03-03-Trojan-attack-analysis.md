@@ -3,7 +3,7 @@ published: ture
 layout: post
 title: "挖矿木马植入服务器分析"
 author: Yu
-categories:
+categories: 操作系统
 tags:
 - 木马
 - 挖矿
