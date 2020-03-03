@@ -88,7 +88,7 @@ AAAAB3NzaC1yc2EAAAABJQAAAQEArDp4cun2lhr4KUhBGE7VvAcwdli2a8dbnrTOrbMz1+5O73fcBOx8
 
 用这个公钥在网上一搜，可以发现不少中招的信息 [^3][^4][^5]。
 
-通过上面的定时人物，还可以发现在`/tmp`文件夹下有一个隐藏的文件夹`.X19-unix`, 里面有一个dota3的压缩包和隐藏的`.rsync`文件夹，压缩包查看内容后发现是整套木马程序(`.rsync`里的内容)。
+通过上面的定时任务，还可以发现在`/tmp`文件夹下有一个隐藏的文件夹`.X19-unix`, 里面有一个 dota3 的压缩包和隐藏的`.rsync`文件夹，压缩包查看内容后发现是整套木马程序(`.rsync`里的内容)。
 
 ```bash
 .
