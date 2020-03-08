@@ -26,9 +26,9 @@ tags:
 
 > Let me say first ... discovery is never just for the sake of discovery, gentlemen ... but for the sake of human survival.
 > 
-> And it will always come with a risk. W
+> And it will always come with a risk. 
 >
-> hoever get there first will make the rules, that been ture for every civilization, and so I think the bigger question for this body to consider is who do you want to calling the shots in space?
+> Whoever get there first will make the rules, that been ture for every civilization, and so I think the bigger question for this body to consider is who do you want to calling the shots in space?
 
 不管美苏争霸，还是现今的太空竞赛。其目的都是为了话语权。就像COVID-19的病毒必须命名成SARS-COV-2一样，这种争论都是话语权的较量。
 
