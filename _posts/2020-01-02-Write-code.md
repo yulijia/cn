@@ -59,6 +59,8 @@ end
 
 最后，程序里要写metainfo，例如编写时间，修改时间，修改内容，作者，联系方式等等。尤其在开源软件中，写metainfo会方便记录代码是否有多人进行维护（有点类似于git commit）
 
+2020年5月3日再次提醒自己，写代码一定要有注释，否则，你根本不记得自己三个月前写了什么。。
+
 
 
 - [How to rename files](http://yulijia.net/en/howto/2020/01/02/how-to-rename-files.html)
@@ -68,5 +70,6 @@ end
 - [Perl的没落](http://yulijia.net/cn/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF/2020/01/07/Fall-of-Perl.html)
 - [Dijkstra's algorithm](http://yulijia.net/en/howto/2020/01/06/Dijkstra-algorithm.html)
 - [How to draw multiple ggplot2 figures on a page](http://yulijia.net/en/howto/2020/01/15/How-to-draw-multiple-ggplot2-figures-on-a-page.html)
+- [树根和回文串](http://yulijia.net/cn/%E7%BC%96%E7%A8%8B%E5%8E%9F%E7%90%86/2020/05/03/digital-root-and-palindrome.html)
 
 
