@@ -72,5 +72,6 @@ end
 - [How to draw multiple ggplot2 figures on a page](http://yulijia.net/en/howto/2020/01/15/How-to-draw-multiple-ggplot2-figures-on-a-page.html)
 - [树根和回文串](http://yulijia.net/cn/%E7%BC%96%E7%A8%8B%E5%8E%9F%E7%90%86/2020/05/03/digital-root-and-palindrome.html)
 - [老古董Fortran](http://yulijia.net/cn/%E8%BD%AF%E4%BB%B6%E4%B8%96%E7%95%8C/2020/05/03/Fortran.html)
+- [计算机图形学I](http://yulijia.net/cn/%E5%8F%AF%E8%A7%86%E4%BF%A1%E6%81%AF/2020/05/03/Computer-Graphics-I.html)
 
 
