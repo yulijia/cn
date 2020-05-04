@@ -1,7 +1,7 @@
 ---
 published: ture
 layout: post
-title: "计算机图形学I"
+title: "计算机图形学I--基础画线"
 author: Yu
 categories: 可视信息
 tags:

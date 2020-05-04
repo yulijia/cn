@@ -1,7 +1,7 @@
 ---
 published: ture
 layout: post
-title: "计算机图形学 II"
+title: "计算机图形学II--基础填充几何变换"
 author: Yu
 categories: 可视信息
 tags:
