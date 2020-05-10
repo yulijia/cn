@@ -45,7 +45,7 @@ $$\int_a^b f(x)\mathrm{d}x\approx\frac{1}{(x_1-x_0)}\int_{x_0}^{x_1}[(x-x_0)f(x_
 简化成a,$$\frac{a+b}{2}$$,b的三点的结果，就是辛普森公式 $$\int_a^b f(x)\mathrm{d}x\approx\frac{b-a}{6}[f(a)+4f(\frac{a+b}{2})+f(b)]$$
 
 
-### 1.2.那么复化是什么意思呢 [^1]？
+### 1.2.那么复化（composite）是什么意思呢 [^1]？
 
 应用高阶牛顿-科特斯公式计算积分时，会出现数值不稳定的情况（[龙格现象（Runge's phenomenon）]（https://en.wikipedia.org/wiki/Runge's_phenomenon)），而低阶公式往往因为积分步长过大使得离散误差变大，因此，为了提高求积公式的精度，可以把积分区间分成若干个子区间，在每个子区间上使用低阶求积公式，然后将结果加起来，这种方法称为**复化求积法**。
 
@@ -56,6 +56,8 @@ $$\int_a^b f(x)\mathrm{d}x \approx \sum_{i=1}^{n}\int_{x_i}^{x_{i+1}}f(x)\mathrm
 根据复化梯形公式的推导，同理可得复化辛普森公式为：
 
 $$\int_a^b f(x)\mathrm{d}x \approx \frac{h}{6}\sum_{i=1}^{n-1}[f(x_i)+4f(x_{i+\frac{1}{2}})+f(x_{i+1})]$$, 其中 $$h=\frac{b-a}{n}$$
+
+上面这个公式对于n的取值有一些条件，辛普森法则是根据三个点的位置来推定曲线的函数表达形式，这时需要要求整个区间被分割成**偶数份**[^2]，即n是偶数，公式可以写成$$\int_a^b f(x)\mathrm{d}x \approx \frac{h}{6}\sum_{j=1}^{\frac{n}{2}}[f(x_{2j-2})+4f(x_{2j-1})+f(x_{2j})]$$。
 
 ## 2.复化辛普森求积分
 
@@ -212,3 +214,4 @@ void main()
 参考资料
 
 [^1]: [【数值分析】复化积分公式](https://blog.csdn.net/tengweitw/article/details/43311685)
+[^2]: [Simpson's Rule: the Formula and How it Works](https://www.freecodecamp.org/news/simpsons-rule/)
