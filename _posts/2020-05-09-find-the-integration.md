@@ -67,7 +67,7 @@ $$\int_a^b f(x)\mathrm{d}x \approx \frac{h}{6}\sum_{i=1}^{n-1}[f(x_i)+4f(x_{i+\f
 #include<math.h>
 #include<stdio.h>
 #include<stdlib.h>
-main()
+void main()
 {   int n;//定义节点数 
     double a,b;//定义左右节点 
     printf("No.0001复化辛普森求积分(Simpson)\n\n输入节点数：");
@@ -122,7 +122,7 @@ main()
 #include<math.h>
 #include<stdio.h>
 #include<stdlib.h>
-main()
+void main()
 {   int n;//定义节点数 
     double a,b;//定义左右节点 
     printf("No.0002复化梯形求积分\n\n输入节点数：");
@@ -208,6 +208,107 @@ void main()
     printf("使用复化辛普森公式可得：%f\n",MulripleSimpson(0,1,4));
 }
 
+```
+
+当年为了做这个作业，我的还搞了个整合代码（网上找了的程序，修改了一下），还包含了中矩形公式。
+
+```cpp
+//数值分析--数值积分公式 
+#include"iostream.h"
+#include"math.h"
+double c[10][10];
+double f(double x)
+{
+  double sum=0;
+  if(x==0) return 1;
+  sum=sin(x)/x;//计算公式 
+  return sum;
+}
+void initcotes(double c[][10])
+{
+  c[1][0]=c[1][1]=0.5;
+  c[2][0]=c[2][2]=1.0/6.0;c[2][1]=2.0/3.0;
+  c[3][0]=c[3][3]=1.0/8.0;c[3][1]=c[3][2]=3.0/8.0;
+  c[4][0]=c[4][4]=7.0/90.0;c[4][1]=c[4][3]=16.0/45.0;c[4][2]=2.0/15.0;
+  c[5][0]=c[4][5]=19.0/288.0;c[5][1]=c[5][4]=25.0/96.0;c[5][2]=c[5][3]=25.0/144.0;
+}
+int Trapezoid(double a,double b)
+{
+  cout<<"梯形公式的结果："<<(b-a)*(f(a)+f(b))/2<<endl;
+  return 1;
+}
+int MidRect(double a,double b)
+{
+  cout<<"中矩形公式的结果："<<(b-a)*f((b+a)/2)<<endl;
+  return 1;
+}
+int NewtonCotes(double a,double b)
+{ 
+  int n,k;double h;
+  cout<<"请输入n的值（n值最多到5）：";
+  cin>>n;
+  if(n>=6)
+  cout<<"注意n值最多到5"<<endl;
+  else{ 
+  h=(b-a)/double(n);
+  double sum=0;
+  for(k=0;k<=n;k++)
+   sum+=c[n][k]*f(a+k*h);
+  cout<<"牛顿-柯特斯公式的结果："<<(b-a)*sum<<endl;}
+  return 1;
+}
+int STrapezoid(double a,double b)
+{ 
+  int n,k,q;double h;
+  cout<<"1--复化梯形公式"<<endl;
+  cout<<"2--复化辛普森求积公式"<<endl;
+  cout<<"输入你想进行的操作：";
+  cin>>q;  
+  cout<<"请输入n的值：";
+  cin>>n;
+  h=(b-a)/double(n);
+  double sum=0;
+  sum+=(f(a)+f(b));
+  for(k=1;k<=n-1;k++)  sum+=2*f(a+k*h);
+ if(q==1)
+ {
+  cout<<"复化梯形公式的结果："<<(h/2)*sum<<endl;
+  return 1;
+ }
+  for(k=0;k<n;k++)
+   sum+=4*f(a+(k+0.5)*h);
+  cout<<"复化辛普森求积公式的结果："<<(h/6)*sum<<endl;
+  return 1;
+}
+void main()
+{ cout<<"No.0003数值分析--数值积分公式"<<endl;
+  cout<<"[编写：Felix ADOL YuYang Mars]"<<endl<<endl;
+  double a,b;
+  int p;
+  cout<<"请输入积分的下限：";
+  cin>>a;
+  cout<<"请输入积分的上限：";
+  cin>>b;
+  initcotes(c);
+  while(1)
+  {
+    cout<<"0--退出"<<endl;
+ cout<<"1--梯形公式"<<endl;
+ cout<<"2--中矩形公式"<<endl; 
+ cout<<"3--牛顿柯特斯公式:"<<endl; 
+ cout<<"4--复化公式"<<endl;
+ cout<<"输入你想进行的操作:";
+ cin>>p;
+ switch(p)
+ {
+ case 1:Trapezoid(a,b);break;
+ case 2:MidRect(a,b);break;
+ case 3:NewtonCotes(a,b);break;
+ case 4:STrapezoid(a,b);break;
+ }
+ if(p==0)  break;
+  }
+}
 ```
 
 
