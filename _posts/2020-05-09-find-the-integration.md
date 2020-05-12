@@ -282,7 +282,6 @@ int STrapezoid(double a,double b)
 }
 void main()
 { cout<<"No.0003数值分析--数值积分公式"<<endl;
-  cout<<"[编写：Felix ADOL YuYang Mars]"<<endl<<endl;
   double a,b;
   int p;
   cout<<"请输入积分的下限：";
