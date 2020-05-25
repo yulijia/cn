@@ -75,4 +75,4 @@ end
 - [计算机图形学I--基础画线](http://yulijia.net/cn/%E5%8F%AF%E8%A7%86%E4%BF%A1%E6%81%AF/2020/05/03/Computer-Graphics-I.html)
 - [计算机图形学II--基础填充几何变换](http://yulijia.net/cn/%E5%8F%AF%E8%A7%86%E4%BF%A1%E6%81%AF/2020/05/04/Computer-Graphics-II.html)
 - [计算方法系列I - 求积分](http://yulijia.net/cn/%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95/2020/05/09/find-the-integration.html)
-
+- [数值分析II--求方程的根](http://yulijia.net/cn/%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95/2020/05/13/find-the-root-of-equation.html)
