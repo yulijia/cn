@@ -7,6 +7,7 @@ categories: 计算方法
 tags:
 - 二分法
 - 牛顿迭代法
+- 弦割法
 ---
 
 
@@ -155,5 +156,66 @@ system("pause");
 }
 ```
 
+## 4. 弦割法
 
+弦割法(Secant Method)是基于牛顿法的一种改进，基本思想是用弦的斜率近似代替目标函数的切线斜率，并用割线与横轴交点的横坐标作为方程式的根的近似。
+
+![SecantMethod](https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Secant_method.svg/300px-Secant_method.svg.png)
+
+公式就不推了，参见维基百科或者百度百科。
+
+```cpp
+#include"math.h"
+#include"stdio.h"
+#include"stdlib.h"
+double fun(double k)
+{
+	return k*k*k-k*k-1;//所求方程 
+}
+main()
+{double a,b,x,x1,l=1,x0,x2;
+int i=0,p;
+printf("No.0007弦割法求方程的根\n\n选择输入种类：\n1.单点\n2.双点\n");
+printf("\n");
+while(l==1)
+{scanf("%d",&p);
+if(p!=1&&p!=2) printf("请输入指定序号\n\n");//判断输入的序号是否正确 
+else l=0;
+}
+switch(p)
+{
+ case 1:
+		printf("种类\n1.单点\n");
+		printf("输入点1：");
+		scanf("%lf",&x);
+		printf("输入点2：");
+		scanf("%lf",&x1);
+        while(fabs(fun(x1)*(x1-x)/(fun(x1)-fun(x)))>0.00005)
+        {
+        x2=x1-fun(x1)*(x1-x)/(fun(x1)-fun(x));
+        x1=x2;
+        i++;
+        }
+        printf("方程的根：%lf\n",x1); 
+        printf("迭代次数：%d\n\n",i);
+		break;
+ case 2:printf("种类\n2.双点\n");
+		printf("输入点1：");
+		scanf("%lf",&x);
+		printf("输入点2：");
+		scanf("%lf",&x1);
+        while(fabs(fun(x1)*(x1-x)/(fun(x1)-fun(x)))>0.00005)
+        {
+        x2=x1-fun(x1)*(x1-x)/(fun(x1)-fun(x));
+        x=x1;
+        x1=x2;
+        i++;
+        }
+        printf("方程的根：%lf\n",x1); 
+        printf("迭代次数：%d\n\n",i);
+	    break;
+}
+system("pause");
+
+```
 
