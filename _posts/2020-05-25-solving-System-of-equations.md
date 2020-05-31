@@ -5,8 +5,9 @@ title: "数值分析III--求方程组的根"
 author: Yu
 categories: 计算方法
 tags:
-- Jacobi
-- Gauss-Seidel
+- Jacobi迭代法
+- Gauss-Seidel迭代法
+- 牛顿迭代法
 ---
 
 
