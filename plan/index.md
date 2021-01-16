@@ -15,3 +15,7 @@ permalink: /plans/
 
 **游戏列表** 建立流感病毒变异模型，分析传播趋势
 
+2021
+
+- 继续补完专题，[写代码](http://yulijia.net/cn/%E8%81%9A%E7%B1%BB%E4%B8%8D%E8%83%BD/2020/01/02/Write-code.html)，[量化投资](http://yulijia.net/cn/categories/#%E9%87%8F%E5%8C%96%E6%8A%95%E8%B5%84)，[测序技术](http://yulijia.net/cn/categories/#%E6%B5%8B%E5%BA%8F%E6%8A%80%E6%9C%AF)
+
