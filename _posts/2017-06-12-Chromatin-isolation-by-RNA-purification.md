@@ -3,9 +3,8 @@ published: true
 layout: post
 title: "通过RNA纯化进行染色质分离"
 author: Yu
-categories: 生物信息
+categories: 测序技术
 tags:
-- 测序技术
 - ChIRP
 - RNA转录
 ---

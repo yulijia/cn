@@ -3,9 +3,8 @@ published: true
 layout: post
 title: "RNA免疫沉淀测序"
 author: Yu
-categories: 生物信息
+categories: 测序技术
 tags:
-- 测序技术
 - RIP-seq
 ---
 

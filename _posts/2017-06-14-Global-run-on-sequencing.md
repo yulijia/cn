@@ -1,11 +1,10 @@
 ---
 published: true
 layout: post
-title: "通过RNA纯化进行染色质分离"
+title: "GRO-seq测序技术"
 author: Yu
-categories: 生物信息
+categories: 测序技术
 tags:
-- 测序技术
 - GRO-seq
 - RNA聚合酶II
 ---

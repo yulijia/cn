@@ -3,9 +3,8 @@ published: true
 layout: post
 title: "cDNA片段库的高通量测序以及交联免疫扩增（HITS-CLIP和CLIP-seq）"
 author: Yu
-categories: 生物信息
+categories: 测序技术
 tags:
-- 测序技术
 - HITS-CLIP
 - CLIP-seq
 ---
