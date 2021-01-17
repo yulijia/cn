@@ -78,4 +78,5 @@ end
 - [数值分析II--求方程的根](http://yulijia.net/cn/%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95/2020/05/13/find-the-root-of-equation.html)
 - [数值分析III--求方程组的根](http://yulijia.net/cn/%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95/2020/05/25/solving-System-of-equations.html)
 - [数值分析IV--求解常微分方程](http://yulijia.net/cn/%E6%95%B0%E5%80%BC%E5%88%86%E6%9E%90/2020/06/04/solving-ordinary-differential-equations.html)
+- [使用XeTeX写中文文档](http://yulijia.net/cn/%E6%A0%BC%E5%BC%8F%E6%8A%80%E5%B7%A7/2021/01/17/Write-Chinese-document-with-XeTeX.html)
 
