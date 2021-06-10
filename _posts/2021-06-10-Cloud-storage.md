@@ -3,7 +3,7 @@ published: ture
 layout: post
 title: "坚果云服务太差了"
 author: Yu
-categories:
+categories: 网络观察
 tags:
 - 云盘
 ---
