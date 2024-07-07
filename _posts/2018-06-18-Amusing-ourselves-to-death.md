@@ -17,8 +17,8 @@ tags:
 具备判断什么是信息的能力，不要让媒体代替你去思考问题，是我从这本书中获得的最主要信息。
 
 
-书中引用《理性时代》中的一句话我非常的赞同：
+书中引用[《理性时代》](https://en.wikipedia.org/wiki/The_Age_of_Reason)中的一句话我非常的赞同：
 
 > 所有的教堂，不论是犹太教、基督教或者伊斯兰教，在我看来都只不过是人的发明，是为了吓唬和奴役人类、垄断权利和利益而建立的。
 
-
+> All national institutions of churches, whether Jewish, Christian or Turkish, appear to me no other than human inventions, set up to terrify and enslave mankind, and monopolize power and profit.
