@@ -95,7 +95,7 @@ fold-change方法找到的基因在control和treatment里有很大的差异，
 
 这个例子中Gene1表达量在两组间差异很大，Gene2表达量在两组间差异很小。但是如果用t统计量来衡量的话，Gene2远大于Gene1。
 
-我自己计算的结果通论文上的不太一眼，Gene1的t统计量是3.6844，而不是1.69。
+我自己计算的结果同论文上的不太一样，Gene1的t统计量是3.6844，而不是1.69。
 
 ```
 t.test(c(101.1,101.2,101.3),c(100.1,100.2,100.3))
@@ -153,6 +153,6 @@ rather than a statistical one, as it depends on what types of expression differe
 
 [^1]: [Significance analysis of microarrays](https://en.wikipedia.org/wiki/Significance_analysis_of_microarrays)
 
-[^2]: [A Modif ied T-test Feature Selection Method and Its Application on the HapMap Genotype Data](http://www.tu.edu.sg/home/elpwang/PDF_web/07_GPB.pdf)
+[^2]: [A Modified T-test Feature Selection Method and Its Application on the HapMap Genotype Data](http://www.tu.edu.sg/home/elpwang/PDF_web/07_GPB.pdf)
 
 
